@@ -32,7 +32,7 @@ public class CameraController : MonoBehaviour
             
             // Set Camera Bounds between bottom left corner and top right corner
             targetPosition.x = Mathf.Clamp(targetPosition.x, minPos.x, maxPos.x);
-            targetPosition.y = Mathf.Clamp(targetPosition.y, minPos.x, maxPos.y);
+            targetPosition.y = Mathf.Clamp(targetPosition.y, minPos.y, maxPos.y);
                 
             transform.position = Vector3.Lerp(transform.position, targetPosition, smoothing);
         }
