@@ -10,6 +10,8 @@ public class Item : MonoBehaviour
 
     [HideInInspector] public Interactable interactable;
 
+    public ItemAsset itemInfo;
+
     public Area location;
     
     void Awake()

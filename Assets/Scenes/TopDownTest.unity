@@ -4293,8 +4293,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   col: {fileID: 0}
   interactable: {fileID: 0}
+  itemInfo: {fileID: 11400000, guid: 38bc86563b54747fc8ace9112be96f51, type: 2}
   location: {fileID: 1033344672}
   disappearsOnCollect: 1
+  isStackable: 1
 --- !u!58 &382989794
 CircleCollider2D:
   m_ObjectHideFlags: 0
