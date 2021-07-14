@@ -12,107 +12,1076 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53613
+50044
 Successfully changed project path to: /Users/hanna/Code/Games/Unity/IslandExplorer
 /Users/hanna/Code/Games/Unity/IslandExplorer
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 42.92 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 38.95 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path /Applications/Unity/2020.3.11f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/hanna/Code/Games/Unity/IslandExplorer/Assets
 GfxDevice: creating device client; threaded=0
-2021-07-06 14:59:31.021 Unity[3475:161944] (null) preferred device: Apple M1 (high power)
-2021-07-06 14:59:31.021 Unity[3475:161944] Metal devices available: 1
-2021-07-06 14:59:31.021 Unity[3475:161944] 0: Apple M1 (high power)
-2021-07-06 14:59:31.022 Unity[3475:161944] Using device Apple M1 (high power)
+2021-07-14 18:20:53.211 Unity[19702:1228777] (null) preferred device: Apple M1 (high power)
+2021-07-14 18:20:53.211 Unity[19702:1228777] Metal devices available: 1
+2021-07-14 18:20:53.211 Unity[19702:1228777] 0: Apple M1 (high power)
+2021-07-14 18:20:53.211 Unity[19702:1228777] Using device Apple M1 (high power)
 Initializing Metal device caps: Apple M1
 Initialize mono
 Mono path[0] = '/Applications/Unity/2020.3.11f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/2020.3.11f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/2020.3.11f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56475
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56702
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/2020.3.11f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/2020.3.11f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001239 seconds.
+Registered in 0.000437 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 46.00 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 42.55 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.192 seconds
+- Completed reload, in  1.941 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003594 seconds.
+Registered in 0.001173 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 49.77 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 40.70 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.616 seconds
+- Completed reload, in  2.045 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/2020.3.11f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2091 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 171.1 MB.
 System memory in use after: 171.2 MB.
 
 Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2529.
-Total: 1.820708 ms (FindLiveObjects: 0.194625 ms CreateObjectMapping: 0.047208 ms MarkObjects: 1.498458 ms  DeleteObjects: 0.078708 ms)
+Total: 1.556750 ms (FindLiveObjects: 0.119166 ms CreateObjectMapping: 0.041250 ms MarkObjects: 1.332666 ms  DeleteObjects: 0.062958 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/Inventory/IItemContainer.cs
-  artifactKey: Guid(8a6369e6b3d4042da812ada35d993aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Inventory/IItemContainer.cs using Guid(8a6369e6b3d4042da812ada35d993aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb603c4d5d0d7cc7ba813953020c76b1') in 0.247127 seconds
-  Import took 0.251146 seconds .
+  path: Assets/Sprites/ChrisArt/px_child-1.png
+  artifactKey: Guid(f0e6c029331684599a3135b7ec11f9ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChrisArt/px_child-1.png using Guid(f0e6c029331684599a3135b7ec11f9ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af0dbad43b91820ee5bcb03ec3ace25f') in 0.566928 seconds
+  Import took 0.569774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.445575 seconds.
+  path: Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/idle/hero-idle-back/hero-idle-back.png
+  artifactKey: Guid(4fc82fadd0e1d4ed8a697be473d72842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/idle/hero-idle-back/hero-idle-back.png using Guid(4fc82fadd0e1d4ed8a697be473d72842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f4c0d919647e578f846ca18779422ca') in 0.012772 seconds
+  Import took 0.016521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 104.327292 seconds.
+  path: Assets/Sprites/Grasland Tiles
+  artifactKey: Guid(90db096e370394359b37763ddf555cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Grasland Tiles using Guid(90db096e370394359b37763ddf555cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '198162c14bc8fda8fddd0ea8005bb260') in 0.001019 seconds
+  Import took 0.003958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002329 seconds.
+  path: Assets/Sprites/Grasland Tiles
+  artifactKey: Guid(90db096e370394359b37763ddf555cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Grasland Tiles using Guid(90db096e370394359b37763ddf555cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '198162c14bc8fda8fddd0ea8005bb260') in 0.000693 seconds
+  Import took 0.003339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.146133 seconds.
+  path: Assets/Sprites/Grasland Tiles/Cliff_tileset.png
+  artifactKey: Guid(2c2f4058ad1f24f40a916f9e1657c9ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Grasland Tiles/Cliff_tileset.png using Guid(2c2f4058ad1f24f40a916f9e1657c9ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '045e3072fe87401e0b6ff26f56836923') in 0.218911 seconds
+  Import took 0.223036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.619435 seconds.
+  path: Assets/Sprites/ChrisArt/px_child-1.png
+  artifactKey: Guid(f0e6c029331684599a3135b7ec11f9ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChrisArt/px_child-1.png using Guid(f0e6c029331684599a3135b7ec11f9ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43f06b8a33a3e5226a55d0efb74c9471') in 0.005671 seconds
+  Import took 0.008438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.589375 seconds.
+  path: Assets/Sprites/ChrisArt/px_child-1.png
+  artifactKey: Guid(f0e6c029331684599a3135b7ec11f9ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChrisArt/px_child-1.png using Guid(f0e6c029331684599a3135b7ec11f9ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c211b13f2a6275f07561a5e97cf867ff') in 0.052521 seconds
+  Import took 0.055807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.915899 seconds.
+  path: Assets/Sprites/ChrisArt/px_child-1.png
+  artifactKey: Guid(f0e6c029331684599a3135b7ec11f9ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChrisArt/px_child-1.png using Guid(f0e6c029331684599a3135b7ec11f9ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a0c0eeb6290ee4765b36ce75e6ed8fc') in 0.054123 seconds
+  Import took 0.057800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.723809 seconds.
+  path: Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/idle/hero-idle-back
+  artifactKey: Guid(129ed754d88974e7b9c711fe0b1b1bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/idle/hero-idle-back using Guid(129ed754d88974e7b9c711fe0b1b1bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24a8b0677ec3feb6ad330610b1a22dca') in 0.001099 seconds
+  Import took 0.005875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 885.113584 seconds.
+  path: Assets/Sprites/ChrisArt/Hero/back
+  artifactKey: Guid(3357c83b9c5f647439c6e805a92418cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChrisArt/Hero/back using Guid(3357c83b9c5f647439c6e805a92418cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d7856427fa1574fca0aa8306a5aed87') in 0.001742 seconds
+  Import took 0.005238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.619452 seconds.
+  path: Assets/Sprites/ChrisArt/Hero/front
+  artifactKey: Guid(f9d838693a44046e29a0d19c09e7b506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChrisArt/Hero/front using Guid(f9d838693a44046e29a0d19c09e7b506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da3b7d11464d9774c1885154f8842947') in 0.001881 seconds
+  Import took 0.005646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000531 seconds.
+  path: Assets/Sprites/ChrisArt/Hero/front
+  artifactKey: Guid(f9d838693a44046e29a0d19c09e7b506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChrisArt/Hero/front using Guid(f9d838693a44046e29a0d19c09e7b506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da3b7d11464d9774c1885154f8842947') in 0.000827 seconds
+  Import took 0.004010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.409342 seconds.
+  path: Assets/Sprites/ChrisArt/Hero/front/px_child-1-2.png.png
+  artifactKey: Guid(8decd9a4ed29e4aefb009113fd79dccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChrisArt/Hero/front/px_child-1-2.png.png using Guid(8decd9a4ed29e4aefb009113fd79dccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ec497f999e9f7b13d2d79bfd076dc43') in 0.010408 seconds
+  Import took 0.013909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000557 seconds.
+  path: Assets/Sprites/ChrisArt/Hero/front/px_child-1-2.png.png
+  artifactKey: Guid(8decd9a4ed29e4aefb009113fd79dccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChrisArt/Hero/front/px_child-1-2.png.png using Guid(8decd9a4ed29e4aefb009113fd79dccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ec497f999e9f7b13d2d79bfd076dc43') in 0.006095 seconds
+  Import took 0.008756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.325447 seconds.
+  path: Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side_left/hero-walk-side-1.png
+  artifactKey: Guid(759ca991c000c420c9dcbeab72fb6a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side_left/hero-walk-side-1.png using Guid(759ca991c000c420c9dcbeab72fb6a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3bfbd0c0bb532e9de93f615b5351f44') in 0.009096 seconds
+  Import took 0.012948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001204 seconds.
+  path: Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side_left/hero-walk-side-1.png
+  artifactKey: Guid(759ca991c000c420c9dcbeab72fb6a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side_left/hero-walk-side-1.png using Guid(759ca991c000c420c9dcbeab72fb6a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3bfbd0c0bb532e9de93f615b5351f44') in 0.006360 seconds
+  Import took 0.009470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.316123 seconds.
+  path: Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side_left/hero-walk-side-2.png
+  artifactKey: Guid(6df0089b5291a4416aeafd6db8b6b79c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side_left/hero-walk-side-2.png using Guid(6df0089b5291a4416aeafd6db8b6b79c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22ebd409d96339c5a95dc1c140425474') in 0.007629 seconds
+  Import took 0.010952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001055 seconds.
+  path: Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side_left/hero-walk-side-2.png
+  artifactKey: Guid(6df0089b5291a4416aeafd6db8b6b79c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side_left/hero-walk-side-2.png using Guid(6df0089b5291a4416aeafd6db8b6b79c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22ebd409d96339c5a95dc1c140425474') in 0.005985 seconds
+  Import took 0.008886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.442509 seconds.
+  path: Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side_left/hero-walk-side-3.png
+  artifactKey: Guid(84e1b4dd5943549b394c8923c94a0c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side_left/hero-walk-side-3.png using Guid(84e1b4dd5943549b394c8923c94a0c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e5956d8486c83a761c800155350609d') in 0.006744 seconds
+  Import took 0.009698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000844 seconds.
+  path: Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side_left/hero-walk-side-3.png
+  artifactKey: Guid(84e1b4dd5943549b394c8923c94a0c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side_left/hero-walk-side-3.png using Guid(84e1b4dd5943549b394c8923c94a0c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e5956d8486c83a761c800155350609d') in 0.005349 seconds
+  Import took 0.007924 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.322755 seconds.
+  path: Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side_left/hero-walk-side-4.png
+  artifactKey: Guid(65c6568f01a8c455ebefe56ec2f8f8f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side_left/hero-walk-side-4.png using Guid(65c6568f01a8c455ebefe56ec2f8f8f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ff95bd0e85f3c6bac1e7cbd51fb9e88') in 0.007830 seconds
+  Import took 0.011425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.300769 seconds.
+  path: Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side_left/hero-walk-side-5.png
+  artifactKey: Guid(d48a958874c084ac786390c8d4d56c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side_left/hero-walk-side-5.png using Guid(d48a958874c084ac786390c8d4d56c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daad3e769f0d10829f3c7af7461e22b8') in 0.007820 seconds
+  Import took 0.011301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.838709 seconds.
+  path: Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side_left/hero-walk-side-6.png
+  artifactKey: Guid(31bd333934c5c4700b750cdd87ef9210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side_left/hero-walk-side-6.png using Guid(31bd333934c5c4700b750cdd87ef9210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '611779e66cd06bc892e3c4ba022188e8') in 0.006943 seconds
+  Import took 0.010474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side_left/hero-walk-side-6.png
+  artifactKey: Guid(31bd333934c5c4700b750cdd87ef9210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side_left/hero-walk-side-6.png using Guid(31bd333934c5c4700b750cdd87ef9210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '611779e66cd06bc892e3c4ba022188e8') in 0.005957 seconds
+  Import took 0.008680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.856018 seconds.
+  path: Assets/Sprites/ChrisArt/Hero/front/px_child-1-2.png.png
+  artifactKey: Guid(8decd9a4ed29e4aefb009113fd79dccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChrisArt/Hero/front/px_child-1-2.png.png using Guid(8decd9a4ed29e4aefb009113fd79dccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fdbe299baeffa25a58ad42983dd3540') in 0.006245 seconds
+  Import took 0.009074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.082833 seconds.
+  path: Assets/Sprites/ChrisArt/Hero/right
+  artifactKey: Guid(078d62f1ceb494519a30ce80a4720a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChrisArt/Hero/right using Guid(078d62f1ceb494519a30ce80a4720a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edc9170672860ab5119f12a060882bad') in 0.001670 seconds
+  Import took 0.005039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.600737 seconds.
+  path: Assets/Sprites/ChrisArt/Hero/front/px_child-1-3.png.png
+  artifactKey: Guid(27c83bf039ea847d481cc74bca8dea17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChrisArt/Hero/front/px_child-1-3.png.png using Guid(27c83bf039ea847d481cc74bca8dea17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '451d0710b2eceb5d416b5cbf3757860b') in 0.009977 seconds
+  Import took 0.013952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.444981 seconds.
+  path: Assets/Sprites/ChrisArt/Hero/front/px_child-1-4.png.png
+  artifactKey: Guid(75326d535bf7d4b8f8a619a908ddfc66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChrisArt/Hero/front/px_child-1-4.png.png using Guid(75326d535bf7d4b8f8a619a908ddfc66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e319369033088fb54693fec2acf9191e') in 0.009643 seconds
+  Import took 0.013367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.461539 seconds.
+  path: Assets/Sprites/ChrisArt/Hero/front/px_child-1-5.png.png
+  artifactKey: Guid(af90b41e2b54f40fb82f469fdc4c25f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChrisArt/Hero/front/px_child-1-5.png.png using Guid(af90b41e2b54f40fb82f469fdc4c25f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d8c96430411096d4bdef1db20be2833') in 0.008389 seconds
+  Import took 0.012301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001413 seconds.
+  path: Assets/Sprites/ChrisArt/Hero/front/px_child-1-5.png.png
+  artifactKey: Guid(af90b41e2b54f40fb82f469fdc4c25f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChrisArt/Hero/front/px_child-1-5.png.png using Guid(af90b41e2b54f40fb82f469fdc4c25f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d8c96430411096d4bdef1db20be2833') in 0.006843 seconds
+  Import took 0.009916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.081343 seconds.
+  path: Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-front/hero-walk-front-1.png
+  artifactKey: Guid(8f92b2d912773479894490421de2bc04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-front/hero-walk-front-1.png using Guid(8f92b2d912773479894490421de2bc04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fd6726e5155491e081e1e2b9fc11cd2') in 0.010800 seconds
+  Import took 0.015771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-front/hero-walk-front-2.png
+  artifactKey: Guid(5365aa814486e4356841731775eab6ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-front/hero-walk-front-2.png using Guid(5365aa814486e4356841731775eab6ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2fa584c619a3b0208fa8b57ef6038b4') in 0.008553 seconds
+  Import took 0.012486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000438 seconds.
+  path: Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-front/hero-walk-front-4.png
+  artifactKey: Guid(8d49905babc88495495ad3a6f7fce288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-front/hero-walk-front-4.png using Guid(8d49905babc88495495ad3a6f7fce288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '903bc81b95cfc1c6f403b1c4bf5e9036') in 0.007063 seconds
+  Import took 0.010428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-front/hero-walk-front-5.png
+  artifactKey: Guid(7376652f4768d4adf82c2dec25babcaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-front/hero-walk-front-5.png using Guid(7376652f4768d4adf82c2dec25babcaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa561fe947f0e228522a5d8b3dbb261b') in 0.006526 seconds
+  Import took 0.009326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-front/hero-walk-front-2.png
+  artifactKey: Guid(5365aa814486e4356841731775eab6ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-front/hero-walk-front-2.png using Guid(5365aa814486e4356841731775eab6ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2fa584c619a3b0208fa8b57ef6038b4') in 0.005676 seconds
+  Import took 0.008254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-front/hero-walk-front-6.png
+  artifactKey: Guid(54e307e02e8174335a835d5efe3c8380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-front/hero-walk-front-6.png using Guid(54e307e02e8174335a835d5efe3c8380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b362692a5449da1386cd35d415ac1c6') in 0.006082 seconds
+  Import took 0.008647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-front/hero-walk-front-3.png
+  artifactKey: Guid(1e624e1a997d8411ebe498d51d9dcc6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-front/hero-walk-front-3.png using Guid(1e624e1a997d8411ebe498d51d9dcc6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a124be46bc2af0e12391b1e45c16596c') in 0.005772 seconds
+  Import took 0.008191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-front/hero-walk-front-1.png
+  artifactKey: Guid(8f92b2d912773479894490421de2bc04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-front/hero-walk-front-1.png using Guid(8f92b2d912773479894490421de2bc04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fd6726e5155491e081e1e2b9fc11cd2') in 0.004961 seconds
+  Import took 0.007227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022739 seconds.
+  path: Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-front/hero-walk-front-3.png
+  artifactKey: Guid(1e624e1a997d8411ebe498d51d9dcc6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-front/hero-walk-front-3.png using Guid(1e624e1a997d8411ebe498d51d9dcc6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a124be46bc2af0e12391b1e45c16596c') in 0.005472 seconds
+  Import took 0.008315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 151.131789 seconds.
+  path: Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/idle/hero-idle-front/hero-idle-front.png
+  artifactKey: Guid(0f39a9205e4394ee1b6ba8269428d176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/idle/hero-idle-front/hero-idle-front.png using Guid(0f39a9205e4394ee1b6ba8269428d176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2715ad209bbb49ad90f7e7b5b4e7415a') in 0.007126 seconds
+  Import took 0.009950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011631 seconds.
+  path: Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/idle/hero-idle-front/hero-idle-front.png
+  artifactKey: Guid(0f39a9205e4394ee1b6ba8269428d176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/idle/hero-idle-front/hero-idle-front.png using Guid(0f39a9205e4394ee1b6ba8269428d176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2715ad209bbb49ad90f7e7b5b4e7415a') in 0.005078 seconds
+  Import took 0.007809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.769304 seconds.
+  path: Assets/Sprites/ChrisArt/Hero/px_child-1-1.png.png
+  artifactKey: Guid(44d5e5b4431d04f92a7933fb91e2fef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChrisArt/Hero/px_child-1-1.png.png using Guid(44d5e5b4431d04f92a7933fb91e2fef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56a8d35c6d93c0bec8dac9a3bcc69944') in 0.006811 seconds
+  Import took 0.009610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.342434 seconds.
+  path: Assets/Sprites/ChrisArt/Hero/px_child-1-1.png.png
+  artifactKey: Guid(44d5e5b4431d04f92a7933fb91e2fef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChrisArt/Hero/px_child-1-1.png.png using Guid(44d5e5b4431d04f92a7933fb91e2fef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7689efc0874dabff4f1d1cafb8d7049') in 0.006420 seconds
+  Import took 0.009343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.423389 seconds.
+  path: Assets/Sprites/ChrisArt/Hero/px_child-1-1.png.png
+  artifactKey: Guid(44d5e5b4431d04f92a7933fb91e2fef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChrisArt/Hero/px_child-1-1.png.png using Guid(44d5e5b4431d04f92a7933fb91e2fef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '381144a496aeb3ba7e8bb102202ce7df') in 0.006621 seconds
+  Import took 0.009598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.098287 seconds.
+  path: Assets/Sprites/ChrisArt/Hero/px_child-1-1.png.png
+  artifactKey: Guid(44d5e5b4431d04f92a7933fb91e2fef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChrisArt/Hero/px_child-1-1.png.png using Guid(44d5e5b4431d04f92a7933fb91e2fef7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56145b4329f2ead858fd78b6e7aa2644') in 0.006460 seconds
+  Import took 0.009253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 68.537167 seconds.
+  path: Assets/Sprites/ChrisArt/Hero/front/px_child-1-2.png.png
+  artifactKey: Guid(8decd9a4ed29e4aefb009113fd79dccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChrisArt/Hero/front/px_child-1-2.png.png using Guid(8decd9a4ed29e4aefb009113fd79dccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1bb8f8f04aece0a2cb9988091860406') in 0.006651 seconds
+  Import took 0.009369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 165.743686 seconds.
+  path: Assets/Animations/Player_stand.anim
+  artifactKey: Guid(8f792db2f0eb34636a57206cb007905d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Player_stand.anim using Guid(8f792db2f0eb34636a57206cb007905d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '740cccb8f6c2e1d06d247adec953682a') in 0.584834 seconds
+  Import took 0.587441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.144308 seconds.
+  path: Assets/Sprites/Tiny RPG Forest
+  artifactKey: Guid(c2d82c6225e0c454895ca711e72f466e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tiny RPG Forest using Guid(c2d82c6225e0c454895ca711e72f466e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f353008f83a0b96452faaeb6801e2483') in 0.001205 seconds
+  Import took 0.005090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 137.955697 seconds.
+  path: Assets/Player.controller
+  artifactKey: Guid(e1d2a59bf7ce846b0ae47a0cc7aefa1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player.controller using Guid(e1d2a59bf7ce846b0ae47a0cc7aefa1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65a5fd518969f13e839fe31fe3de8eaa') in 0.169491 seconds
+  Import took 0.173146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 68.389713 seconds.
+  path: Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-back/hero-walk-back-1.png
+  artifactKey: Guid(b6844b89804364482afc9e85f4c7ead6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-back/hero-walk-back-1.png using Guid(b6844b89804364482afc9e85f4c7ead6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dec9d14c94f4482918a752e1d0fbfba') in 0.009644 seconds
+  Import took 0.012939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-back/hero-walk-back-3.png
+  artifactKey: Guid(a7663080596d341069f6dbaaecd4ab9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-back/hero-walk-back-3.png using Guid(a7663080596d341069f6dbaaecd4ab9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '345c16aeceda060089f6f94b00545da0') in 0.007044 seconds
+  Import took 0.009582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-back/hero-walk-back-5.png
+  artifactKey: Guid(b6e0510b98b514e078dd461313dcd347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-back/hero-walk-back-5.png using Guid(b6e0510b98b514e078dd461313dcd347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca1c257ceac414e608081171d6f91937') in 0.006517 seconds
+  Import took 0.008986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-back/hero-walk-back-6.png
+  artifactKey: Guid(89a9ed82b75b24c1492b3fd640424573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-back/hero-walk-back-6.png using Guid(89a9ed82b75b24c1492b3fd640424573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47f79b613c14e547f03691dc0c748520') in 0.006475 seconds
+  Import took 0.008863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-back/hero-walk-back-4.png
+  artifactKey: Guid(2a39d1b36efff405c9fa9eea030081b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-back/hero-walk-back-4.png using Guid(2a39d1b36efff405c9fa9eea030081b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c5b018f886bfb4d2875a027781b6907') in 0.006162 seconds
+  Import took 0.008351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-back/hero-walk-back-2.png
+  artifactKey: Guid(bf39c8ce7ced841cdadf0334489a8ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-back/hero-walk-back-2.png using Guid(bf39c8ce7ced841cdadf0334489a8ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e595ad24108d8d3a8cf44a7239a53afb') in 0.006380 seconds
+  Import took 0.008580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.640096 seconds.
+  path: Assets/Sprites/ChrisArt/Hero/back/px_child-1-11.png.png
+  artifactKey: Guid(9e5f11abf16bd4873a551b51ca4163c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChrisArt/Hero/back/px_child-1-11.png.png using Guid(9e5f11abf16bd4873a551b51ca4163c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daa3e6deb726757f2925422f764d8ec2') in 0.008644 seconds
+  Import took 0.011405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Sprites/ChrisArt/Hero/back/px_child-1-11.png.png
+  artifactKey: Guid(9e5f11abf16bd4873a551b51ca4163c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChrisArt/Hero/back/px_child-1-11.png.png using Guid(9e5f11abf16bd4873a551b51ca4163c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daa3e6deb726757f2925422f764d8ec2') in 0.006894 seconds
+  Import took 0.009535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.298206 seconds.
+  path: Assets/Sprites/ChrisArt/Hero/back/px_child-1-14.png.png
+  artifactKey: Guid(accac67e51d8845099c9d1624d52cec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChrisArt/Hero/back/px_child-1-14.png.png using Guid(accac67e51d8845099c9d1624d52cec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3680319d8de21a0a1bea0e856beab82f') in 0.008726 seconds
+  Import took 0.011741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/Sprites/ChrisArt/Hero/back/px_child-1-14.png.png
+  artifactKey: Guid(accac67e51d8845099c9d1624d52cec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChrisArt/Hero/back/px_child-1-14.png.png using Guid(accac67e51d8845099c9d1624d52cec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3680319d8de21a0a1bea0e856beab82f') in 0.006753 seconds
+  Import took 0.009409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.272304 seconds.
+  path: Assets/Sprites/ChrisArt/Hero/back/px_child-1-15.png.png
+  artifactKey: Guid(1b4d98d3f03fa4522b7ded0afc070430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChrisArt/Hero/back/px_child-1-15.png.png using Guid(1b4d98d3f03fa4522b7ded0afc070430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b64f79903f0c026ab9c2d359189bd40') in 0.012793 seconds
+  Import took 0.016623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.000242 seconds.
+  path: Assets/Sprites/ChrisArt/Hero/back/px_child-1-13.png.png
+  artifactKey: Guid(895a16a38d87a482eb4708e3a779c699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChrisArt/Hero/back/px_child-1-13.png.png using Guid(895a16a38d87a482eb4708e3a779c699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '836386ad3f85cc9252281d56c98e19a3') in 0.009648 seconds
+  Import took 0.012891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.364081 seconds.
+  path: Assets/Sprites/ChrisArt/Hero/back/px_child-1-13.png
+  artifactKey: Guid(895a16a38d87a482eb4708e3a779c699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChrisArt/Hero/back/px_child-1-13.png using Guid(895a16a38d87a482eb4708e3a779c699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e9a33a23efd6047dd56496d0a8ecc25') in 0.007925 seconds
+  Import took 0.010657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.965240 seconds.
+  path: Assets/Sprites/ChrisArt/Hero/back/px_child-1-12.png.png
+  artifactKey: Guid(0c5fc1579e82a41219edb802fee3d479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChrisArt/Hero/back/px_child-1-12.png.png using Guid(0c5fc1579e82a41219edb802fee3d479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54f8a72a09ac5244bcd71f1af0eb1448') in 0.011626 seconds
+  Import took 0.015384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.575440 seconds.
+  path: Assets/Sprites/ChrisArt/Hero/back/px_child-1-14.png.png
+  artifactKey: Guid(accac67e51d8845099c9d1624d52cec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChrisArt/Hero/back/px_child-1-14.png.png using Guid(accac67e51d8845099c9d1624d52cec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68c4e5b9cd6501e4ca910beba986fbb7') in 0.007563 seconds
+  Import took 0.010312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Sprites/ChrisArt/Hero/back/px_child-1-15.png.png
+  artifactKey: Guid(1b4d98d3f03fa4522b7ded0afc070430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChrisArt/Hero/back/px_child-1-15.png.png using Guid(1b4d98d3f03fa4522b7ded0afc070430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd320dabe6c64b7bdab2b03de5b20529e') in 0.006700 seconds
+  Import took 0.009072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Sprites/ChrisArt/Hero/back/px_child-1-12.png.png
+  artifactKey: Guid(0c5fc1579e82a41219edb802fee3d479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChrisArt/Hero/back/px_child-1-12.png.png using Guid(0c5fc1579e82a41219edb802fee3d479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9d27c5f67cbd995e812bed95ece5e65') in 0.006570 seconds
+  Import took 0.008883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Sprites/ChrisArt/Hero/back/px_child-1-13.png
+  artifactKey: Guid(895a16a38d87a482eb4708e3a779c699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChrisArt/Hero/back/px_child-1-13.png using Guid(895a16a38d87a482eb4708e3a779c699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd295c86c2dfdd2dab0f26dd90c92770f') in 0.006566 seconds
+  Import took 0.009190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 76.187987 seconds.
+  path: Assets/Sprites/ChrisArt/Hero/front/px_child-1-3.png.png
+  artifactKey: Guid(27c83bf039ea847d481cc74bca8dea17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChrisArt/Hero/front/px_child-1-3.png.png using Guid(27c83bf039ea847d481cc74bca8dea17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '905d5ca08677a8bfa90d51aef02ef285') in 0.009401 seconds
+  Import took 0.013065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Sprites/ChrisArt/Hero/front/px_child-1-4.png.png
+  artifactKey: Guid(75326d535bf7d4b8f8a619a908ddfc66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChrisArt/Hero/front/px_child-1-4.png.png using Guid(75326d535bf7d4b8f8a619a908ddfc66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5c48ff8c3bd2d4d979472d866b551fa') in 0.007881 seconds
+  Import took 0.010695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Sprites/ChrisArt/Hero/front/px_child-1-3.png.png
+  artifactKey: Guid(27c83bf039ea847d481cc74bca8dea17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChrisArt/Hero/front/px_child-1-3.png.png using Guid(27c83bf039ea847d481cc74bca8dea17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '905d5ca08677a8bfa90d51aef02ef285') in 0.006837 seconds
+  Import took 0.009185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Sprites/ChrisArt/Hero/front/px_child-1-5.png.png
+  artifactKey: Guid(af90b41e2b54f40fb82f469fdc4c25f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChrisArt/Hero/front/px_child-1-5.png.png using Guid(af90b41e2b54f40fb82f469fdc4c25f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0850e0ab85de470bc7a5be531cce102') in 0.006905 seconds
+  Import took 0.009183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.643557 seconds.
+  path: Assets/Sprites/ChrisArt/Hero/front/px_child-1-4.png.png
+  artifactKey: Guid(75326d535bf7d4b8f8a619a908ddfc66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChrisArt/Hero/front/px_child-1-4.png.png using Guid(75326d535bf7d4b8f8a619a908ddfc66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5c48ff8c3bd2d4d979472d866b551fa') in 0.009981 seconds
+  Import took 0.014112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 97.365258 seconds.
+  path: Assets/Sprites/ChrisArt/Hero/left/px_child-1-16.png.png
+  artifactKey: Guid(2eaf09f7a2e564ca88223f2c7660fe37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChrisArt/Hero/left/px_child-1-16.png.png using Guid(2eaf09f7a2e564ca88223f2c7660fe37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '181ac8be6dd3aec1e51de7280557c002') in 0.007538 seconds
+  Import took 0.010185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.114279 seconds.
+  path: Assets/Sprites/ChrisArt/Hero/left/px_child-1-16.png.png
+  artifactKey: Guid(2eaf09f7a2e564ca88223f2c7660fe37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChrisArt/Hero/left/px_child-1-16.png.png using Guid(2eaf09f7a2e564ca88223f2c7660fe37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '181ac8be6dd3aec1e51de7280557c002') in 0.006397 seconds
+  Import took 0.008970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.294711 seconds.
+  path: Assets/Sprites/ChrisArt/Hero/left/px_child-1-19.png.png
+  artifactKey: Guid(13916b618b8144a6db7bcb36e30ee471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChrisArt/Hero/left/px_child-1-19.png.png using Guid(13916b618b8144a6db7bcb36e30ee471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c52f00cfa4ebf872e8dd524462a20d1d') in 0.007677 seconds
+  Import took 0.010589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001095 seconds.
+  path: Assets/Sprites/ChrisArt/Hero/left/px_child-1-19.png.png
+  artifactKey: Guid(13916b618b8144a6db7bcb36e30ee471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChrisArt/Hero/left/px_child-1-19.png.png using Guid(13916b618b8144a6db7bcb36e30ee471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c52f00cfa4ebf872e8dd524462a20d1d') in 0.006705 seconds
+  Import took 0.009160 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002940 seconds.
+Registered in 0.001866 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.142 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2082 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 175.1 MB.
-System memory in use after: 175.3 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2532.
-Total: 1.475125 ms (FindLiveObjects: 0.137333 ms CreateObjectMapping: 0.039916 ms MarkObjects: 1.280833 ms  DeleteObjects: 0.016167 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004084 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.067 seconds
+- Completed reload, in  1.967 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.37 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2082 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 175.4 MB.
-System memory in use after: 175.5 MB.
+System memory in use before: 188.3 MB.
+System memory in use after: 188.4 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2535.
-Total: 1.372583 ms (FindLiveObjects: 0.108959 ms CreateObjectMapping: 0.038625 ms MarkObjects: 1.209042 ms  DeleteObjects: 0.015125 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2557.
+Total: 1.407542 ms (FindLiveObjects: 0.120792 ms CreateObjectMapping: 0.041084 ms MarkObjects: 1.231833 ms  DeleteObjects: 0.013042 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.058259 seconds.
+  path: Assets/Sprites/ChrisArt/Hero/left/px_child-1-19.png.png
+  artifactKey: Guid(13916b618b8144a6db7bcb36e30ee471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChrisArt/Hero/left/px_child-1-19.png.png using Guid(13916b618b8144a6db7bcb36e30ee471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98066580298e2044ce12a1874b9a3e4d') in 0.106805 seconds
+  Import took 0.109108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.522383 seconds.
+  path: Assets/Sprites/ChrisArt/Hero/right/px_child-1-6.png.png
+  artifactKey: Guid(0f475e255ce294922bfbdf7889d8d280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChrisArt/Hero/right/px_child-1-6.png.png using Guid(0f475e255ce294922bfbdf7889d8d280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8aef0d7cfad4c5c1fd8eac68b2b111a') in 0.011353 seconds
+  Import took 0.014637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.583207 seconds.
+  path: Assets/Sprites/ChrisArt/Hero/right/px_child-1-8.png.png
+  artifactKey: Guid(c6f4c2a23f66e43928f8fa631efe7c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChrisArt/Hero/right/px_child-1-8.png.png using Guid(c6f4c2a23f66e43928f8fa631efe7c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '067a3ddc9cb8ecff16a1c1b2dfd37e2a') in 0.007101 seconds
+  Import took 0.010279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001512 seconds.
+  path: Assets/Sprites/ChrisArt/Hero/right/px_child-1-8.png.png
+  artifactKey: Guid(c6f4c2a23f66e43928f8fa631efe7c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChrisArt/Hero/right/px_child-1-8.png.png using Guid(c6f4c2a23f66e43928f8fa631efe7c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '067a3ddc9cb8ecff16a1c1b2dfd37e2a') in 0.006035 seconds
+  Import took 0.008616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.480522 seconds.
+  path: Assets/Sprites/ChrisArt/Hero/right/px_child-1-7.png.png
+  artifactKey: Guid(e1d2802e7e7544d5dbd1d7954a94c419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChrisArt/Hero/right/px_child-1-7.png.png using Guid(e1d2802e7e7544d5dbd1d7954a94c419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c35a3194e512ba90da897b7b4298bc77') in 0.008947 seconds
+  Import took 0.012769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001963 seconds.
+  path: Assets/Sprites/ChrisArt/Hero/right/px_child-1-7.png.png
+  artifactKey: Guid(e1d2802e7e7544d5dbd1d7954a94c419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChrisArt/Hero/right/px_child-1-7.png.png using Guid(e1d2802e7e7544d5dbd1d7954a94c419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c35a3194e512ba90da897b7b4298bc77') in 0.006773 seconds
+  Import took 0.009733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.986768 seconds.
+  path: Assets/Sprites/ChrisArt/Hero/right/px_child-1-9.png.png
+  artifactKey: Guid(551ff75e96ff14c2fbf5aae84c8794d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChrisArt/Hero/right/px_child-1-9.png.png using Guid(551ff75e96ff14c2fbf5aae84c8794d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c4fc2d543c62821ae2c51c94936be51') in 0.009018 seconds
+  Import took 0.012891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000579 seconds.
+  path: Assets/Sprites/ChrisArt/Hero/right/px_child-1-9.png.png
+  artifactKey: Guid(551ff75e96ff14c2fbf5aae84c8794d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChrisArt/Hero/right/px_child-1-9.png.png using Guid(551ff75e96ff14c2fbf5aae84c8794d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c4fc2d543c62821ae2c51c94936be51') in 0.006896 seconds
+  Import took 0.009909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.437592 seconds.
+  path: Assets/Sprites/ChrisArt/Hero/right/px_child-1-10.png.png
+  artifactKey: Guid(ffad51d223e514bf6b9890b432209862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChrisArt/Hero/right/px_child-1-10.png.png using Guid(ffad51d223e514bf6b9890b432209862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4da6f628bca3c0cfae2ede7c01da8c92') in 0.008496 seconds
+  Import took 0.012394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001932 seconds.
+  path: Assets/Sprites/ChrisArt/Hero/right/px_child-1-10.png.png
+  artifactKey: Guid(ffad51d223e514bf6b9890b432209862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChrisArt/Hero/right/px_child-1-10.png.png using Guid(ffad51d223e514bf6b9890b432209862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4da6f628bca3c0cfae2ede7c01da8c92') in 0.006971 seconds
+  Import took 0.010047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.284610 seconds.
+  path: Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/hero-walk-side-1.png
+  artifactKey: Guid(2521b6229a37c4a56b4fd4e12227c2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/hero-walk-side-1.png using Guid(2521b6229a37c4a56b4fd4e12227c2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd9fc74f1732ae2c04c1d421d04fb615') in 0.009402 seconds
+  Import took 0.013458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/hero-walk-side-6.png
+  artifactKey: Guid(280d5eb6ec4ee40a3922d520ee42863d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/hero-walk-side-6.png using Guid(280d5eb6ec4ee40a3922d520ee42863d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38561fb44ca0174912f4b28eaccef1c2') in 0.006919 seconds
+  Import took 0.010111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/hero-walk-side-2.png
+  artifactKey: Guid(becb8a6873c144b738fc9cc5fceece35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/hero-walk-side-2.png using Guid(becb8a6873c144b738fc9cc5fceece35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a51a77eea5ae862022540783acd3cd6f') in 0.006917 seconds
+  Import took 0.009907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/hero-walk-side-5.png
+  artifactKey: Guid(b770b77e5762c4d3491a467ece3ee7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/hero-walk-side-5.png using Guid(b770b77e5762c4d3491a467ece3ee7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c891847ddbde5df64dba7654c9c6097') in 0.006194 seconds
+  Import took 0.008838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/hero-walk-side-2.png
+  artifactKey: Guid(becb8a6873c144b738fc9cc5fceece35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/hero-walk-side-2.png using Guid(becb8a6873c144b738fc9cc5fceece35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a51a77eea5ae862022540783acd3cd6f') in 0.005438 seconds
+  Import took 0.007893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/hero-walk-side-1.png
+  artifactKey: Guid(2521b6229a37c4a56b4fd4e12227c2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/hero-walk-side-1.png using Guid(2521b6229a37c4a56b4fd4e12227c2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd9fc74f1732ae2c04c1d421d04fb615') in 0.005302 seconds
+  Import took 0.007616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/hero-walk-side-4.png
+  artifactKey: Guid(82de06744ccd74b2cb215461eafffad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/hero-walk-side-4.png using Guid(82de06744ccd74b2cb215461eafffad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '147b53cd48a11eba0e05f43d65088415') in 0.005658 seconds
+  Import took 0.007944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/hero-walk-side-3.png
+  artifactKey: Guid(a274e989dc8e043a1b30c36987c3ecb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tiny RPG Forest/Artwork/sprites/hero/walk/hero-walk-side/hero-walk-side-3.png using Guid(a274e989dc8e043a1b30c36987c3ecb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '257199f6fdd2016a331e513e07d73f58') in 0.005329 seconds
+  Import took 0.007464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.023445 seconds.
+  path: Assets/Sprites/ChrisArt/Hero/right/px_child-1-8.png.png
+  artifactKey: Guid(c6f4c2a23f66e43928f8fa631efe7c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChrisArt/Hero/right/px_child-1-8.png.png using Guid(c6f4c2a23f66e43928f8fa631efe7c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b89d82d18ffbc67170b2b17a279045b4') in 0.006777 seconds
+  Import took 0.009554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000903 seconds.
+  path: Assets/Sprites/ChrisArt/Hero/right/px_child-1-7.png.png
+  artifactKey: Guid(e1d2802e7e7544d5dbd1d7954a94c419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChrisArt/Hero/right/px_child-1-7.png.png using Guid(e1d2802e7e7544d5dbd1d7954a94c419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dbf48b6f8e9eabbeb29122e47941465') in 0.005271 seconds
+  Import took 0.007636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Sprites/ChrisArt/Hero/right/px_child-1-10.png.png
+  artifactKey: Guid(ffad51d223e514bf6b9890b432209862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChrisArt/Hero/right/px_child-1-10.png.png using Guid(ffad51d223e514bf6b9890b432209862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fd52e2d89f0e0f5cfa9a8eca5feb117') in 0.004973 seconds
+  Import took 0.007316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Sprites/ChrisArt/Hero/right/px_child-1-9.png.png
+  artifactKey: Guid(551ff75e96ff14c2fbf5aae84c8794d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChrisArt/Hero/right/px_child-1-9.png.png using Guid(551ff75e96ff14c2fbf5aae84c8794d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ee4988649e55a2250fa67b9e4a36ce9') in 0.005821 seconds
+  Import took 0.008232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Sprites/ChrisArt/Hero/right/px_child-1-9.png.png
+  artifactKey: Guid(551ff75e96ff14c2fbf5aae84c8794d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChrisArt/Hero/right/px_child-1-9.png.png using Guid(551ff75e96ff14c2fbf5aae84c8794d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ee4988649e55a2250fa67b9e4a36ce9') in 0.005026 seconds
+  Import took 0.007370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.593344 seconds.
+  path: Assets/Sprites/ChrisArt/Hero/left/px_child-1-16.png.png
+  artifactKey: Guid(2eaf09f7a2e564ca88223f2c7660fe37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChrisArt/Hero/left/px_child-1-16.png.png using Guid(2eaf09f7a2e564ca88223f2c7660fe37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0dc95374862f75bb8b901447c427ad8') in 0.006907 seconds
+  Import took 0.009810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000706 seconds.
+  path: Assets/Sprites/ChrisArt/Hero/left/px_child-1-16.png.png
+  artifactKey: Guid(2eaf09f7a2e564ca88223f2c7660fe37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChrisArt/Hero/left/px_child-1-16.png.png using Guid(2eaf09f7a2e564ca88223f2c7660fe37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0dc95374862f75bb8b901447c427ad8') in 0.005517 seconds
+  Import took 0.007884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.147380 seconds.
+  path: Assets/Sprites/ChrisArt/Hero/left/px_child-1-17.png.png
+  artifactKey: Guid(fda6f20a8817e4ea79936038d4d0d4e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChrisArt/Hero/left/px_child-1-17.png.png using Guid(fda6f20a8817e4ea79936038d4d0d4e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecc685f1948e03aacaf795aad3af995c') in 0.010025 seconds
+  Import took 0.013624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Sprites/ChrisArt/Hero/left/px_child-1-18.png.png
+  artifactKey: Guid(01bc11b1aad6d4124b061c6f1cad756d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChrisArt/Hero/left/px_child-1-18.png.png using Guid(01bc11b1aad6d4124b061c6f1cad756d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f74a8ac69f3dabe4304df76fb6e7b64c') in 0.007069 seconds
+  Import took 0.009664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.592164 seconds.
+  path: Assets/Sprites/ChrisArt/Hero/left/px_child-1-17.png.png
+  artifactKey: Guid(fda6f20a8817e4ea79936038d4d0d4e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ChrisArt/Hero/left/px_child-1-17.png.png using Guid(fda6f20a8817e4ea79936038d4d0d4e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecc685f1948e03aacaf795aad3af995c') in 0.011845 seconds
+  Import took 0.017633 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002795 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.025 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2082 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 188.6 MB.
+System memory in use after: 188.8 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2561.
+Total: 1.466416 ms (FindLiveObjects: 0.106125 ms CreateObjectMapping: 0.041833 ms MarkObjects: 1.299708 ms  DeleteObjects: 0.017916 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002276 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.023 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2082 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 188.9 MB.
+System memory in use after: 189.0 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2564.
+Total: 1.474292 ms (FindLiveObjects: 0.120208 ms CreateObjectMapping: 0.039459 ms MarkObjects: 1.295125 ms  DeleteObjects: 0.018417 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002217 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.954 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2082 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.1 MB.
+System memory in use after: 189.2 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2567.
+Total: 1.698208 ms (FindLiveObjects: 0.208000 ms CreateObjectMapping: 0.049792 ms MarkObjects: 1.420042 ms  DeleteObjects: 0.019291 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 451.489340 seconds.
+  path: Assets/Scripts/Interactables/ItemCollector.cs
+  artifactKey: Guid(980db41c2c5e14dac820ac1962328e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Interactables/ItemCollector.cs using Guid(980db41c2c5e14dac820ac1962328e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a81ce7b4c10cb122f2c6d0e510540e8') in 0.200574 seconds
+  Import took 0.203594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 914.270457 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(7734225e0968048bbbbd8c500e3d7454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(7734225e0968048bbbbd8c500e3d7454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02d7a0255b5c6d87bd8995941edc7b52') in 0.005020 seconds
+  Import took 0.016689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001760 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(7734225e0968048bbbbd8c500e3d7454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(7734225e0968048bbbbd8c500e3d7454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02d7a0255b5c6d87bd8995941edc7b52') in 0.001803 seconds
+  Import took 0.004257 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003426 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.214 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2083 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 193.6 MB.
+System memory in use after: 193.7 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2571.
+Total: 1.712791 ms (FindLiveObjects: 0.207958 ms CreateObjectMapping: 0.045541 ms MarkObjects: 1.437167 ms  DeleteObjects: 0.021291 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 116.135546 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(7734225e0968048bbbbd8c500e3d7454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(7734225e0968048bbbbd8c500e3d7454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66997c3976696faa06e3d7bdd332db04') in 0.014036 seconds
+  Import took 0.017756 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003024 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.094 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2083 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 193.8 MB.
+System memory in use after: 193.9 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2574.
+Total: 1.562750 ms (FindLiveObjects: 0.145208 ms CreateObjectMapping: 0.041541 ms MarkObjects: 1.345625 ms  DeleteObjects: 0.029375 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 279.522999 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(7734225e0968048bbbbd8c500e3d7454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(7734225e0968048bbbbd8c500e3d7454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06673265ae160b6dada48399ab19931d') in 0.022065 seconds
+  Import took 0.036486 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002831 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.070 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2083 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 194.0 MB.
+System memory in use after: 194.1 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2577.
+Total: 1.467459 ms (FindLiveObjects: 0.132625 ms CreateObjectMapping: 0.039667 ms MarkObjects: 1.273833 ms  DeleteObjects: 0.020625 ms)
 
