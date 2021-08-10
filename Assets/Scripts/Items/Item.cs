@@ -46,4 +46,9 @@ public class Item : MonoBehaviour
         interactable.enabled = true;
         interactable.Interact();
     }
+
+    public virtual void CollectItem()
+    {
+        //wird überschrieben
+    }
 }

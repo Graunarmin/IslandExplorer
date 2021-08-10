@@ -23,10 +23,10 @@ public class GameManager : MonoBehaviour
     
     #endregion
 
-    private KeyCode interact = KeyCode.E;
-    private KeyCode inspect = KeyCode.Q;
-    private KeyCode journal = KeyCode.Tab;
-    private KeyCode inventory = KeyCode.I;
+    //private KeyCode interact = KeyCode.E;
+    //private KeyCode inspect = KeyCode.Q;
+    //private KeyCode journal = KeyCode.Tab;
+    //private KeyCode inventory = KeyCode.I;
     
     #region UserInput
     // Update is called once per frame

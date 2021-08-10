@@ -1,11 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
+using UnityEngine.UI;
 
 public class Interactable : MonoBehaviour
 {   
+    [HideInInspector] public Item item;
+    public Image icon;
+    public TextMeshProUGUI displayText;
     
-    // hat vielleicht Interaction Icons, Text o.ä. 
+    
     
     // Start is called before the first frame update
     void Start()
@@ -17,6 +22,14 @@ public class Interactable : MonoBehaviour
     {
         //wird überschrieben
     }
-    
-    
+
+    public void ShowInfo()
+    {
+        //Code to show the Canvas with Pic and Info Text about this Item
+    }
+
+    public void HideInfo()
+    {
+        //Code to close the Info Canvas
+    }
 }
