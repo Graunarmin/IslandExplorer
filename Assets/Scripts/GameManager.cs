@@ -20,19 +20,29 @@ public class GameManager : MonoBehaviour
             Debug.LogWarning("More than one instance of GameManager!");
         }
     }
-    
-    #endregion
 
-    //private KeyCode interact = KeyCode.E;
+    #endregion
+    
+    
+    private KeyCode interact = KeyCode.E;
     //private KeyCode inspect = KeyCode.Q;
     //private KeyCode journal = KeyCode.Tab;
     //private KeyCode inventory = KeyCode.I;
     
     #region UserInput
+    
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(interact))
+        {
+            if(References.instance.activeItem != null)
+            {
+                Debug.Log("Detecting active item");
+                References.instance.activeItem.interactable.Interact();
+            }
+
+        }
     }
     #endregion
 }

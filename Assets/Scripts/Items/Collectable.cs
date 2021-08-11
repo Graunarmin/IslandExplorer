@@ -10,7 +10,18 @@ public class Collectable : Interactable
     }
     public override void Interact()
     {
-        PickUpItem();
+        if (!References.instance.infoBoxCanvas.gameObject.activeInHierarchy)
+        {
+            ShowInfo();
+            //DisableMovement();
+        }
+        else
+        {
+            HideInfo();
+            PickUpItem();
+            //EnableMovement();
+        }
+        
     }
 
     private void PickUpItem()
@@ -18,6 +29,7 @@ public class Collectable : Interactable
         item.CollectItem();
         item.location.RemoveItem(item);
         gameObject.SetActive(false);
+        References.instance.activeItem = null;
     }
     
 }

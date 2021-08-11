@@ -13,7 +13,7 @@ public class Item : MonoBehaviour
     public ItemAsset itemInfo;
 
     public Area location;
-    
+
     void Awake()
     {
         //as long as an item has a collider, it is going to put it in here, otherwise = null
@@ -21,8 +21,6 @@ public class Item : MonoBehaviour
         {
             col = GetComponent<Collider>();
             Debug.Log("Item has collider");
-            //all colliders are disabled in the beginning
-            //SetItemStatus(false);
         }
         else
         {
@@ -36,19 +34,23 @@ public class Item : MonoBehaviour
         interactable = GetComponent<Interactable>();
     }
 
-    public void SetItemStatus(bool status)
-    {
-        col.enabled = status;
-    }
-
-    private void OnMouseDown()
+    private void OnTriggerEnter2D(Collider2D other)
     {
         interactable.enabled = true;
-        interactable.Interact();
+        References.instance.activeItem = this;
+        Debug.Log("activated item.");
     }
 
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        interactable.enabled = false;
+        References.instance.activeItem = null;
+        Debug.Log("deactivated Item.");
+    }
+    
+    //Is called by Collectable
     public virtual void CollectItem()
     {
-        //wird überschrieben
+        References.instance.activeItem = null;
     }
 }

@@ -14,6 +14,8 @@ public class References : MonoBehaviour
         {
             instance = this;
         }
+        
+        infoBoxCanvas.gameObject.SetActive(false);
     }
 
     #endregion
@@ -23,7 +25,10 @@ public class References : MonoBehaviour
     public Camera mainCamera;
 
     public Transform player;
-    
+
+    public InfoBoxCanvas infoBoxCanvas;
+
+    public Item activeItem;
 
     #endregion
 
