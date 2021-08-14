@@ -16,20 +16,23 @@ public class References : MonoBehaviour
         }
         
         infoBoxCanvas.gameObject.SetActive(false);
+        questCanvas.gameObject.SetActive(false);
     }
 
     #endregion
     
     #region references
-
+    
     public Camera mainCamera;
 
     public Transform player;
 
     public InfoBoxCanvas infoBoxCanvas;
 
-    public Item activeItem;
+    public QuestCanvas questCanvas;
 
+    public Item activeItem;
+    
     #endregion
 
 

@@ -37,13 +37,11 @@ public class Interactable : MonoBehaviour
 
     public void ShowInfo()
     {
-        Debug.Log("Showing Info");
         References.instance.infoBoxCanvas.Activate(icon, displayText);
     }
 
     public void HideInfo()
     {
-        Debug.Log("Hiding Info");
         References.instance.infoBoxCanvas.Close();
     }
 }

@@ -4,27 +4,26 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class InfoBoxCanvas : MonoBehaviour
+public class QuestCanvas : MonoBehaviour
 {
+    public TextMeshProUGUI questTitle;
+    public TextMeshProUGUI questText;
+    public Image questIcon;
 
-    public Image image;
-    public TextMeshProUGUI textBox;
-    
-    public void Activate(Sprite pic, string text)
+    public void Activate(string title, string text, Sprite icon)
     {
-        //So the player can't move in the background
         GameManager.gameManager.FreezeMovement();
-
+        
         gameObject.SetActive(true);
-        image.sprite = pic;
-        textBox.text = text;
-
+        questTitle.text = title;
+        questText.text = text;
+        questIcon.sprite = icon;
     }
 
     public void Close()
     {
         GameManager.gameManager.UnfreezeMovement();
+        
         gameObject.SetActive(false);
-
     }
 }

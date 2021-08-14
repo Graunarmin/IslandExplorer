@@ -38,11 +38,22 @@ public class GameManager : MonoBehaviour
         {
             if(References.instance.activeItem != null)
             {
-                Debug.Log("Detecting active item");
                 References.instance.activeItem.interactable.Interact();
             }
 
         }
     }
     #endregion
+
+    public void FreezeMovement()
+    {
+        Time.timeScale = 0f;
+        References.instance.player.GetComponent<PlayerMovement>().enabled = false;
+    }
+
+    public void UnfreezeMovement()
+    {
+        Time.timeScale = 1f;
+        References.instance.player.GetComponent<PlayerMovement>().enabled = true;
+    }
 }
