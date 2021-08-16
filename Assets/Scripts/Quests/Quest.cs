@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,20 +6,44 @@ using UnityEngine;
 public class Quest : MonoBehaviour
 {
     public QuestAsset quest;
-
+    public QuestItem goalItem;
     private bool isActive;
     private bool isComplete;
 
-    public void SetActive(bool status)
+    public delegate void QuestCompletedDelegate();
+
+    public event QuestCompletedDelegate completedEvent;
+    
+
+    private void Start()
+    {
+        goalItem.collectedEvent += CompleteQuest;
+    }
+
+    private void CompleteQuest()
+    {
+        goalItem.collectedEvent -= CompleteQuest;
+        
+        //Broadcast that this quest is completed
+        if (completedEvent != null)
+        {
+            completedEvent();
+        }
+        SetCompleted(true);
+        SetActive(false);
+        Debug.Log("You completed the quest " + quest.title);
+    }
+    
+    private void SetActive(bool status)
     {
         isActive = true;
     }
 
-    public void SetCompleted(bool status)
+    private void SetCompleted(bool status)
     {
         isComplete = status;
     }
-
+    
     public bool IsActive()
     {
         return isActive;
@@ -29,14 +54,7 @@ public class Quest : MonoBehaviour
         return isComplete;
     }
 
-    public void CheckStatus()
-    {
-        if (quest.goalItem.isCollected)
-        {
-            SetCompleted(true);
-            SetActive(false);
-        }
-    }
+    
     
     
 }

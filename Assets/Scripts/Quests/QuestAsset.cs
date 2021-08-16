@@ -8,5 +8,4 @@ public class QuestAsset : ScriptableObject
     public string title;
     public string quest;
     public Sprite icon;
-    public QuestItem goalItem;
 }

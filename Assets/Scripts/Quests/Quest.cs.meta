@@ -3,7 +3,8 @@ guid: df5900cc3aa2542509e6949621d919f1
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - quest: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

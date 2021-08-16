@@ -26,12 +26,10 @@ public class Interactable : MonoBehaviour
         if (!References.instance.infoBoxCanvas.gameObject.activeInHierarchy)
         {
             ShowInfo();
-            //DisableMovement();
         }
         else
         {
             HideInfo();
-            //EnableMovement();
         }
     }
 

@@ -36,16 +36,22 @@ public class Item : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        interactable.enabled = true;
-        References.instance.activeItem = this;
-        Debug.Log("activated item.");
+        if (other.CompareTag("Player"))
+        {
+            interactable.enabled = true;
+            References.instance.activeItem = this;
+            Debug.Log("activated item.");
+        }
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        interactable.enabled = false;
-        References.instance.activeItem = null;
-        Debug.Log("deactivated Item.");
+        if (other.CompareTag("Player"))
+        {
+            interactable.enabled = false;
+            References.instance.activeItem = null;
+            Debug.Log("deactivated Item.");
+        }
     }
     
     //Is called by Collectable
