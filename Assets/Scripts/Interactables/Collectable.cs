@@ -10,6 +10,7 @@ public class Collectable : Interactable
     private void PickUpItem()
     {
         item.location.RemoveItem(item);
+        References.instance.activeItem = null;
         gameObject.SetActive(false);
     }
     

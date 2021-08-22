@@ -60,8 +60,6 @@ public class Item : MonoBehaviour
     //Is called by Interactable
     public virtual void CollectItem()
     {
-        References.instance.activeItem = null;
-
         //Broadcast that this item was collected
         if (collectedEvent != null)
         {
