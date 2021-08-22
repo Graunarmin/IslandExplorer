@@ -20,7 +20,7 @@ public class Quest : MonoBehaviour
         goalItem.collectedEvent += CompleteQuest;
     }
 
-    private void CompleteQuest()
+    private void CompleteQuest(Item item)
     {
         goalItem.collectedEvent -= CompleteQuest;
         

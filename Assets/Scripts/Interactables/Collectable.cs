@@ -1,26 +1,15 @@
 public class Collectable : Interactable
 {
-    private void Awake()
+
+    protected override void Collect()
     {
-        item = GetComponent<Item>();
-    }
-    public override void Interact()
-    {
-        if (!References.instance.infoBoxCanvas.gameObject.activeInHierarchy)
-        {
-            ShowInfo();
-        }
-        else
-        {
-            HideInfo();
-            PickUpItem();
-        }
-        
+        base.Collect();
+        PickUpItem();
     }
 
     private void PickUpItem()
     {
-        item.CollectItem();
+        item.location.RemoveItem(item);
         gameObject.SetActive(false);
     }
     

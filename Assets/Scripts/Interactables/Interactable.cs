@@ -30,7 +30,13 @@ public class Interactable : MonoBehaviour
         else
         {
             HideInfo();
+            Collect();
         }
+    }
+
+    protected virtual void Collect()
+    {
+        item.CollectItem();
     }
 
     public void ShowInfo()

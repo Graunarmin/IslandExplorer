@@ -13,6 +13,9 @@ public class Item : MonoBehaviour
     public ItemAsset itemInfo;
 
     public Area location;
+    
+    public delegate void ItemCollectedDelegate(Item collectedItem);
+    public event ItemCollectedDelegate collectedEvent;
 
     void Awake()
     {
@@ -54,9 +57,17 @@ public class Item : MonoBehaviour
         }
     }
     
-    //Is called by Collectable
+    //Is called by Interactable
     public virtual void CollectItem()
     {
         References.instance.activeItem = null;
+
+        //Broadcast that this item was collected
+        if (collectedEvent != null)
+        {
+            collectedEvent(this);
+        }
+
+        Debug.Log("Item " + itemInfo.itemName + " was collected");
     }
 }
