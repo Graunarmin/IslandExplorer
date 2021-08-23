@@ -42,8 +42,9 @@ public class Item : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             interactable.enabled = true;
+            References.instance.popUpCanvas.Activate(this);
             References.instance.activeItem = this;
-            Debug.Log("activated item.");
+            //Debug.Log("activated item.");
         }
     }
 
@@ -52,8 +53,9 @@ public class Item : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             interactable.enabled = false;
+            References.instance.popUpCanvas.Close();
             References.instance.activeItem = null;
-            Debug.Log("deactivated Item.");
+           // Debug.Log("deactivated Item.");
         }
     }
     

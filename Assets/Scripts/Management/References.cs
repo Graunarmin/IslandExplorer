@@ -17,6 +17,7 @@ public class References : MonoBehaviour
         
         infoBoxCanvas.gameObject.SetActive(false);
         questCanvas.gameObject.SetActive(false);
+        popUpCanvas.gameObject.SetActive(false);
     }
 
     #endregion
@@ -30,6 +31,8 @@ public class References : MonoBehaviour
     public InfoBoxCanvas infoBoxCanvas;
 
     public QuestCanvas questCanvas;
+
+    public PopUpCanvas popUpCanvas;
 
     public Item activeItem;
     

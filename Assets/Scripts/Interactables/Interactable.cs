@@ -1,9 +1,4 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
-using UnityEngine.UI;
 
 public class Interactable : MonoBehaviour
 {   
@@ -11,7 +6,7 @@ public class Interactable : MonoBehaviour
     public string displayText;
     
     private Sprite icon;
-    
+
     
     // Start is called before the first frame update
     void Start()
@@ -21,7 +16,7 @@ public class Interactable : MonoBehaviour
         icon = item.itemInfo.icon;
     }
 
-    public virtual void Interact()
+    public void Interact()
     {
         if (!References.instance.infoBoxCanvas.gameObject.activeInHierarchy)
         {
