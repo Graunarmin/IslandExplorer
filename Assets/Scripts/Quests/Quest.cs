@@ -12,22 +12,22 @@ public class Quest : MonoBehaviour
 
     public delegate void QuestCompletedDelegate();
 
-    public event QuestCompletedDelegate completedEvent;
+    public event QuestCompletedDelegate completedQuestEvent;
     
 
     private void Start()
     {
-        goalItem.collectedEvent += CompleteQuest;
+        goalItem.interactedEvent += CompleteQuest;
     }
 
-    private void CompleteQuest(Item item)
+    private void CompleteQuest(Interactable item)
     {
-        goalItem.collectedEvent -= CompleteQuest;
+        goalItem.interactedEvent -= CompleteQuest;
         
         //Broadcast that this quest is completed
-        if (completedEvent != null)
+        if (completedQuestEvent != null)
         {
-            completedEvent();
+            completedQuestEvent();
         }
         SetCompleted(true);
         SetActive(false);

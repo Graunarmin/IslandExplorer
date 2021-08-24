@@ -4,7 +4,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class QuestCanvas : MonoBehaviour
+public class QuestCanvas : InspectorCanvas
 {
     public TextMeshProUGUI questTitle;
     public TextMeshProUGUI questText;
@@ -12,18 +12,11 @@ public class QuestCanvas : MonoBehaviour
 
     public void Activate(string title, string text, Sprite icon)
     {
-        GameManager.gameManager.FreezeMovement();
+        base.Activate();
         
-        gameObject.SetActive(true);
         questTitle.text = title;
         questText.text = text;
         questIcon.sprite = icon;
     }
-
-    public void Close()
-    {
-        GameManager.gameManager.UnfreezeMovement();
-        
-        gameObject.SetActive(false);
-    }
+    
 }

@@ -4,7 +4,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class InfoBoxCanvas : MonoBehaviour
+public class InfoBoxCanvas : InspectorCanvas
 {
 
     public Image image;
@@ -12,19 +12,10 @@ public class InfoBoxCanvas : MonoBehaviour
     
     public void Activate(Sprite pic, string text)
     {
-        //So the player can't move in the background
-        GameManager.gameManager.FreezeMovement();
-
+        Activate();
         gameObject.SetActive(true);
         image.sprite = pic;
         textBox.text = text;
-
     }
-
-    public void Close()
-    {
-        GameManager.gameManager.UnfreezeMovement();
-        gameObject.SetActive(false);
-
-    }
+    
 }

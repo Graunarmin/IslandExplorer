@@ -1,46 +1,66 @@
 using UnityEngine;
 
-public class Interactable : MonoBehaviour
-{   
-    [HideInInspector] public Item item;
-    public string displayText;
-    
-    private Sprite icon;
 
+public abstract class Interactable : MonoBehaviour
+{
+    public static Interactable ActiveInteractable { get; private set; }
     
-    // Start is called before the first frame update
-    void Start()
-    {
-        this.enabled = false;
-        item = GetComponent<Item>();
-        icon = item.itemInfo.icon;
-    }
+    [HideInInspector] public Collider col;
+    public Interaction interaction;
 
-    public void Interact()
+    public delegate void InteractedDelegate(Interactable collectedItem);
+    public event InteractedDelegate interactedEvent;
+
+    void Awake()
     {
-        if (!References.instance.infoBoxCanvas.gameObject.activeInHierarchy)
+        // Get the Collider Component
+        if (GetComponent<Collider>() != null)
         {
-            ShowInfo();
+            col = GetComponent<Collider>();
         }
         else
         {
-            HideInfo();
-            Collect();
+            col = null;
         }
     }
 
-    protected virtual void Collect()
+    void SetActiveInteractable(bool set)
     {
-        item.CollectItem();
+        if (set)
+        {
+            ActiveInteractable = this;
+        }
+        else
+        {
+            ActiveInteractable = null;
+        }
     }
 
-    public void ShowInfo()
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        References.instance.infoBoxCanvas.Activate(icon, displayText);
+        if (other.CompareTag("Player"))
+        {
+            interaction.enabled = true;
+            SetActiveInteractable(true);
+        }
     }
 
-    public void HideInfo()
+    private void OnTriggerExit2D(Collider2D other)
     {
-        References.instance.infoBoxCanvas.Close();
+        if (other.CompareTag("Player"))
+        {
+            interaction.enabled = false;
+            SetActiveInteractable(false);
+        }
+    }
+    
+    //Is called by Interaction
+    public virtual void InteractionHappened()
+    {
+        //Broadcast that an interaction happened with this instance
+        if (interactedEvent != null)
+        {
+            interactedEvent(this);
+        }
     }
 }

@@ -24,23 +24,26 @@ public class GameManager : MonoBehaviour
     #endregion
     
     
-    private KeyCode interact = KeyCode.E;
-    //private KeyCode inspect = KeyCode.Q;
-    //private KeyCode journal = KeyCode.Tab;
-    //private KeyCode inventory = KeyCode.I;
+    private KeyCode interact = KeyCode.Space;
+    //private KeyCode notebook = KeyCode.E;
+    //private KeyCode walkiTalki = KeyCode.T;
+    //private KeyCode pause = KeyCode.Escape;
     
     #region UserInput
+    
+    public delegate void InteractKeyPressedDelegate();
+    public event InteractKeyPressedDelegate InteractionEvent;
     
     // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(interact))
         {
-            if(References.instance.activeItem != null)
+            //Broadcast that the interact Key was pressed
+            if (InteractionEvent != null)
             {
-                References.instance.activeItem.interactable.Interact();
+                InteractionEvent();
             }
-
         }
     }
     #endregion
