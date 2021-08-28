@@ -3834,7 +3834,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 269269494}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.07, y: 3.63, z: 0}
+  m_LocalPosition: {x: -18.77, y: -2.19, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1126757666}
@@ -4613,7 +4613,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 322610816}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.54, y: -4.61, z: 0}
+  m_LocalPosition: {x: 8.3, y: -1.78, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 980336809}
@@ -38790,6 +38790,7 @@ GameObject:
   - component: {fileID: 1961927154}
   - component: {fileID: 1961927153}
   - component: {fileID: 1961927155}
+  - component: {fileID: 1961927156}
   m_Layer: 0
   m_Name: Monument
   m_TagString: Untagged
@@ -38853,6 +38854,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactable: {fileID: 0}
   playerFeet: {fileID: 1200946312}
+  groundTilemap: {fileID: 992585060}
+  collisionTilemap: {fileID: 441803032}
+  objectCollider: {fileID: 1961927151}
 --- !u!114 &1961927154
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38883,6 +38887,27 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 1.2
+--- !u!50 &1961927156
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1961927149}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1 &2054517196
 GameObject:
   m_ObjectHideFlags: 0
