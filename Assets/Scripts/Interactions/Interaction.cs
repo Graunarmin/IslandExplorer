@@ -8,19 +8,19 @@ public class Interaction : MonoBehaviour
 
     private bool _subscribedToInteractEvent;
 
-    private void Awake()
+    protected virtual void Awake()
     {
         this.enabled = false;
         interactable = GetComponent<Interactable>();
     }
 
-    private void OnEnable()
+    protected virtual void OnEnable()
     {
         _subscribedToInteractEvent = true;
         GameManager.gameManager.InteractionEvent += Interact;
     }
 
-    private void OnDisable()
+    protected virtual void OnDisable()
     {
         if (_subscribedToInteractEvent)
         {

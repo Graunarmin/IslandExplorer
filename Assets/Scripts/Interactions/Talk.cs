@@ -1,9 +1,13 @@
+using System;
 using UnityEngine;
 
 public class Talk : Interaction
 {
     public override void Interact()
     {
-        DialogManager.dialogManager.StartDialog();
+        if (Character.ActiveInteractable && !DialogManager.dialogManager.inDialog)
+        {
+            DialogManager.dialogManager.ActivateDialog();
+        }
     }
 }

@@ -37,7 +37,7 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(interact))
+        if (Input.GetKeyDown(interact) && !DialogManager.dialogManager.inDialog)
         {
             //Broadcast that the interact Key was pressed
             if (InteractionEvent != null)
@@ -50,13 +50,11 @@ public class GameManager : MonoBehaviour
 
     public void FreezeMovement()
     {
-        Time.timeScale = 0f;
         References.instance.player.GetComponent<PlayerMovement>().enabled = false;
     }
 
     public void UnfreezeMovement()
     {
-        Time.timeScale = 1f;
         References.instance.player.GetComponent<PlayerMovement>().enabled = true;
     }
 }
