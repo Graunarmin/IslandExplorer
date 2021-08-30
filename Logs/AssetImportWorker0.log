@@ -1,0 +1,743 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19043.1165; Version 2009; 64bit' Language: 'de' Physical Memory: 16252 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Programme\Unity\Hub\Editor\2020.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/ChPaf/Uni/Master/Spieleprogrammierung/Project/IslandExplorer
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49598
+Successfully changed project path to: D:/ChPaf/Uni/Master/Spieleprogrammierung/Project/IslandExplorer
+D:/ChPaf/Uni/Master/Spieleprogrammierung/Project/IslandExplorer
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 94.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.11f1 (99c7afb366b3)
+[Subsystems] Discovering subsystems at path D:/Programme/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/ChPaf/Uni/Master/Spieleprogrammierung/Project/IslandExplorer/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 950M (ID=0x139a)
+    Vendor:   
+    VRAM:     2010 MB
+    Driver:   30.0.14.7168
+Initialize mono
+Mono path[0] = 'D:/Programme/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Programme/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Programme/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56036
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Programme/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: D:/Programme/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005767 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 85.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.548 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.019002 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 89.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.703 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2156 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.9 MB.
+System memory in use after: 99.0 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2584.
+Total: 2.732800 ms (FindLiveObjects: 0.248500 ms CreateObjectMapping: 0.143200 ms MarkObjects: 2.255800 ms  DeleteObjects: 0.083900 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/TopDownTest.unity
+  artifactKey: Guid(5a5390c81d3d24ea2ac3c91c25a3286c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TopDownTest.unity using Guid(5a5390c81d3d24ea2ac3c91c25a3286c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f533760ebd5537176db16e979b13749b') in 0.036257 seconds
+  Import took 0.042041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.565450 seconds.
+  path: Assets/Scenes/TopDownTest.unity
+  artifactKey: Guid(5a5390c81d3d24ea2ac3c91c25a3286c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TopDownTest.unity using Guid(5a5390c81d3d24ea2ac3c91c25a3286c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f533760ebd5537176db16e979b13749b') in 0.008382 seconds
+  Import took 0.015362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.871454 seconds.
+  path: Assets/Scenes/TopDownTest 1.unity
+  artifactKey: Guid(f7004c53c39bb8a45a8e7e7449c016d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TopDownTest 1.unity using Guid(f7004c53c39bb8a45a8e7e7449c016d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ac4521eaaa8baa908b53367db56ec0c') in 0.012936 seconds
+  Import took 0.019942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.582509 seconds.
+  path: Assets/Scenes/IslandLayout.unity
+  artifactKey: Guid(f7004c53c39bb8a45a8e7e7449c016d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/IslandLayout.unity using Guid(f7004c53c39bb8a45a8e7e7449c016d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ae03e6bb0032c762c218217c28d29da') in 0.028005 seconds
+  Import took 0.036140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.891026 seconds.
+  path: Assets/Sprites/Eigene
+  artifactKey: Guid(df72b439f05a34b80a6dc70084b97f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Eigene using Guid(df72b439f05a34b80a6dc70084b97f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9486fdc9b17cd650aec2add93f3ed90a') in 0.013884 seconds
+  Import took 0.019984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.077742 seconds.
+  path: Assets/Sprites/Eigene/e-key.png
+  artifactKey: Guid(7e98eb67299b04e65a0b6a7e0f63add9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Eigene/e-key.png using Guid(7e98eb67299b04e65a0b6a7e0f63add9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c79e2f133b7cca032c0127a28520a75') in 0.265752 seconds
+  Import took 0.270133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.699580 seconds.
+  path: Assets/Sprites/Eigene/UI
+  artifactKey: Guid(8408e10a32bbb494b8d92df3656f00b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Eigene/UI using Guid(8408e10a32bbb494b8d92df3656f00b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49fdb3aff9090876cd7326db0c450bb5') in 0.013807 seconds
+  Import took 0.019048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.722255 seconds.
+  path: Assets/Sprites/Eigene/UI/notebook-01.png
+  artifactKey: Guid(3ced2800871be304b8e439b3af6e470f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Eigene/UI/notebook-01.png using Guid(3ced2800871be304b8e439b3af6e470f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22fed586ad7fc8a34c61236550e12761') in 0.054015 seconds
+  Import took 0.060761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Sprites/Eigene/UI/notebook-02.png
+  artifactKey: Guid(3f5dadc7a85460f4a9394cc4ffd2150c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Eigene/UI/notebook-02.png using Guid(3f5dadc7a85460f4a9394cc4ffd2150c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beae1ea8406aaea5d262599c72662c71') in 0.018798 seconds
+  Import took 0.024629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Sprites/Eigene/UI/notebook-03.png
+  artifactKey: Guid(a2d5a847d004f9246afff86935cedc38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Eigene/UI/notebook-03.png using Guid(a2d5a847d004f9246afff86935cedc38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '384860aa26c55f217abab2e197fd29b9') in 0.017997 seconds
+  Import took 0.023071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 705.335299 seconds.
+  path: Assets/Sprites/Eigene/UI/notebook_close-01.png
+  artifactKey: Guid(367dfeeb860dcc442b9b81081c331b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Eigene/UI/notebook_close-01.png using Guid(367dfeeb860dcc442b9b81081c331b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0573d63c082efcc13d6a487c66b075c2') in 0.034856 seconds
+  Import took 0.041734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Sprites/Eigene/UI/notebook_close-02.png
+  artifactKey: Guid(ae0098b05fdde234f87bd927cc10da13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Eigene/UI/notebook_close-02.png using Guid(ae0098b05fdde234f87bd927cc10da13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50654301b7b6c5c6affee15a1e3f2900') in 0.027421 seconds
+  Import took 0.033923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 253.443792 seconds.
+  path: Assets/Sprites/Eigene/UI/notebook-01.png
+  artifactKey: Guid(3ced2800871be304b8e439b3af6e470f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Eigene/UI/notebook-01.png using Guid(3ced2800871be304b8e439b3af6e470f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb1bd1fb479e049b9f3c9d1019c93348') in 0.031192 seconds
+  Import took 0.038557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011750 seconds.
+  path: Assets/Sprites/Eigene/UI/notebook-01.png
+  artifactKey: Guid(3ced2800871be304b8e439b3af6e470f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Eigene/UI/notebook-01.png using Guid(3ced2800871be304b8e439b3af6e470f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb1bd1fb479e049b9f3c9d1019c93348') in 0.016330 seconds
+  Import took 0.022299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 67.132677 seconds.
+  path: Assets/Sprites/Eigene/UI/notebook-02.png
+  artifactKey: Guid(3f5dadc7a85460f4a9394cc4ffd2150c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Eigene/UI/notebook-02.png using Guid(3f5dadc7a85460f4a9394cc4ffd2150c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2496445becba7a8c97205615085f5fe8') in 0.033842 seconds
+  Import took 0.039779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.321708 seconds.
+  path: Assets/Sprites/Eigene/UI/notebook-03.png
+  artifactKey: Guid(a2d5a847d004f9246afff86935cedc38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Eigene/UI/notebook-03.png using Guid(a2d5a847d004f9246afff86935cedc38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3db9893cbe4a8e80c5cf41432cb8684') in 0.021506 seconds
+  Import took 0.027072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.044525 seconds.
+  path: Assets/Sprites/Eigene/UI/notebook_close-01.png
+  artifactKey: Guid(367dfeeb860dcc442b9b81081c331b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Eigene/UI/notebook_close-01.png using Guid(367dfeeb860dcc442b9b81081c331b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c2270bad77508ddb375a492d19750d7') in 0.023633 seconds
+  Import took 0.029895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.402561 seconds.
+  path: Assets/Sprites/Eigene/UI/notebook_close-02.png
+  artifactKey: Guid(ae0098b05fdde234f87bd927cc10da13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Eigene/UI/notebook_close-02.png using Guid(ae0098b05fdde234f87bd927cc10da13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13f6810dea295d8dae25cce902975d4a') in 0.026183 seconds
+  Import took 0.033453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 444.623574 seconds.
+  path: Assets/Sprites/Tiny RPG Forest/Artwork/Environment/tileset-sliced.png
+  artifactKey: Guid(95d22684aba5646d79a26b3287a692b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tiny RPG Forest/Artwork/Environment/tileset-sliced.png using Guid(95d22684aba5646d79a26b3287a692b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '291ba726dd9fdcaa5b3474020c15808d') in 3.095247 seconds
+  Import took 3.103011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Sprites/Grasland Tiles/treesv6_0.psd
+  artifactKey: Guid(f733efc9633db498baa6b5b52e3abbc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Grasland Tiles/treesv6_0.psd using Guid(f733efc9633db498baa6b5b52e3abbc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8adf3f9421a8131e3a2a6a15595c25a') in 0.094448 seconds
+  Import took 0.100478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000486 seconds.
+  path: Assets/Sprites/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Small Set.png
+  artifactKey: Guid(8eb69fafe4f719b49bb2dd1a7358aaaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Small Set.png using Guid(8eb69fafe4f719b49bb2dd1a7358aaaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6595f99ce61e16df87420cdb6d2cd35d') in 0.113259 seconds
+  Import took 0.119129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Sprites/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large stone.png
+  artifactKey: Guid(7066e0747291df44fa5c2bf93bee3a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large stone.png using Guid(7066e0747291df44fa5c2bf93bee3a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca33f9713f7255ab8d24c27844a4245c') in 0.041567 seconds
+  Import took 0.047145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Sprites/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Medium Set.png
+  artifactKey: Guid(1a5d8785d80a4ee42a2a4c8632436dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Medium Set.png using Guid(1a5d8785d80a4ee42a2a4c8632436dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d8201bc153d7d22d0ed005c70e40a2c') in 0.106497 seconds
+  Import took 0.112151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Sprites/Tiny RPG Forest/Artwork/Environment/sliced-objects/tree-orange.png
+  artifactKey: Guid(8c69f3cd16f534bec8236a6484f500d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tiny RPG Forest/Artwork/Environment/sliced-objects/tree-orange.png using Guid(8c69f3cd16f534bec8236a6484f500d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b897d7c0def047cf8379cb35f9354dc2') in 0.095598 seconds
+  Import took 0.104865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001580 seconds.
+  path: Assets/Sprites/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Medium  parchment.png
+  artifactKey: Guid(cf1462bc694c3c249831ad8ac5293aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Medium  parchment.png using Guid(cf1462bc694c3c249831ad8ac5293aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a755a5876d16d20f554e0362c91d317d') in 0.120243 seconds
+  Import took 0.132944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Sprites/Tiny RPG Forest/Artwork/Environment/sliced-objects/tree-dried.png
+  artifactKey: Guid(db07cc93e21f1457d9a1364618027fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tiny RPG Forest/Artwork/Environment/sliced-objects/tree-dried.png using Guid(db07cc93e21f1457d9a1364618027fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c952b50185891e647ead5ae59e418beb') in 0.077647 seconds
+  Import took 0.111516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Sprites/Tiny RPG Forest/Artwork/Environment/sliced-objects/tree-pink.png
+  artifactKey: Guid(c008626f5108946299e1a584ba85fa5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tiny RPG Forest/Artwork/Environment/sliced-objects/tree-pink.png using Guid(c008626f5108946299e1a584ba85fa5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fbe585145d49c58548f896d1db29940') in 0.103246 seconds
+  Import took 0.110321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Sprites/Tiny RPG Forest/Artwork/Environment/sliced-objects/trunk.png
+  artifactKey: Guid(606bc7833699b46bfb26e8141d2a64a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tiny RPG Forest/Artwork/Environment/sliced-objects/trunk.png using Guid(606bc7833699b46bfb26e8141d2a64a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a0b01f78c15cadc7ba9d36162348164') in 0.069008 seconds
+  Import took 0.073520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Sprites/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Small  parchment.png
+  artifactKey: Guid(a454050719005b444b59a84eaafba779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Small  parchment.png using Guid(a454050719005b444b59a84eaafba779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04281bd387cf8b5caa62b768128f00a8') in 0.071192 seconds
+  Import took 0.075158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Sprites/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large  parchment.png
+  artifactKey: Guid(43a7d98bd4222b64e933596512dc09ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large  parchment.png using Guid(43a7d98bd4222b64e933596512dc09ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffb4cef54d9d0f272b39a2a26293e09b') in 0.025831 seconds
+  Import took 0.031123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Sprites/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Medium stone.png
+  artifactKey: Guid(9a6560e5bacb40847bb1b879ede354fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Medium stone.png using Guid(9a6560e5bacb40847bb1b879ede354fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d20f7ce3ccf37236c6ca0741c285790') in 0.108753 seconds
+  Import took 0.113529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Sprites/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large Set.png
+  artifactKey: Guid(90a2dde0942123c4ebb9c4af580c5818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large Set.png using Guid(90a2dde0942123c4ebb9c4af580c5818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d892585814bb97bc1d77bf2d2438e7b') in 0.116682 seconds
+  Import took 0.122165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Samples/Yarn Spinner/1.2.7/Space/Sprites/Source/Wall.psd
+  artifactKey: Guid(74536d5fc2d514bf1a04957e767ef5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Yarn Spinner/1.2.7/Space/Sprites/Source/Wall.psd using Guid(74536d5fc2d514bf1a04957e767ef5e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f11d3f743aed0f88913251a69eea9124') in 0.402016 seconds
+  Import took 0.407140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Sprites/Grasland Tiles/tileset-cave_main.png
+  artifactKey: Guid(1164a50e7232f504287c4e439990ee22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Grasland Tiles/tileset-cave_main.png using Guid(1164a50e7232f504287c4e439990ee22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee5de63da1688031aec444cb48e0df02') in 4.345534 seconds
+  Import took 4.381444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Sprites/Grasland Tiles/tileset-cave_deco.png
+  artifactKey: Guid(6c723c25b4c6d4444b157797e4c238f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Grasland Tiles/tileset-cave_deco.png using Guid(6c723c25b4c6d4444b157797e4c238f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1961cfab0952f3a82a16267f9ad2e0ea') in 0.524866 seconds
+  Import took 0.529899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Sprites/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Big.png
+  artifactKey: Guid(2be7b70e984b51444aca9c12ae4723a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Big.png using Guid(2be7b70e984b51444aca9c12ae4723a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '573b0b0e8449442cd17f57ebf73c34ee') in 0.185613 seconds
+  Import took 0.192015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Sprites/Eigene/Character/Hero/px_child-1-6.png.png
+  artifactKey: Guid(0f475e255ce294922bfbdf7889d8d280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Eigene/Character/Hero/px_child-1-6.png.png using Guid(0f475e255ce294922bfbdf7889d8d280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b82a83f8240ae8a2b665ba1d348eef7c') in 0.057281 seconds
+  Import took 0.061979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Sprites/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Cancel_Pressed.png
+  artifactKey: Guid(9494e936ef153d148aaddfa6db5fb773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Cancel_Pressed.png using Guid(9494e936ef153d148aaddfa6db5fb773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '286703484b34645a103b0b359c6b13b8') in 0.054627 seconds
+  Import took 0.059271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Sprites/Eigene/Character/Hero/front/px_child-1-4.png.png
+  artifactKey: Guid(75326d535bf7d4b8f8a619a908ddfc66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Eigene/Character/Hero/front/px_child-1-4.png.png using Guid(75326d535bf7d4b8f8a619a908ddfc66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42e33cfb1ed42663ae6cc603b265ffb3') in 0.054844 seconds
+  Import took 0.059828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Sprites/Fantasy Wooden GUI  Free/normal_ui_set A/Close Button.png
+  artifactKey: Guid(11277a3f23988ec47908362d708edaa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Fantasy Wooden GUI  Free/normal_ui_set A/Close Button.png using Guid(11277a3f23988ec47908362d708edaa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13bea1661c5a4118b1e584bf5b87f5a4') in 0.082785 seconds
+  Import took 0.087818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Sprites/Eigene/Character/Hero/front/px_child-1-3.png.png
+  artifactKey: Guid(27c83bf039ea847d481cc74bca8dea17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Eigene/Character/Hero/front/px_child-1-3.png.png using Guid(27c83bf039ea847d481cc74bca8dea17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49035f7e1aed51bac2a4e2ebad8c3ead') in 0.055350 seconds
+  Import took 0.060836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Sprites/Tiny RPG Forest/Artwork/Environment/sliced-objects/rock.png
+  artifactKey: Guid(37eaf6e537ca749adaaea0a3e900d411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tiny RPG Forest/Artwork/Environment/sliced-objects/rock.png using Guid(37eaf6e537ca749adaaea0a3e900d411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3b4c4c5f23ed3135bea957d7149b43a') in 0.022773 seconds
+  Import took 0.031239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/Sprites/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Medium_Pressed.png
+  artifactKey: Guid(047b929beb10565479851d39b452dfb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Medium_Pressed.png using Guid(047b929beb10565479851d39b452dfb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab9cb0f3603201d55ed5ba0c26f3fe37') in 0.081191 seconds
+  Import took 0.086183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Sprites/Eigene/Character/Hero/right/px_child-1-7.png.png
+  artifactKey: Guid(e1d2802e7e7544d5dbd1d7954a94c419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Eigene/Character/Hero/right/px_child-1-7.png.png using Guid(e1d2802e7e7544d5dbd1d7954a94c419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15acbc63db699a6f44faf3dae524345d') in 0.086603 seconds
+  Import took 0.091109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Samples/Yarn Spinner/1.2.7/Space/Sprites/Background.jpg
+  artifactKey: Guid(fd899a4269bb84697ac44eb9dbfb59d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Yarn Spinner/1.2.7/Space/Sprites/Background.jpg using Guid(fd899a4269bb84697ac44eb9dbfb59d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a801af467c0974b7d1b36cf63000f5f') in 0.271083 seconds
+  Import took 0.275869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Sprites/Tiny RPG Forest/Artwork/Environment/sliced-objects/rock-monument.png
+  artifactKey: Guid(2eb82ac66de274383af71b2eb2c75da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tiny RPG Forest/Artwork/Environment/sliced-objects/rock-monument.png using Guid(2eb82ac66de274383af71b2eb2c75da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5287c9300427469a432b93dbca690c28') in 0.024849 seconds
+  Import took 0.029241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Sprites/Eigene/Character/Hero/right/px_child-1-9.png.png
+  artifactKey: Guid(551ff75e96ff14c2fbf5aae84c8794d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Eigene/Character/Hero/right/px_child-1-9.png.png using Guid(551ff75e96ff14c2fbf5aae84c8794d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '862baff8a02529c793494b9a1971f078') in 0.076057 seconds
+  Import took 0.081114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Sprites/Eigene/Character/Hero/left/px_child-1-16.png.png
+  artifactKey: Guid(2eaf09f7a2e564ca88223f2c7660fe37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Eigene/Character/Hero/left/px_child-1-16.png.png using Guid(2eaf09f7a2e564ca88223f2c7660fe37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61c16a10bb5975ba38e28100649c2366') in 0.074379 seconds
+  Import took 0.078477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Sprites/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Big_Pressed.png
+  artifactKey: Guid(d6a1673a31851fd4395c287261da36e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Big_Pressed.png using Guid(d6a1673a31851fd4395c287261da36e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e0e22c7a4be9e8a5a8166018de4949f') in 0.125333 seconds
+  Import took 0.132281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Sprites/Grasland Tiles/beach_sand_woa2.png
+  artifactKey: Guid(651431ec77a3341dcbaa9a1ef3b383fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Grasland Tiles/beach_sand_woa2.png using Guid(651431ec77a3341dcbaa9a1ef3b383fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcfd4a68c8dec34f1d2bcfb00b57458f') in 0.169495 seconds
+  Import took 0.174517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Sprites/Tiny RPG Forest/Artwork/Environment/sliced-objects/bush-tall.png
+  artifactKey: Guid(aa94c6da14ecf4a8690f02549a9ac6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tiny RPG Forest/Artwork/Environment/sliced-objects/bush-tall.png using Guid(aa94c6da14ecf4a8690f02549a9ac6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c0acdbf5b8c8b452ca46c23a1d020a8') in 0.038788 seconds
+  Import took 0.044102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Sprites/Tiny RPG Forest/Artwork/Environment/sliced-objects/bush.png
+  artifactKey: Guid(dbc624f7b3a644dcf989e434e63d9a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tiny RPG Forest/Artwork/Environment/sliced-objects/bush.png using Guid(dbc624f7b3a644dcf989e434e63d9a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4f09df6c06d8ebd10e8d9de39df3bd4') in 0.039215 seconds
+  Import took 0.045610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Sprites/Eigene/Character/Hero/left/px_child-1-19.png.png
+  artifactKey: Guid(13916b618b8144a6db7bcb36e30ee471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Eigene/Character/Hero/left/px_child-1-19.png.png using Guid(13916b618b8144a6db7bcb36e30ee471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a49427ec53b0d67d4cf537b5df79db96') in 0.052779 seconds
+  Import took 0.058454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Samples/Yarn Spinner/1.2.7/Space/Sprites/Ship-Face-Neutral.png
+  artifactKey: Guid(4eee64e084df54c6a929026d4552502f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Yarn Spinner/1.2.7/Space/Sprites/Ship-Face-Neutral.png using Guid(4eee64e084df54c6a929026d4552502f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '864dc9ce57b63752010605a723ed5830') in 0.055001 seconds
+  Import took 0.059637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Sprites/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_New-Start_Pressed.png
+  artifactKey: Guid(2e5f47e2f71128f4282c0a4a67288751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_New-Start_Pressed.png using Guid(2e5f47e2f71128f4282c0a4a67288751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e18d8fab8762ee4d01298aefdae1761b') in 0.074246 seconds
+  Import took 0.081852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Samples/Yarn Spinner/1.2.7/Space/Sprites/Sally.png
+  artifactKey: Guid(a0c63b83e172440108bb5f371c95f6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Yarn Spinner/1.2.7/Space/Sprites/Sally.png using Guid(a0c63b83e172440108bb5f371c95f6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '005486285c879dbc0b4e11e9e0fbebfe') in 0.112788 seconds
+  Import took 0.118573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Sprites/Grasland Tiles/Cliff_tileset.png
+  artifactKey: Guid(2c2f4058ad1f24f40a916f9e1657c9ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Grasland Tiles/Cliff_tileset.png using Guid(2c2f4058ad1f24f40a916f9e1657c9ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdf3a9c3539ca06b8dda1cb6a5046128') in 0.329209 seconds
+  Import took 0.334335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Sprites/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Medium.png
+  artifactKey: Guid(efee20b64d1e73942a29ba61ce3379c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Medium.png using Guid(efee20b64d1e73942a29ba61ce3379c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac4eff011088eb5c8b84eb79f8c1bf52') in 0.087186 seconds
+  Import took 0.092036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Sprites/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Small  stone.png
+  artifactKey: Guid(8dd861a6e819de241bca68a36048a6bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Small  stone.png using Guid(8dd861a6e819de241bca68a36048a6bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c27186d9b8bc6fd5f7005d63da32dedb') in 0.021717 seconds
+  Import took 0.026212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Sprites/Eigene/Character/Hero/px_child-1-11.png.png
+  artifactKey: Guid(9e5f11abf16bd4873a551b51ca4163c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Eigene/Character/Hero/px_child-1-11.png.png using Guid(9e5f11abf16bd4873a551b51ca4163c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3661ebd5612d45931ecb536563f1017') in 0.056341 seconds
+  Import took 0.061186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000599 seconds.
+  path: Assets/Sprites/Eigene/Character/Hero/back/px_child-1-15.png.png
+  artifactKey: Guid(1b4d98d3f03fa4522b7ded0afc070430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Eigene/Character/Hero/back/px_child-1-15.png.png using Guid(1b4d98d3f03fa4522b7ded0afc070430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3403319fe340261eee85d8ea97abe751') in 0.057571 seconds
+  Import took 0.063066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Sprites/Eigene/Character/Hero/left/px_child-1-18.png.png
+  artifactKey: Guid(01bc11b1aad6d4124b061c6f1cad756d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Eigene/Character/Hero/left/px_child-1-18.png.png using Guid(01bc11b1aad6d4124b061c6f1cad756d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1c11836fd59c2a0c0949cfd359af1cf') in 0.080944 seconds
+  Import took 0.086860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Sprites/Fantasy Wooden GUI  Free/normal_ui_set A/1_normal_ui_set-free.png
+  artifactKey: Guid(f3e42cb7317f6f14186e2c2267014de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Fantasy Wooden GUI  Free/normal_ui_set A/1_normal_ui_set-free.png using Guid(f3e42cb7317f6f14186e2c2267014de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a84fefb7ad546cc6c3d305ec95e3ea6') in 0.201118 seconds
+  Import took 0.205735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Sprites/Eigene/Character/Hero/back/px_child-1-12.png.png
+  artifactKey: Guid(0c5fc1579e82a41219edb802fee3d479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Eigene/Character/Hero/back/px_child-1-12.png.png using Guid(0c5fc1579e82a41219edb802fee3d479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7306769ed251accc677495654c8cd193') in 0.096098 seconds
+  Import took 0.101346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Sprites/Grasland Tiles/desert_1_0_7.png
+  artifactKey: Guid(71ef592e6f68447be9d9df2073239524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Grasland Tiles/desert_1_0_7.png using Guid(71ef592e6f68447be9d9df2073239524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa942e1c95a2245d4e274f956356613c') in 0.394177 seconds
+  Import took 0.400628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Sprites/Eigene/Character/Hero/right/px_child-1-10.png.png
+  artifactKey: Guid(ffad51d223e514bf6b9890b432209862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Eigene/Character/Hero/right/px_child-1-10.png.png using Guid(ffad51d223e514bf6b9890b432209862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51a43a155ff78e06a5663f92344628b0') in 0.052248 seconds
+  Import took 0.056948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Sprites/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_New-Start.png
+  artifactKey: Guid(ca45d178d188e034aa96a68aceeef41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_New-Start.png using Guid(ca45d178d188e034aa96a68aceeef41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c312ac9044327d20079f3db00808c32') in 0.112630 seconds
+  Import took 0.117954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Sprites/Eigene/Character/Hero/front/px_child-1-5.png.png
+  artifactKey: Guid(af90b41e2b54f40fb82f469fdc4c25f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Eigene/Character/Hero/front/px_child-1-5.png.png using Guid(af90b41e2b54f40fb82f469fdc4c25f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30c8fdc64e030f394b117e6b4364428e') in 0.061216 seconds
+  Import took 0.068017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Sprites/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Cancel.png
+  artifactKey: Guid(480144379cc9c7d47a8e19f58b0e6ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Cancel.png using Guid(480144379cc9c7d47a8e19f58b0e6ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36e1521329b19dd76ceb4c708cbeaf52') in 0.106464 seconds
+  Import took 0.110959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Samples/Yarn Spinner/1.2.7/Space/Sprites/Source/Characters.psd
+  artifactKey: Guid(35c40e364be054455bc8a887bd62eb26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Yarn Spinner/1.2.7/Space/Sprites/Source/Characters.psd using Guid(35c40e364be054455bc8a887bd62eb26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56eaeb1c1899991696636caf585c7cc3') in 0.242205 seconds
+  Import took 0.246677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Sprites/Eigene/Character/child-128x128-3.png.png
+  artifactKey: Guid(8b7262b649a174e0b84d5b6f63880200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Eigene/Character/child-128x128-3.png.png using Guid(8b7262b649a174e0b84d5b6f63880200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '598995a93edb044ab8713d5ab0d4d009') in 0.022606 seconds
+  Import took 0.027312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Sprites/Grasland Tiles/ground_tiles.png
+  artifactKey: Guid(ca59e0425985e489e99c735ccfc6150b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Grasland Tiles/ground_tiles.png using Guid(ca59e0425985e489e99c735ccfc6150b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b2713ef52ad60d078a90894490f0650') in 0.631538 seconds
+  Import took 0.637386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Sprites/Fantasy Wooden GUI  Free/normal_ui_set A/1_normal_ui_set free.psd
+  artifactKey: Guid(1ab331a196bae1046b7a75ed7e3f6b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Fantasy Wooden GUI  Free/normal_ui_set A/1_normal_ui_set free.psd using Guid(1ab331a196bae1046b7a75ed7e3f6b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf6cba54a529579f7e7803ebe13d9b6a') in 0.255049 seconds
+  Import took 0.260235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Sprites/Eigene/Character/Hero/back/px_child-1-14.png.png
+  artifactKey: Guid(accac67e51d8845099c9d1624d52cec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Eigene/Character/Hero/back/px_child-1-14.png.png using Guid(accac67e51d8845099c9d1624d52cec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2255b5ab53494acf37e57e3b22db0cb') in 0.069973 seconds
+  Import took 0.075191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Samples/Yarn Spinner/1.2.7/Space/Sprites/Ship.png
+  artifactKey: Guid(6659e4f8735114058b726c4279ed5216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Yarn Spinner/1.2.7/Space/Sprites/Ship.png using Guid(6659e4f8735114058b726c4279ed5216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26259bcde8d1ddb9a5348f4b2f6fcaf8') in 0.795647 seconds
+  Import took 0.799766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Sprites/Eigene/Character/Hero/right/px_child-1-8.png.png
+  artifactKey: Guid(c6f4c2a23f66e43928f8fa631efe7c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Eigene/Character/Hero/right/px_child-1-8.png.png using Guid(c6f4c2a23f66e43928f8fa631efe7c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b9a84c1920ce794b15306c44938d672') in 0.193755 seconds
+  Import took 0.198537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Sprites/Eigene/Character/Hero/back/px_child-1-13.png
+  artifactKey: Guid(895a16a38d87a482eb4708e3a779c699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Eigene/Character/Hero/back/px_child-1-13.png using Guid(895a16a38d87a482eb4708e3a779c699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f15d6c73b56fe24c00751516c0be08a7') in 0.149354 seconds
+  Import took 0.153871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Samples/Yarn Spinner/1.2.7/Space/Sprites/Ship-Face-Happy.png
+  artifactKey: Guid(cd962023ce1d84e8aa5f5a552151711c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Yarn Spinner/1.2.7/Space/Sprites/Ship-Face-Happy.png using Guid(cd962023ce1d84e8aa5f5a552151711c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acfec5c1450e5d935bc97777c6273e91') in 0.429396 seconds
+  Import took 0.434088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Sprites/Tiny RPG Forest/Artwork/Environment/sliced-objects/sign.png
+  artifactKey: Guid(b52a57bea9b6a47e096e15fd1bbe2fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Tiny RPG Forest/Artwork/Environment/sliced-objects/sign.png using Guid(b52a57bea9b6a47e096e15fd1bbe2fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ff660ca568479140b913579b8e08987') in 0.022389 seconds
+  Import took 0.028749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Sprites/Eigene/Character/Hero/left/px_child-1-17.png.png
+  artifactKey: Guid(fda6f20a8817e4ea79936038d4d0d4e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Eigene/Character/Hero/left/px_child-1-17.png.png using Guid(fda6f20a8817e4ea79936038d4d0d4e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d847153d4272e521e110c3fb62c8be9') in 0.071047 seconds
+  Import took 0.076112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2886.095412 seconds.
+  path: Assets/Sprites/Fantasy Wooden GUI  Free/normal_ui_set A/IRONY TITLE  empty.png
+  artifactKey: Guid(4d6a99baee23b654f9e4bb672ae0b438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Fantasy Wooden GUI  Free/normal_ui_set A/IRONY TITLE  empty.png using Guid(4d6a99baee23b654f9e4bb672ae0b438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8112ed5a0a9747870dca22e44c2bf2cf') in 2.233532 seconds
+  Import took 2.241282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Sprites/Fantasy Wooden GUI  Free/normal_ui_set A/notice.png
+  artifactKey: Guid(86adaa715d8969e48975ca3343ddaedd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Fantasy Wooden GUI  Free/normal_ui_set A/notice.png using Guid(86adaa715d8969e48975ca3343ddaedd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f37e8f5b55d501aefd8deb587be534b') in 0.117246 seconds
+  Import took 0.121488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Sprites/Fantasy Wooden GUI  Free/normal_ui_set A/IRONY TITLE  Large.png
+  artifactKey: Guid(054411784c3fdf74d9db120b4a792a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Fantasy Wooden GUI  Free/normal_ui_set A/IRONY TITLE  Large.png using Guid(054411784c3fdf74d9db120b4a792a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d249738dfbd3e2a71ea1cbf5c980d81') in 0.038905 seconds
+  Import took 0.043630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/Sprites/Grasland Tiles/object- layer.png
+  artifactKey: Guid(67445276130844f2c9fe0a6e5c735de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Grasland Tiles/object- layer.png using Guid(67445276130844f2c9fe0a6e5c735de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b31406dcd3b494ffcfe781169771bb3') in 0.195994 seconds
+  Import took 0.204061 seconds .
+
