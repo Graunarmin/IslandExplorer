@@ -14,7 +14,7 @@ public class Collect : Inspect
         {
             HideInfo();
             CollectItem();
-            interactable.InteractionHappened();
+            interactable.WasInteractedWith();
         }
     }
 

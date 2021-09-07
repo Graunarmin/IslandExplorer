@@ -6,20 +6,39 @@ using UnityEngine;
 
 public class Inventory : MonoBehaviour, IItemContainer
 {
-    [SerializeField] private int space;
+    [SerializeField] private int space = 6;
     private List<Interactable> items = new List<Interactable>();
+
+    private static Inventory _instance;
+
+    public static Inventory Instance
+    {
+        get
+        {
+            return _instance;
+        }
+    }
     private void Awake()
     {
-        Interactable.interactedEvent += AddItem;
+        if (_instance == null)
+        {
+            _instance = this;
+        }
+        else
+        {
+            Debug.Log("More than one instance of Inventory!");
+        }
     }
 
-    public void AddItem(Interactable item)
+    public bool AddItem(Interactable item)
     {
         if (!IsFull())
         {
             items.Add(item);
             Debug.Log((item as Item).itemInfo.itemName + " was added to Inventory.");
+            return true;
         }
+        return false;
     }
 
     public bool RemoveItem(Interactable item)
@@ -34,17 +53,6 @@ public class Inventory : MonoBehaviour, IItemContainer
         {
             return true;
         }
-
-        return false;
-    }
-
-    public bool ContainsItem(Tool tool)
-    {
-        if (items.Contains(tool))
-        {
-            return true;
-        }
-
         return false;
     }
 
@@ -54,7 +62,6 @@ public class Inventory : MonoBehaviour, IItemContainer
         {
             return true;
         }
-
         return false;
     }
 

@@ -13,9 +13,9 @@ public class StickerItem : Item
     [SerializeField] bool isInLexicon;
     
     
-    public override void InteractionHappened()
+    public override void WasInteractedWith()
     {
-        base.InteractionHappened();
+        base.WasInteractedWith();
         
         //Maybe with event?
         AddToLexicon();

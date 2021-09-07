@@ -14,7 +14,7 @@ public class Quest : MonoBehaviour
 
     private void Start()
     {
-        Interactable.interactedEvent += CompleteQuest;
+        Interactable.InteractedEvent += CompleteQuest;
     }
 
     private void CompleteQuest(Interactable item)
@@ -23,7 +23,7 @@ public class Quest : MonoBehaviour
         {
             if (item == goalItem)
             {
-                Interactable.interactedEvent -= CompleteQuest;
+                Interactable.InteractedEvent -= CompleteQuest;
         
                 //Broadcast that this quest is completed
                 completedQuestEvent?.Invoke(this);

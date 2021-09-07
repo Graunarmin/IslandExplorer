@@ -8,9 +8,9 @@ public class Tool : Item
     [SerializeField] bool isInInventory = false;
 
 
-    public override void InteractionHappened()
+    public override void WasInteractedWith()
     {
-        base.InteractionHappened();
+        base.WasInteractedWith();
         
         //Maybe with event?
         AddToInventory();
@@ -22,6 +22,7 @@ public class Tool : Item
     private void AddToInventory()
     {
         isInInventory = true;
+        Inventory.Instance.AddItem(this);
     }
     
     public void RemoveFromInventory()

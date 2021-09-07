@@ -10,7 +10,7 @@ public class ToolPrereq : Prerequisite
     {
         get
         {
-            if (requiredTool.IsInInventory())
+            if (Inventory.Instance.ContainsItem(requiredTool))
             {
                 return true;
             }

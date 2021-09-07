@@ -8,8 +8,8 @@ public abstract class Interactable : MonoBehaviour
     
     [HideInInspector] public Collider col;
     public Interaction interaction;
-    
-    public static event Action<Interactable> interactedEvent;
+
+    public static event Action<Interactable> InteractedEvent;
 
     void Awake()
     {
@@ -36,6 +36,16 @@ public abstract class Interactable : MonoBehaviour
         }
     }
 
+    private void OnEnable()
+    {
+        interaction.InteractionHappenedEvent += WasInteractedWith;
+    }
+
+    private void OnDisable()
+    {
+        interaction.InteractionHappenedEvent -= WasInteractedWith;
+    }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
@@ -54,10 +64,10 @@ public abstract class Interactable : MonoBehaviour
         }
     }
     
-    //Is called by Interaction
-    public virtual void InteractionHappened()
+    public virtual void WasInteractedWith()
     {
-        //Broadcast that an interaction happened with this instance
-        interactedEvent?.Invoke(this);
+        // Broadcast that the Interaction on this Event is Complete so 
+        // others (e.g. Quests) can respond accordingly
+        InteractedEvent?.Invoke(this);
     }
 }
