@@ -1,4 +1,5 @@
 using UnityEngine;
+using System;
 
 
 public abstract class Interactable : MonoBehaviour
@@ -7,9 +8,8 @@ public abstract class Interactable : MonoBehaviour
     
     [HideInInspector] public Collider col;
     public Interaction interaction;
-
-    public delegate void InteractedDelegate(Interactable collectedItem);
-    public event InteractedDelegate interactedEvent;
+    
+    public static event Action<Interactable> interactedEvent;
 
     void Awake()
     {
@@ -58,9 +58,6 @@ public abstract class Interactable : MonoBehaviour
     public virtual void InteractionHappened()
     {
         //Broadcast that an interaction happened with this instance
-        if (interactedEvent != null)
-        {
-            interactedEvent(this);
-        }
+        interactedEvent?.Invoke(this);
     }
 }

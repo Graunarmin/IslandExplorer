@@ -10,28 +10,30 @@ public class Quest : MonoBehaviour
     private bool isActive;
     private bool isComplete;
 
-    public delegate void QuestCompletedDelegate();
-
-    public event QuestCompletedDelegate completedQuestEvent;
-    
+    public static event Action<Quest> completedQuestEvent;
 
     private void Start()
     {
-        goalItem.interactedEvent += CompleteQuest;
+        Interactable.interactedEvent += CompleteQuest;
     }
 
     private void CompleteQuest(Interactable item)
     {
-        goalItem.interactedEvent -= CompleteQuest;
-        
-        //Broadcast that this quest is completed
-        if (completedQuestEvent != null)
+        if (item is QuestItem)
         {
-            completedQuestEvent();
+            if (item == goalItem)
+            {
+                Interactable.interactedEvent -= CompleteQuest;
+        
+                //Broadcast that this quest is completed
+                completedQuestEvent?.Invoke(this);
+                
+                SetCompleted(true);
+                SetActive(false);
+                Debug.Log("You completed the quest " + quest.title);
+            }
         }
-        SetCompleted(true);
-        SetActive(false);
-        Debug.Log("You completed the quest " + quest.title);
+        
     }
     
     private void SetActive(bool status)
