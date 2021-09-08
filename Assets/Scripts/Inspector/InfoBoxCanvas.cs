@@ -13,7 +13,6 @@ public class InfoBoxCanvas : InspectorCanvas
     public void Activate(Sprite pic, string text)
     {
         Activate();
-        gameObject.SetActive(true);
         image.sprite = pic;
         textBox.text = text;
     }

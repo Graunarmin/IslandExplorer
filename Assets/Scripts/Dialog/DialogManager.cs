@@ -27,6 +27,7 @@ public class DialogManager : MonoBehaviour
 
         Runner = dialogueRunner;
         Runner.AddCommandHandler("SetSpeaker", SetSpeakerInfo);
+        dialogCanvas.gameObject.SetActive(false);
     }
 
     #endregion
@@ -39,6 +40,8 @@ public class DialogManager : MonoBehaviour
     
     [SerializeField] private Image speakerPortrait;
     [SerializeField] private TextMeshProUGUI speakerName;
+
+    [SerializeField] private QuestGiver questGiver;
 
     public void ActivateDialog()
     {
@@ -75,5 +78,10 @@ public class DialogManager : MonoBehaviour
             return;
         }
         Debug.Log("Could not set speaker info for unknown speaker");
+    }
+
+    void GiveQuest(string[] questTitle)
+    {
+        questGiver.SetQuest(questTitle[0]);
     }
 }

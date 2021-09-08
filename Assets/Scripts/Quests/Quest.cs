@@ -3,13 +3,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Quest : MonoBehaviour
+[System.Serializable]
+public class Quest
 {
     public QuestAsset quest;
     public QuestItem goalItem;
     private bool isActive;
     private bool isComplete;
 
+    public static Quest ActiveQuest { get; private set; }
     public static event Action<Quest> completedQuestEvent;
 
     private void Start()
@@ -33,12 +35,19 @@ public class Quest : MonoBehaviour
                 Debug.Log("You completed the quest " + quest.title);
             }
         }
-        
     }
     
-    private void SetActive(bool status)
+    public void SetActive(bool status)
     {
-        isActive = true;
+        isActive = status;
+        if (isActive)
+        {
+            SetActiveQuest(true);
+        }
+        else
+        {
+            SetActiveQuest(false);
+        }
     }
 
     private void SetCompleted(bool status)
@@ -55,8 +64,16 @@ public class Quest : MonoBehaviour
     {
         return isComplete;
     }
-
     
-    
-    
+    void SetActiveQuest(bool set)
+    {
+        if (set)
+        {
+            ActiveQuest = this;
+        }
+        else
+        {
+            ActiveQuest = null;
+        }
+    }
 }

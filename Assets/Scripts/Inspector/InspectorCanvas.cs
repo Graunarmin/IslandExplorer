@@ -4,21 +4,19 @@ using UnityEngine;
 
 public abstract class InspectorCanvas : MonoBehaviour
 {
-    protected void Awake()
+    protected void Start()
     {
-        gameObject.SetActive(false);
+        //gameObject.SetActive(false);
     }
 
-    public void Activate()
+    public virtual void Activate()
     {
-        Debug.Log("Activating Canvas");
         gameObject.SetActive(true);
         CurrentlyInteracting(true);
     }
     
     public void Close()
     {
-        Debug.Log("Deactivating Canvas");
         gameObject.SetActive(false);
         CurrentlyInteracting(false);
     }
