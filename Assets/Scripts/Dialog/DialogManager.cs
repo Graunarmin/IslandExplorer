@@ -42,8 +42,9 @@ public class DialogManager : MonoBehaviour
 
     public void ActivateDialog()
     {
-        inDialog = true;
         dialogCanvas.Activate();
+        inDialog = true;
+        Debug.Log("Starting Dialog");
         dialogueRunner.StartDialogue(((Character)Character.ActiveInteractable).YarnStartNode);
     }
 

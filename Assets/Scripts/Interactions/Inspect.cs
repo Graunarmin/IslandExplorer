@@ -9,7 +9,7 @@ public class Inspect : Interaction
 
     void Start()
     {
-        item = interactable as Item;
+        item = Interactable.ActiveInteractable as Item;
         if (item != null)
         {
             icon = item.itemInfo.icon;
@@ -24,8 +24,9 @@ public class Inspect : Interaction
         else
         {
             HideInfo();
+            ReactToInteraction();
+            OnInteract();
         }
-        base.Interact();
     }
     
     protected void ShowInfo()

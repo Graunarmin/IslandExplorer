@@ -3,28 +3,11 @@ using UnityEngine;
 
 public class Collect : Inspect
 {
-
-    public override void Interact()
-    {
-        if (!References.instance.infoBoxCanvas.gameObject.activeInHierarchy)
-        {
-            ShowInfo();
-        }
-        else
-        {
-            HideInfo();
-            CollectItem();
-            interactable.InteractionHappened();
-        }
-    }
-
-    private void CollectItem()
+    protected override void ReactToInteraction()
     {
         if (item is Tool)
         {
-            GameManager.gameManager.InteractionEvent -= Interact;
+            GameManager.InteractionEvent -= Interact;
         }
     }
-
-    
 }

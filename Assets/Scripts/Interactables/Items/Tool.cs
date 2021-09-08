@@ -8,12 +8,11 @@ public class Tool : Item
     [SerializeField] bool isInInventory = false;
 
 
-    public override void InteractionHappened()
+    public override void WasInteractedWith()
     {
-        base.InteractionHappened();
-        
-        //Maybe with event?
         AddToInventory();
+        
+        base.WasInteractedWith();
         
         location.RemoveItem(this);
         gameObject.SetActive(false);

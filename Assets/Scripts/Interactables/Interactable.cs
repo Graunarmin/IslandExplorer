@@ -1,19 +1,19 @@
 using UnityEngine;
+using System;
 
 
 public abstract class Interactable : MonoBehaviour
 {
+    // !-Could lead to problems with overlapping Colliders-! 
     public static Interactable ActiveInteractable { get; private set; }
     
     [HideInInspector] public Collider col;
     public Interaction interaction;
 
-    public delegate void InteractedDelegate(Interactable collectedItem);
-    public event InteractedDelegate interactedEvent;
+    public static event Action<Interactable> InteractedEvent;
 
     void Awake()
     {
-        // Get the Collider Component
         if (GetComponent<Collider>() != null)
         {
             col = GetComponent<Collider>();
@@ -54,13 +54,10 @@ public abstract class Interactable : MonoBehaviour
         }
     }
     
-    //Is called by Interaction
-    public virtual void InteractionHappened()
+    public virtual void WasInteractedWith()
     {
-        //Broadcast that an interaction happened with this instance
-        if (interactedEvent != null)
-        {
-            interactedEvent(this);
-        }
+        // Broadcast that the Interaction on this Event is Complete so 
+        // others (e.g. Quests) can respond accordingly
+        InteractedEvent?.Invoke(this);
     }
 }
