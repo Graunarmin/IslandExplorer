@@ -30,15 +30,23 @@ public class Inventory : MonoBehaviour, IItemContainer
         }
     }
 
-    public bool AddItem(Interactable item)
+    private void OnEnable()
     {
-        if (!IsFull())
+        Interactable.InteractedEvent += AddItem;
+    }
+
+    private void OnDisable()
+    {
+        Interactable.InteractedEvent -= AddItem;
+    }
+
+    public void AddItem(Interactable item)
+    {
+        if (item is Tool && !IsFull())
         {
             items.Add(item);
             Debug.Log((item as Item).itemInfo.itemName + " was added to Inventory.");
-            return true;
         }
-        return false;
     }
 
     public bool RemoveItem(Interactable item)

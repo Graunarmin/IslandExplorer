@@ -14,7 +14,6 @@ public class Move : Interaction
     public override void Interact()
     {
         MoveObject();
-        base.Interact();
     }
 
     private void MoveObject()

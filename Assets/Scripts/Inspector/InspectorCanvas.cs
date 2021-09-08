@@ -11,12 +11,14 @@ public abstract class InspectorCanvas : MonoBehaviour
 
     public void Activate()
     {
+        Debug.Log("Activating Canvas");
         gameObject.SetActive(true);
         CurrentlyInteracting(true);
     }
     
     public void Close()
     {
+        Debug.Log("Deactivating Canvas");
         gameObject.SetActive(false);
         CurrentlyInteracting(false);
     }

@@ -3043,7 +3043,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fc519b110e345efb2d4449cdb0c4749, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactable: {fileID: 0}
+  prerequisites: []
   displayText: I'm the best Rock in the World!
 --- !u!58 &382989794
 CircleCollider2D:
@@ -3210,7 +3210,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fc519b110e345efb2d4449cdb0c4749, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactable: {fileID: 0}
+  prerequisites: []
   displayText: Wow, that is BIG
 --- !u!61 &385067670
 BoxCollider2D:
@@ -3934,7 +3934,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7dbe8b34b104786958ad0b2012af8c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactable: {fileID: 0}
+  prerequisites: []
 --- !u!114 &465646471
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12461,7 +12461,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fc519b110e345efb2d4449cdb0c4749, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactable: {fileID: 0}
+  prerequisites: []
   displayText: 'Left: Forest'
 --- !u!114 &948451878
 MonoBehaviour:
@@ -13014,7 +13014,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2add0da1ca042eda7833a0d79c56e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactable: {fileID: 0}
+  prerequisites: []
   displayText: Old Gloves - Maybe I can use them later.
 --- !u!1 &980336808
 GameObject:
@@ -23366,6 +23366,7 @@ GameObject:
   - component: {fileID: 1961927153}
   - component: {fileID: 1961927155}
   - component: {fileID: 1961927156}
+  - component: {fileID: 1961927157}
   m_Layer: 0
   m_Name: Monument
   m_TagString: Untagged
@@ -23427,7 +23428,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd69f93f3dec349bb944a810741a34b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactable: {fileID: 0}
+  prerequisites: []
   playerFeet: {fileID: 1200946312}
   groundTilemap: {fileID: 0}
   collisionTilemap: {fileID: 0}
@@ -23446,7 +23447,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   col: {fileID: 0}
   interaction: {fileID: 1961927153}
-  requiredTool: {fileID: 0}
 --- !u!58 &1961927155
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -23484,6 +23484,20 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
+--- !u!114 &1961927157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1961927149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c73cf873736e14ff58305893868036ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  requirements: I think I better protect my Hands somehow
+  requiredTool: {fileID: 965717785}
 --- !u!1 &2027092133
 GameObject:
   m_ObjectHideFlags: 0

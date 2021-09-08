@@ -10,10 +10,9 @@ public class Tool : Item
 
     public override void WasInteractedWith()
     {
-        base.WasInteractedWith();
-        
-        //Maybe with event?
         AddToInventory();
+        
+        base.WasInteractedWith();
         
         location.RemoveItem(this);
         gameObject.SetActive(false);
@@ -22,7 +21,6 @@ public class Tool : Item
     private void AddToInventory()
     {
         isInInventory = true;
-        Inventory.Instance.AddItem(this);
     }
     
     public void RemoveFromInventory()

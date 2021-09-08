@@ -30,9 +30,7 @@ public class GameManager : MonoBehaviour
     //private KeyCode pause = KeyCode.Escape;
     
     #region UserInput
-    
-    public delegate void InteractKeyPressedDelegate();
-    public event InteractKeyPressedDelegate InteractionEvent;
+    public static event Action InteractionEvent;
     
     // Update is called once per frame
     void Update()
@@ -40,10 +38,7 @@ public class GameManager : MonoBehaviour
         if (Input.GetKeyDown(interact) && !DialogManager.dialogManager.inDialog)
         {
             //Broadcast that the interact Key was pressed
-            if (InteractionEvent != null)
-            {
-                InteractionEvent();
-            }
+            InteractionEvent?.Invoke();
         }
     }
     #endregion

@@ -2,23 +2,19 @@ using System;
 using UnityEngine;
 
 public class Interaction : MonoBehaviour
-{   
-    [HideInInspector] public Interactable interactable;
+{
     public Prerequisite[] prerequisites;
     
     private bool _subscribedToInteractEvent;
 
-    public event Action InteractionHappenedEvent;
-
     protected virtual void Awake()
     {
         this.enabled = false;
-        interactable = GetComponent<Interactable>();
     }
 
     protected virtual void OnEnable()
     {
-        GameManager.gameManager.InteractionEvent += Interact;
+        GameManager.InteractionEvent += TryInteracting;
         _subscribedToInteractEvent = true;
         prerequisites = gameObject.GetComponents<Prerequisite>();
     }
@@ -27,23 +23,36 @@ public class Interaction : MonoBehaviour
     {
         if (_subscribedToInteractEvent)
         {
-            GameManager.gameManager.InteractionEvent -= Interact;
+            GameManager.InteractionEvent -= TryInteracting;
             _subscribedToInteractEvent = false;
+        }
+    }
+
+    private void TryInteracting()
+    {
+        if (!AllPrerequisitesComplete())
+        {
+            GetFirstIncompletePrerequisite().ShowRequirements();
+        }
+        else
+        {
+            Interact();
         }
     }
 
     public virtual void Interact()
     {
-        Debug.Log("Interaction Happened");
-        OnInteract();
+        //Nothing to do here yet
     }
 
     protected void OnInteract()
     {
-        // Tell the item that the Interaction is Complete
-        // (non-static event that is subscribed to by item
-        // so it does not need to hold a reference)
-        InteractionHappenedEvent?.Invoke();
+        Interactable.ActiveInteractable.WasInteractedWith();
+    }
+    
+    protected virtual void ReactToInteraction()
+    {
+        //Nothing to do here
     }
     
     protected bool AllPrerequisitesComplete()
@@ -61,5 +70,22 @@ public class Interaction : MonoBehaviour
             }
         }
         return true;
+    }
+
+    private Prerequisite GetFirstIncompletePrerequisite()
+    {
+        if (prerequisites.Length == 0)
+        {
+            return null;
+        }
+
+        foreach (Prerequisite pre in prerequisites)
+        {
+            if (!pre.Complete)
+            {
+                return pre;
+            }
+        }
+        return null;
     }
 }

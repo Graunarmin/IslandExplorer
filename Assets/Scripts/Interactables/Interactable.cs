@@ -4,6 +4,7 @@ using System;
 
 public abstract class Interactable : MonoBehaviour
 {
+    // !-Could lead to problems with overlapping Colliders-! 
     public static Interactable ActiveInteractable { get; private set; }
     
     [HideInInspector] public Collider col;
@@ -13,7 +14,6 @@ public abstract class Interactable : MonoBehaviour
 
     void Awake()
     {
-        // Get the Collider Component
         if (GetComponent<Collider>() != null)
         {
             col = GetComponent<Collider>();
@@ -34,16 +34,6 @@ public abstract class Interactable : MonoBehaviour
         {
             ActiveInteractable = null;
         }
-    }
-
-    private void OnEnable()
-    {
-        interaction.InteractionHappenedEvent += WasInteractedWith;
-    }
-
-    private void OnDisable()
-    {
-        interaction.InteractionHappenedEvent -= WasInteractedWith;
     }
 
     private void OnTriggerEnter2D(Collider2D other)

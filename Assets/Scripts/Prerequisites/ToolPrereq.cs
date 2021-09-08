@@ -5,6 +5,7 @@ using UnityEngine;
 public class ToolPrereq : Prerequisite
 {
     public Tool requiredTool;
+    
 
     public override bool Complete
     {
@@ -18,5 +19,7 @@ public class ToolPrereq : Prerequisite
             return false;
         }
     }
+
+    
 
 }
