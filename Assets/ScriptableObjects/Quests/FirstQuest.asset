@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: FirstQuest
   m_EditorClassIdentifier: 
   title: First Quest
-  quest: Find me a beautiful purple rock
   icon: {fileID: 21300000, guid: 2eb82ac66de274383af71b2eb2c75da0, type: 3}
+  questText: Find me a purple rock in the forest.

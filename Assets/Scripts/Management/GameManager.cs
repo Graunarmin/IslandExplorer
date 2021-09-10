@@ -22,12 +22,22 @@ public class GameManager : MonoBehaviour
     }
 
     #endregion
-    
-    
+
+    private void OnEnable()
+    {
+        InspectorCanvas.Interacting += MovementFrozen;
+        InspectorCanvas.Interacting += SetInteracting;
+        DialogManager.DialogStarted += SetInDialog;
+    }
+
+
     private KeyCode interact = KeyCode.Space;
-    //private KeyCode notebook = KeyCode.E;
+    private KeyCode notebook = KeyCode.E;
     //private KeyCode walkiTalki = KeyCode.T;
     //private KeyCode pause = KeyCode.Escape;
+
+    private bool currentlyInteracting;
+    private bool inDialog;
     
     #region UserInput
     public static event Action InteractionEvent;
@@ -35,21 +45,47 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(interact) && !DialogManager.dialogManager.inDialog)
+        if (!inDialog)
         {
-            //Broadcast that the interact Key was pressed
-            InteractionEvent?.Invoke();
+            if (Input.GetKeyDown(interact))
+            {
+                //Broadcast that the interact Key was pressed
+                InteractionEvent?.Invoke();
+            }
+            
+            if (!currentlyInteracting) //meaning no Canvases open
+            {
+                if (Input.GetKeyDown(notebook))
+                {
+                    References.instance.notebookCanvas.Activate();
+                }
+            }
+            else
+            {
+                if(Input.GetKeyDown(notebook) && InspectorCanvas.ActiveCanvas is NotebookCanvas)
+                {
+                    References.instance.notebookCanvas.Close();
+                }
+            }
         }
     }
     #endregion
 
-    public void FreezeMovement()
+    
+    public void MovementFrozen(bool status)
     {
-        References.instance.player.GetComponent<PlayerMovement>().enabled = false;
+        Debug.Log("Movement Frozen: " + status);
+        References.instance.player.GetComponent<PlayerMovement>().enabled = !status;
     }
 
-    public void UnfreezeMovement()
+    private void SetInteracting(bool status)
     {
-        References.instance.player.GetComponent<PlayerMovement>().enabled = true;
+        currentlyInteracting = status;
+    }
+
+    private void SetInDialog(bool status)
+    {
+        inDialog = status;
+        MovementFrozen(status);
     }
 }

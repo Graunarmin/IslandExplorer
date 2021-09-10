@@ -17,10 +17,10 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame (Handle Input Here)
     void Update()
     {
-        if (DialogManager.dialogManager.inDialog)
+        /*if (DialogManager.dialogManager.inDialog)
         {
             return;
-        }
+        }*/
         GetMovement();
     }
 

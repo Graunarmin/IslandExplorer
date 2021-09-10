@@ -43,17 +43,20 @@ public class DialogManager : MonoBehaviour
 
     [SerializeField] private QuestGiver questGiver;
 
+    public static event Action<bool> DialogStarted; 
+
     public void ActivateDialog()
     {
         dialogCanvas.Activate();
         inDialog = true;
-        Debug.Log("Starting Dialog");
+        DialogStarted?.Invoke(true);
         dialogueRunner.StartDialogue(((Character)Character.ActiveInteractable).YarnStartNode);
     }
 
     public void DeactivateDialog()
     {
         inDialog = false;
+        DialogStarted?.Invoke(false);
         dialogCanvas.Close();
     }
     

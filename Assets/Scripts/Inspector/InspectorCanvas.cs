@@ -4,33 +4,39 @@ using UnityEngine;
 
 public abstract class InspectorCanvas : MonoBehaviour
 {
-    protected void Start()
+    public static InspectorCanvas ActiveCanvas { get; private set; }
+
+    public static event Action<bool> Interacting;
+
+    void SetActiveCanvas(bool set)
     {
-        //gameObject.SetActive(false);
+        if (set)
+        {
+            ActiveCanvas = this;
+        }
+        else
+        {
+            ActiveCanvas = null;
+        }
     }
 
-    public virtual void Activate()
+    public void Activate()
     {
         gameObject.SetActive(true);
         CurrentlyInteracting(true);
+        SetActiveCanvas(true);
     }
     
     public void Close()
     {
         gameObject.SetActive(false);
         CurrentlyInteracting(false);
+        SetActiveCanvas(false);
     }
     
-    public virtual void CurrentlyInteracting(bool interacting)
+    public void CurrentlyInteracting(bool interacting)
     {
-        if (interacting)
-        {
-            GameManager.gameManager.FreezeMovement();
-        }
-        else
-        {
-            GameManager.gameManager.UnfreezeMovement();
-        }
+        Interacting?.Invoke(interacting);
     }
 }
     

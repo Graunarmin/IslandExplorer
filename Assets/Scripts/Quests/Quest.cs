@@ -3,13 +3,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[System.Serializable]
-public class Quest
+public class Quest : MonoBehaviour
 {
-    public QuestAsset quest;
-    public QuestItem goalItem;
     private bool isActive;
     private bool isComplete;
+    public QuestAsset quest;
+    public QuestItem goalItem;
+    [SerializeField] private QuestEntry questEntry;
 
     public static Quest ActiveQuest { get; private set; }
     public static event Action<Quest> completedQuestEvent;
@@ -43,6 +43,8 @@ public class Quest
         if (isActive)
         {
             SetActiveQuest(true);
+            questEntry.enabled = true;
+            questEntry.SetQuest(this);
         }
         else
         {
