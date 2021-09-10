@@ -74,7 +74,6 @@ public class GameManager : MonoBehaviour
     
     public void MovementFrozen(bool status)
     {
-        Debug.Log("Movement Frozen: " + status);
         References.instance.player.GetComponent<PlayerMovement>().enabled = !status;
     }
 
