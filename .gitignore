@@ -49,6 +49,9 @@ sysinfo.txt
 *.DS_Store
 Icon?
 
+#Git merge conflict problem maker
+[Ll]ogs/shadercompiler-UnityShaderCompiler.exe0.log
+
 # Common IntelliJ Platform excludes
 
 # User specific
