@@ -1,105 +1,223 @@
 Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19043.1165; Version 2009; 64bit' Language: 'de' Physical Memory: 16252 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-/Applications/Unity/2020.3.11f1/Unity.app/Contents/MacOS/Unity
+D:\Programme\Unity\Hub\Editor\2020.3.11f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-/Users/hanna/Code/Games/Unity/IslandExplorer
+D:/ChPaf/Uni/Master/Spieleprogrammierung/Project/IslandExplorer
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53046
-Successfully changed project path to: /Users/hanna/Code/Games/Unity/IslandExplorer
-/Users/hanna/Code/Games/Unity/IslandExplorer
+62877
+Successfully changed project path to: D:/ChPaf/Uni/Master/Spieleprogrammierung/Project/IslandExplorer
+D:/ChPaf/Uni/Master/Spieleprogrammierung/Project/IslandExplorer
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 64.23 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 108.79 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
-[Subsystems] Discovering subsystems at path /Applications/Unity/2020.3.11f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/hanna/Code/Games/Unity/IslandExplorer/Assets
+[Subsystems] Discovering subsystems at path D:/Programme/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/ChPaf/Uni/Master/Spieleprogrammierung/Project/IslandExplorer/Assets
 GfxDevice: creating device client; threaded=0
-2021-09-10 21:47:49.314 Unity[3777:139922] (null) preferred device: Apple M1 (high power)
-2021-09-10 21:47:49.314 Unity[3777:139922] Metal devices available: 1
-2021-09-10 21:47:49.314 Unity[3777:139922] 0: Apple M1 (high power)
-2021-09-10 21:47:49.315 Unity[3777:139922] Using device Apple M1 (high power)
-Initializing Metal device caps: Apple M1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 950M (ID=0x139a)
+    Vendor:   
+    VRAM:     2010 MB
+    Driver:   30.0.14.7196
 Initialize mono
-Mono path[0] = '/Applications/Unity/2020.3.11f1/Unity.app/Contents/Managed'
-Mono path[1] = '/Applications/Unity/2020.3.11f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = '/Applications/Unity/2020.3.11f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56777
+Mono path[0] = 'D:/Programme/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Programme/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Programme/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56804
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /Applications/Unity/2020.3.11f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Register platform support module: /Applications/Unity/2020.3.11f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000503 seconds.
+Register platform support module: D:/Programme/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: D:/Programme/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006208 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 70.57 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 98.92 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.323 seconds
+- Completed reload, in  1.775 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002888 seconds.
+Registered in 0.023688 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 70.17 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 122.30 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.510 seconds
+- Completed reload, in  1.923 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launching external process: /Applications/Unity/2020.3.11f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 2.15 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2162 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 182.3 MB.
-System memory in use after: 182.4 MB.
+System memory in use before: 99.1 MB.
+System memory in use after: 99.2 MB.
 
 Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2591.
-Total: 1.823667 ms (FindLiveObjects: 0.218459 ms CreateObjectMapping: 0.044708 ms MarkObjects: 1.474292 ms  DeleteObjects: 0.084958 ms)
+Total: 4.393800 ms (FindLiveObjects: 0.366000 ms CreateObjectMapping: 0.201800 ms MarkObjects: 3.691700 ms  DeleteObjects: 0.132300 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/Management/GameManager.cs
-  artifactKey: Guid(7734225e0968048bbbbd8c500e3d7454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Management/GameManager.cs using Guid(7734225e0968048bbbbd8c500e3d7454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0586761d1794e0793d0fc842f7e23769') in 0.171940 seconds
-  Import took 0.175647 seconds .
+  path: Assets/Sprites/Eigene/Character/Animals
+  artifactKey: Guid(20b034c0f6ebff5498f4944a06302940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Eigene/Character/Animals using Guid(20b034c0f6ebff5498f4944a06302940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0db7492162c53f195e1f92417ff2d41') in 0.079728 seconds
+  Import took 0.085894 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 72.704808 seconds.
-  path: Assets/Scripts/Management/GameManager.cs
-  artifactKey: Guid(7734225e0968048bbbbd8c500e3d7454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Management/GameManager.cs using Guid(7734225e0968048bbbbd8c500e3d7454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9400afd7434432dfc87f565828d21edf') in 0.002261 seconds
-  Import took 0.006167 seconds .
+  Time since last request: 20.131113 seconds.
+  path: Assets/Sprites/Eigene/Character/Animals/pig-01.png
+  artifactKey: Guid(ac6390674b74d2f4b9f33786ad97f6fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Eigene/Character/Animals/pig-01.png using Guid(ac6390674b74d2f4b9f33786ad97f6fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ffd77cf71f071ac58bf79fc8cc63b3b') in 0.190925 seconds
+  Import took 0.195443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Sprites/Eigene/Character/Animals/pig-02.png
+  artifactKey: Guid(e7cf49dceac97de4583d6e6c5af937e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Eigene/Character/Animals/pig-02.png using Guid(e7cf49dceac97de4583d6e6c5af937e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e284f3169d18a64c247e8970e17a16c7') in 0.020233 seconds
+  Import took 0.026261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Sprites/Eigene/Character/Animals/pig-04.png
+  artifactKey: Guid(d27a64ef9e905894cbe92090f944a47b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Eigene/Character/Animals/pig-04.png using Guid(d27a64ef9e905894cbe92090f944a47b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb35fdfaf4d5ea1f6035cebb2a44f42c') in 0.015124 seconds
+  Import took 0.020917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Sprites/Eigene/Character/Animals/pig-03.png
+  artifactKey: Guid(6d6bedc39931811408e925a51ea02582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Eigene/Character/Animals/pig-03.png using Guid(6d6bedc39931811408e925a51ea02582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cbb35c5636d18ad211a609c3a5803ed') in 0.015228 seconds
+  Import took 0.019422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.976664 seconds.
+  path: Assets/Sprites/Eigene/Character/Animals/Materials
+  artifactKey: Guid(0ad0638b9e7767e43a884ed0d855ea37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Eigene/Character/Animals/Materials using Guid(0ad0638b9e7767e43a884ed0d855ea37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd45076651c31ad0303a961926801f3e2') in 0.010434 seconds
+  Import took 0.016645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.178518 seconds.
+  path: Assets/Sprites/Eigene/Character/Animals/pig-01.png
+  artifactKey: Guid(ac6390674b74d2f4b9f33786ad97f6fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Eigene/Character/Animals/pig-01.png using Guid(ac6390674b74d2f4b9f33786ad97f6fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f870ad29389587e44ef80e98f30f6b6a') in 0.025240 seconds
+  Import took 0.033222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Sprites/Eigene/Character/Animals/pig-02.png
+  artifactKey: Guid(e7cf49dceac97de4583d6e6c5af937e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Eigene/Character/Animals/pig-02.png using Guid(e7cf49dceac97de4583d6e6c5af937e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c358a1527ffa6edffd77d2bd83104540') in 0.020081 seconds
+  Import took 0.026941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Sprites/Eigene/Character/Animals/pig-04.png
+  artifactKey: Guid(d27a64ef9e905894cbe92090f944a47b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Eigene/Character/Animals/pig-04.png using Guid(d27a64ef9e905894cbe92090f944a47b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '768f71dbdbdc5dca6b70cb28ae484ddd') in 0.015452 seconds
+  Import took 0.020551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Sprites/Eigene/Character/Animals/pig-03.png
+  artifactKey: Guid(6d6bedc39931811408e925a51ea02582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Eigene/Character/Animals/pig-03.png using Guid(6d6bedc39931811408e925a51ea02582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80a78c3cd64c35f57bac750d5ec1e9f9') in 0.016771 seconds
+  Import took 0.024906 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003816 seconds.
+Registered in 0.035082 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.66 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.109 seconds
+- Completed reload, in  2.519 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2140 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 185.0 MB.
-System memory in use after: 185.2 MB.
+Unloading 2139 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.2 MB.
+System memory in use after: 100.4 MB.
 
-Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2594.
-Total: 1.425541 ms (FindLiveObjects: 0.135500 ms CreateObjectMapping: 0.041667 ms MarkObjects: 1.231458 ms  DeleteObjects: 0.015875 ms)
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2601.
+Total: 3.774400 ms (FindLiveObjects: 0.272000 ms CreateObjectMapping: 0.135600 ms MarkObjects: 3.336400 ms  DeleteObjects: 0.028600 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.020036 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.652 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2139 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.3 MB.
+System memory in use after: 100.4 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2605.
+Total: 3.080400 ms (FindLiveObjects: 0.225900 ms CreateObjectMapping: 0.101300 ms MarkObjects: 2.723800 ms  DeleteObjects: 0.027800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 813.316626 seconds.
+  path: Assets/Animations/SnailPig.controller
+  artifactKey: Guid(c099d09414bd5f74fbe3f573f24925bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/SnailPig.controller using Guid(c099d09414bd5f74fbe3f573f24925bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26a45e2a5b5281f6b55080003df3336b') in 0.043407 seconds
+  Import took 0.050738 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.026132 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.469 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2139 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.3 MB.
+System memory in use after: 100.4 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2609.
+Total: 2.787800 ms (FindLiveObjects: 0.232800 ms CreateObjectMapping: 0.087500 ms MarkObjects: 2.438400 ms  DeleteObjects: 0.027700 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
