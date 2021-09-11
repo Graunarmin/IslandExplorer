@@ -124,56 +124,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &1676839
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1676840}
-  - component: {fileID: 1676841}
-  m_Layer: 0
-  m_Name: NotebookManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1676840
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1676839}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 182102273}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1676841
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1676839}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4409865c658194001ad631faf6de6a58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  questSection: {fileID: 0}
-  emptyBox: {fileID: 0}
-  checkedBox: {fileID: 0}
-  checkImage: {fileID: 0}
-  textBox: {fileID: 0}
-  stickerSection: {fileID: 0}
-  mapSection: {fileID: 0}
 --- !u!1 &5731560
 GameObject:
   m_ObjectHideFlags: 0
@@ -3105,7 +3055,6 @@ Transform:
   - {fileID: 837410029}
   - {fileID: 1330459440}
   - {fileID: 282703708}
-  - {fileID: 1676840}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -14562,6 +14511,7 @@ GameObject:
   - component: {fileID: 561385263}
   - component: {fileID: 561385262}
   - component: {fileID: 561385261}
+  - component: {fileID: 561385264}
   m_Layer: 0
   m_Name: LexikonButton
   m_TagString: Untagged
@@ -14683,6 +14633,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 561385259}
   m_CullTransparentMesh: 1
+--- !u!114 &561385264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 561385259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89be98791e61a4ece99115d33265f0f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &566616202
 GameObject:
   m_ObjectHideFlags: 0
@@ -34276,6 +34238,7 @@ GameObject:
   - component: {fileID: 1081683498}
   - component: {fileID: 1081683497}
   - component: {fileID: 1081683496}
+  - component: {fileID: 1081683499}
   m_Layer: 0
   m_Name: MapButton
   m_TagString: Untagged
@@ -34397,6 +34360,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1081683494}
   m_CullTransparentMesh: 1
+--- !u!114 &1081683499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1081683494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89be98791e61a4ece99115d33265f0f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1094183857
 GameObject:
   m_ObjectHideFlags: 0
@@ -42155,6 +42130,7 @@ GameObject:
   - component: {fileID: 2126720518}
   - component: {fileID: 2126720517}
   - component: {fileID: 2126720516}
+  - component: {fileID: 2126720519}
   m_Layer: 0
   m_Name: QuestButton
   m_TagString: Untagged
@@ -42276,6 +42252,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2126720514}
   m_CullTransparentMesh: 1
+--- !u!114 &2126720519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2126720514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89be98791e61a4ece99115d33265f0f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2128983248
 GameObject:
   m_ObjectHideFlags: 0

@@ -340,3 +340,111 @@ System memory in use after: 195.0 MB.
 Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2631.
 Total: 1.421166 ms (FindLiveObjects: 0.115375 ms CreateObjectMapping: 0.039875 ms MarkObjects: 1.246083 ms  DeleteObjects: 0.018959 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007348 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.006 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2142 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 195.1 MB.
+System memory in use after: 195.3 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2634.
+Total: 1.456500 ms (FindLiveObjects: 0.106625 ms CreateObjectMapping: 0.042458 ms MarkObjects: 1.290458 ms  DeleteObjects: 0.016083 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006655 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.062 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2142 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 195.4 MB.
+System memory in use after: 195.5 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2637.
+Total: 1.430333 ms (FindLiveObjects: 0.117333 ms CreateObjectMapping: 0.041958 ms MarkObjects: 1.242042 ms  DeleteObjects: 0.027958 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1050.533617 seconds.
+  path: Assets/Scripts/UI/Tab.cs
+  artifactKey: Guid(89be98791e61a4ece99115d33265f0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/Tab.cs using Guid(89be98791e61a4ece99115d33265f0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd09596fda96746fd2f8ac4204a1ec3f') in 0.006460 seconds
+  Import took 0.009504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000408 seconds.
+  path: Assets/Scripts/UI/Tab.cs
+  artifactKey: Guid(89be98791e61a4ece99115d33265f0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/Tab.cs using Guid(89be98791e61a4ece99115d33265f0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd09596fda96746fd2f8ac4204a1ec3f') in 0.001006 seconds
+  Import took 0.003873 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007946 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.244 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2143 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 195.6 MB.
+System memory in use after: 195.7 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2641.
+Total: 1.446792 ms (FindLiveObjects: 0.107833 ms CreateObjectMapping: 0.041958 ms MarkObjects: 1.277292 ms  DeleteObjects: 0.018750 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 162.391960 seconds.
+  path: Assets/Scripts/UI/Tab.cs
+  artifactKey: Guid(89be98791e61a4ece99115d33265f0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/Tab.cs using Guid(89be98791e61a4ece99115d33265f0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fedb56d3055d19c67e155ab614189fc2') in 0.011104 seconds
+  Import took 0.018500 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004702 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.161 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2143 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 195.8 MB.
+System memory in use after: 195.9 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2644.
+Total: 1.565417 ms (FindLiveObjects: 0.161000 ms CreateObjectMapping: 0.045833 ms MarkObjects: 1.338833 ms  DeleteObjects: 0.019000 ms)
+
