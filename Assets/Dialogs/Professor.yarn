@@ -1,28 +1,31 @@
 title: Professor.Start
 tags: 
-colorID: 1
-position: 516,86
+colorID: 0
+position: 416,-168
 ---
 <<SetSpeaker Professor>>
-Finally! That was a long journey ...
-Let's set up the tent and get to work!
-[[All right! | okay]]
-[[Why do I have to do that? | WhyMe]]
-===
-title: okay
-tags: 
-colorID: 0
-position: 803,369
----
-Thanks!
-===
-title: WhyMe
-tags: 
-colorID: 0
-position: 803,369
----
-<<SetSpeaker Professor>>
-Because I am old and tired and I'm paying you.
+So, did you have a look at this interesting snail ... pig ... the creature, that greated us?
 <<SetSpeaker Player>>
-All right, all right.
+-> Scary
+    Not yet, it's quite intimidating ...
+    <<SetSpeaker Professor>>
+    Ah, don't be scared!
+    It seemed rather lovely to me.
+    <<SetSpeaker Player>>
+    -> Ok
+        Allright ...
+    -> Hm
+        If you say so ...
+    <<GiveQuest Snail>>
+
+-> Not interested
+    No, I don't really care ...
+    <<SetSpeaker Professor>>
+    That's too bad. But I would be really thankful if you could find something out about it.
+     <<SetSpeaker Player>>
+    -> Ok
+        Allright ...
+    -> Hm
+        If you say so ...
+    <<GiveQuest Snail>>
 ===

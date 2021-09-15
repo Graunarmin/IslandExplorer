@@ -1,15 +1,10 @@
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Yarn.Unity;
-using UnityEngine.UI;
-using TMPro;
-using UnityEngine.SceneManagement;
 
 public class DialogManager : MonoBehaviour
 {
-    public DialogueRunner Runner { get; private set; }
     public DialogueRunner dialogueRunner;
     
     #region Singleton
@@ -25,9 +20,9 @@ public class DialogManager : MonoBehaviour
         {
             Debug.LogWarning("More than one instance of DialogManager!");
         }
-
-        Runner = dialogueRunner;
-        Runner.AddCommandHandler("SetSpeaker", SetSpeakerInfo);
+        
+        dialogueRunner.AddCommandHandler("SetSpeaker", SetSpeakerInfo);
+        dialogueRunner.AddCommandHandler("GiveQuest", GiveQuest);
         dialogCanvas.gameObject.SetActive(false);
     }
 
@@ -39,9 +34,8 @@ public class DialogManager : MonoBehaviour
     
     private Dictionary<string, CharacterAsset> speakerDatabase = new Dictionary<string, CharacterAsset>();
 
-    [SerializeField] private QuestGiver questGiver;
-
-    public static event Action<bool> DialogStarted; 
+    public static event Action<bool> DialogStarted;
+    public static event Action<string> GiveQuestEvent;
 
     public void ActivateDialog()
     {
@@ -75,6 +69,6 @@ public class DialogManager : MonoBehaviour
 
     void GiveQuest(string[] questTitle)
     {
-        questGiver.SetQuest(questTitle[0]);
+        GiveQuestEvent?.Invoke(questTitle[0]);
     }
 }

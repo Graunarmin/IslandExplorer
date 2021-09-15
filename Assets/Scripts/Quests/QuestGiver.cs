@@ -16,7 +16,17 @@ public class QuestGiver : MonoBehaviour
             questsDict.Add(quest.quest.title, quest);
         }
     }
-    
+
+    private void OnEnable()
+    {
+        DialogManager.GiveQuestEvent += SetQuest;
+    }
+
+    private void OnDisable()
+    {
+        DialogManager.GiveQuestEvent -= SetQuest;
+    }
+
     // Soll im Dialog per Command ausgelöst werden
     public void SetQuest(string questTitle)
     {

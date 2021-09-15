@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class Interaction : MonoBehaviour
 {
-    public Prerequisite[] prerequisites;
+    protected Prerequisite[] prerequisites;
     protected Sprite icon;
     private bool _subscribedToInteractEvent;
 

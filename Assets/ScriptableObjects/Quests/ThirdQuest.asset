@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: ThirdQuest
   m_EditorClassIdentifier: 
   title: Third Quest
-  icon: {fileID: -7415437939232105655, guid: 6c723c25b4c6d4444b157797e4c238f1, type: 3}
-  questText: Find the blue Crystals in the big Cave
+  icon: {fileID: 21300020, guid: b08e570699f1c8a4f9cc388204aef3bc, type: 3}
+  questText: Find me a green Cap

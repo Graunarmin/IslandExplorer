@@ -21,18 +21,22 @@ public class Quest : MonoBehaviour
 
     private void CompleteQuest(Interactable item)
     {
-        if (item is QuestItem)
+        if (isActive)
         {
-            if (item == goalItem)
+            if (item is QuestItem)
             {
-                Interactable.InteractedEvent -= CompleteQuest;
+                if (item == goalItem)
+                {
+                    Interactable.InteractedEvent -= CompleteQuest;
         
-                //Broadcast that this quest is completed
-                completedQuestEvent?.Invoke(this);
+                    //Broadcast that this quest is completed
+                    completedQuestEvent?.Invoke(this);
+                    questEntry.CheckBox(this);
                 
-                SetCompleted(true);
-                SetActive(false);
-                Debug.Log("You completed the quest " + quest.title);
+                    SetCompleted(true);
+                    SetActive(false);
+                    Debug.Log("You completed the quest " + quest.title);
+                }
             }
         }
     }

@@ -20,16 +20,6 @@ public class QuestEntry : MonoBehaviour
         textField.gameObject.SetActive(false);
     }
 
-    private void OnEnable()
-    {
-        Quest.completedQuestEvent += CheckBox;
-    }
-
-    private void OnDisable()
-    {
-        Quest.completedQuestEvent -= CheckBox;
-    }
-
     public void SetQuest(Quest quest)
     {
         attachedQuest = quest;
@@ -38,11 +28,12 @@ public class QuestEntry : MonoBehaviour
         textField.text = quest.quest.questText;
     }
 
-    private void CheckBox(Quest quest)
+    public void CheckBox(Quest quest)
     {
         if (quest == attachedQuest)
         {
             checkBox.sprite = checkMark;
+            Debug.Log("Checking of Box");
         }
     }
 }

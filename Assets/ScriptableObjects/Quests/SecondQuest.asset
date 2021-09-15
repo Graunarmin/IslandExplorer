@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64ed26d96b8ef4b32bd5a7eb101e1484, type: 3}
   m_Name: SecondQuest
   m_EditorClassIdentifier: 
-  title: Second Quest
-  icon: {fileID: 21300000, guid: 2eb82ac66de274383af71b2eb2c75da0, type: 3}
-  questText: Find the purple pig snail in desert for me
+  title: Helmet
+  icon: {fileID: 21300062, guid: f5f1c19ce87450f4b97f8b363746558d, type: 3}
+  questText: Find me a black Helmet
