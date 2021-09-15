@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// Movement & Animation: https://www.youtube.com/watch?v=whzomFgjT50&list=PL1EolBJZ74i2Y_Nhuk_fkNt4Urte5mepC&index=46&t=635s
 public class PlayerMovement : MonoBehaviour
 {
 
@@ -17,10 +18,6 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame (Handle Input Here)
     void Update()
     {
-        /*if (DialogManager.dialogManager.inDialog)
-        {
-            return;
-        }*/
         GetMovement();
     }
 
