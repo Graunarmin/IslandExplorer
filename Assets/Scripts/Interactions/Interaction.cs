@@ -4,7 +4,7 @@ using UnityEngine;
 public class Interaction : MonoBehaviour
 {
     public Prerequisite[] prerequisites;
-    
+    protected Sprite icon;
     private bool _subscribedToInteractEvent;
 
     protected virtual void Awake()
@@ -32,7 +32,8 @@ public class Interaction : MonoBehaviour
     {
         if (!AllPrerequisitesComplete())
         {
-            GetFirstIncompletePrerequisite().ShowRequirements();
+            GetFirstIncompletePrerequisite().ShowRequirements(icon);
+            Interactable.ActiveInteractable.WasVisited();
         }
         else
         {

@@ -5,6 +5,7 @@ using UnityEngine;
 using Yarn.Unity;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class DialogManager : MonoBehaviour
 {
@@ -37,9 +38,6 @@ public class DialogManager : MonoBehaviour
     public bool inDialog;
     
     private Dictionary<string, CharacterAsset> speakerDatabase = new Dictionary<string, CharacterAsset>();
-    
-    [SerializeField] private Image speakerPortrait;
-    [SerializeField] private TextMeshProUGUI speakerName;
 
     [SerializeField] private QuestGiver questGiver;
 
@@ -72,15 +70,7 @@ public class DialogManager : MonoBehaviour
     
     void SetSpeakerInfo(string[] info)
     {
-        string speaker = info[0];
-
-        if (speakerDatabase.TryGetValue(speaker, out CharacterAsset data))
-        {
-            speakerPortrait.sprite = data.characterPortrait;
-            speakerName.text = data.characterName;
-            return;
-        }
-        Debug.Log("Could not set speaker info for unknown speaker");
+        dialogCanvas.SetSpeakerInfo(info, speakerDatabase);
     }
 
     void GiveQuest(string[] questTitle)

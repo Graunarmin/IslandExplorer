@@ -11,6 +11,7 @@ public abstract class Interactable : MonoBehaviour
     public Interaction interaction;
 
     public static event Action<Interactable> InteractedEvent;
+    public bool HasBeenVisited { get; private set; }
 
     void Awake()
     {
@@ -22,6 +23,8 @@ public abstract class Interactable : MonoBehaviour
         {
             col = null;
         }
+
+        HasBeenVisited = false;
     }
 
     void SetActiveInteractable(bool set)
@@ -59,5 +62,10 @@ public abstract class Interactable : MonoBehaviour
         // Broadcast that the Interaction on this Event is Complete so 
         // others (e.g. Quests) can respond accordingly
         InteractedEvent?.Invoke(this);
+    }
+
+    public virtual void WasVisited()
+    {
+        HasBeenVisited = true;
     }
 }

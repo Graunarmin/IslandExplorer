@@ -3,7 +3,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Area : MonoBehaviour
+    public class Area : MonoBehaviour
 {
     [SerializeField]
     private bool activeRegion;
@@ -29,7 +29,7 @@ public class Area : MonoBehaviour
         SetContainedItems(true);
         
         //Camera Follow
-        CameraController cam = References.instance.mainCamera.GetComponent<CameraController>();
+        CameraController cam = Camera.main.gameObject.GetComponent<CameraController>();
             
         if (other.CompareTag(References.instance.player.tag))
         {

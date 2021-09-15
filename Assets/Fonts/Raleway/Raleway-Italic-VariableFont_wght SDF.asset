@@ -59,9 +59,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
   m_Name: Raleway-Italic-VariableFont_wght SDF
   m_EditorClassIdentifier: 
-  hashCode: 0
+  hashCode: 208834872
   material: {fileID: 1525843170353528027}
-  materialHashCode: 0
+  materialHashCode: 1960901656
   m_Version: 1.1.0
   m_SourceFontFileGUID: e7d2a94ec51374ee3ba702bc60e29932
   m_SourceFontFile_EditorRef: {fileID: 12800000, guid: e7d2a94ec51374ee3ba702bc60e29932,
@@ -2709,9 +2709,9 @@ Material:
     - _OutlineWidth: 0
     - _PerspectiveFilter: 0.875
     - _Reflectivity: 10
-    - _ScaleRatioA: 1
-    - _ScaleRatioB: 1
-    - _ScaleRatioC: 1
+    - _ScaleRatioA: 0.8333333
+    - _ScaleRatioB: 0.6770833
+    - _ScaleRatioC: 0.6770833
     - _ScaleX: 1
     - _ScaleY: 1
     - _ShaderFlags: 0

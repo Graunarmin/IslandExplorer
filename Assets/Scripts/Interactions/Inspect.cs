@@ -4,7 +4,6 @@ public class Inspect : Interaction
 {
     protected Item item;
     
-    protected Sprite icon;
     public string displayText;
 
     void Start()

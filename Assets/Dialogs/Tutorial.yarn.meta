@@ -1,0 +1,55 @@
+fileFormatVersion: 2
+guid: aa7b0676b38374133abebcd436ba4e9a
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: en-US
+  stringIDs:
+  - Tutorial-Tutorial.Start-0
+  - Tutorial-Tutorial.Start-1
+  - Tutorial-Tutorial.Start-2
+  - Tutorial-Tutorial.Start-3
+  - Tutorial-Tutorial.Start-4
+  - Tutorial-Tutorial.Start-5
+  - Tutorial-Tutorial.Start-6
+  - Tutorial-Tutorial.Start-7
+  - Tutorial-Tutorial.Start-8
+  - Tutorial-Tutorial.Start-9
+  - Tutorial-Tutorial.Start-10
+  - Tutorial-Tutorial.Start-11
+  - Tutorial-Tutorial.Start-12
+  - Tutorial-Tutorial.Start-13
+  - Tutorial-Tutorial.Start-14
+  - Tutorial-Tutorial.Start-15
+  - Tutorial-Tutorial.Start-16
+  - Tutorial-Tutorial.Start-17
+  - Tutorial-Tutorial.Start-18
+  - Tutorial-Tutorial.Start-19
+  - Tutorial-Tutorial.Start-20
+  - Tutorial-Tutorial.Start-21
+  - Tutorial-Tutorial.Start-22
+  - Tutorial-Tutorial.Start-23
+  - Tutorial-Tutorial.Start-24
+  - Tutorial-Tutorial.Start-25
+  - Tutorial-Tutorial.Start-26
+  - Tutorial-Tutorial.Start-27
+  - Tutorial-Tutorial.Start-28
+  - Tutorial-Tutorial.Start-29
+  - Tutorial-Tutorial.Start-30
+  - Tutorial-Tutorial.Start-31
+  - Tutorial-Tutorial.Start-32
+  - Tutorial-Tutorial.Start-33
+  - Tutorial-Tutorial.Start-34
+  - Tutorial-Tutorial.Start-35
+  - Tutorial-Tutorial.Start-36
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: aa7b0676b38374133abebcd436ba4e9a,
+    type: 3}
+  localizations: []

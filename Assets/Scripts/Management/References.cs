@@ -16,7 +16,6 @@ public class References : MonoBehaviour
         }
         
         infoBoxCanvas.gameObject.SetActive(false);
-        questCanvas.gameObject.SetActive(false);
         notebookCanvas.gameObject.SetActive(false);
     }
 
@@ -30,11 +29,7 @@ public class References : MonoBehaviour
 
     public InfoBoxCanvas infoBoxCanvas;
 
-    public QuestCanvas questCanvas;
-
     public NotebookCanvas notebookCanvas;
-    
-    public TutorialCanvas tutorialCanvas;
 
     #endregion
 

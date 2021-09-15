@@ -5,12 +5,19 @@ using UnityEngine;
 public class Prerequisite : MonoBehaviour
 {
     private bool itemAccess;
-    public string requirements;
+    [SerializeField] string requirements;
 
     public virtual bool Complete { get { return false; } }
     
-    public void ShowRequirements()
+    public void ShowRequirements(Sprite icon)
     {
-        Debug.Log(requirements);
+        if (!References.instance.infoBoxCanvas.gameObject.activeInHierarchy)
+        {
+            References.instance.infoBoxCanvas.Activate(icon, requirements);
+        }
+        else
+        {
+            References.instance.infoBoxCanvas.Close();
+        }
     }
 }
