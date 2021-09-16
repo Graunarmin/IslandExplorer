@@ -1778,7 +1778,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 269269494}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.82, y: 2.05, z: 0}
+  m_LocalPosition: {x: 11.01, y: 2.77, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1126757666}
@@ -2322,9 +2322,6 @@ MonoBehaviour:
   dialogueRunner: {fileID: 1785240007}
   dialogCanvas: {fileID: 350570493}
   inDialog: 0
-  speakerPortrait: {fileID: 1167709748}
-  speakerName: {fileID: 1797350813}
-  questGiver: {fileID: 0}
 --- !u!4 &282703708
 Transform:
   m_ObjectHideFlags: 0
@@ -2843,6 +2840,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff47f402115634c08a1768cd0b1f4b5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speakerPortrait: {fileID: 0}
 --- !u!1 &365627013
 GameObject:
   m_ObjectHideFlags: 0
@@ -3044,7 +3042,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fc519b110e345efb2d4449cdb0c4749, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prerequisites: []
   displayText: I'm the best Rock in the World!
 --- !u!58 &382989794
 CircleCollider2D:
@@ -3211,7 +3208,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fc519b110e345efb2d4449cdb0c4749, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prerequisites: []
   displayText: Wow, that is BIG
 --- !u!61 &385067670
 BoxCollider2D:
@@ -4060,7 +4056,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7dbe8b34b104786958ad0b2012af8c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prerequisites: []
 --- !u!114 &465646471
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23859,9 +23854,7 @@ MonoBehaviour:
   mainCamera: {fileID: 456854291}
   player: {fileID: 269269495}
   infoBoxCanvas: {fileID: 2120164814}
-  questCanvas: {fileID: 1295205096}
   notebookCanvas: {fileID: 424076714}
-  tutorialCanvas: {fileID: 0}
 --- !u!1 &838718176
 GameObject:
   m_ObjectHideFlags: 0
@@ -24495,7 +24488,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fc519b110e345efb2d4449cdb0c4749, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prerequisites: []
   displayText: 'Left: Forest'
 --- !u!114 &948451878
 MonoBehaviour:
@@ -25048,7 +25040,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2add0da1ca042eda7833a0d79c56e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prerequisites: []
   displayText: Old Gloves - Maybe I can use them later.
 --- !u!1 &980336808
 GameObject:
@@ -25835,7 +25826,7 @@ SpriteRenderer:
   m_SortingLayerID: 1899902935
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 8b7262b649a174e0b84d5b6f63880200, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0bc8cf20ad379ac4f839ab2e58feef4e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -25854,8 +25845,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1126757662}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.38, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.13000011, y: 0.8499998, z: 0}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 1}
   m_Children: []
   m_Father: {fileID: 269269495}
   m_RootOrder: 0
@@ -33290,8 +33281,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1200946311}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.012, y: -0.441, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.085, y: -0.735, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 269269495}
@@ -40917,7 +40908,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd69f93f3dec349bb944a810741a34b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prerequisites: []
   playerFeet: {fileID: 1200946312}
   groundTilemap: {fileID: 0}
   collisionTilemap: {fileID: 0}
@@ -40936,6 +40926,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   col: {fileID: 0}
   interaction: {fileID: 1961927153}
+  itemInfo: {fileID: 0}
+  location: {fileID: 0}
 --- !u!58 &1961927155
 CircleCollider2D:
   m_ObjectHideFlags: 0
