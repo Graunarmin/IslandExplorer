@@ -7,7 +7,7 @@ public class Collect : Inspect
     {
         if (item is Tool)
         {
-            GameManager.InteractionEvent -= Interact;
+            GameManager.InteractionPressedEvent -= Interact;
         }
     }
 }

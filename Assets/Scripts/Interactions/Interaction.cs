@@ -14,7 +14,7 @@ public class Interaction : MonoBehaviour
 
     protected virtual void OnEnable()
     {
-        GameManager.InteractionEvent += TryInteracting;
+        GameManager.InteractionPressedEvent += TryInteracting;
         _subscribedToInteractEvent = true;
         prerequisites = gameObject.GetComponents<Prerequisite>();
     }
@@ -23,7 +23,7 @@ public class Interaction : MonoBehaviour
     {
         if (_subscribedToInteractEvent)
         {
-            GameManager.InteractionEvent -= TryInteracting;
+            GameManager.InteractionPressedEvent -= TryInteracting;
             _subscribedToInteractEvent = false;
         }
     }

@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -23,34 +24,63 @@ public class GameManager : MonoBehaviour
 
     #endregion
 
+    #region Event subscriptions
     private void OnEnable()
     {
-        InspectorCanvas.Interacting += MovementFrozen;
+        InspectorCanvas.Interacting += FreezeMovement;
         InspectorCanvas.Interacting += SetInteracting;
         DialogManager.DialogStarted += SetInDialog;
+        PopUpWindow.QuitGameEvent += QuitGame;
+        PopUpWindow.LoadMainMenuEvent += LoadMainMenu;
     }
 
-
-    private KeyCode interact = KeyCode.Space;
-    private KeyCode notebook = KeyCode.E;
-    //private KeyCode walkiTalki = KeyCode.T;
-    //private KeyCode pause = KeyCode.Escape;
-
+    private void OnDisable()
+    {
+        InspectorCanvas.Interacting -= FreezeMovement;
+        InspectorCanvas.Interacting -= SetInteracting;
+        DialogManager.DialogStarted -= SetInDialog;
+        PopUpWindow.QuitGameEvent -= QuitGame;
+        PopUpWindow.LoadMainMenuEvent -= LoadMainMenu;
+    }
+    #endregion
+    
+    #region States
+    
     private bool currentlyInteracting;
     private bool inDialog;
     
-    #region UserInput
-    public static event Action InteractionEvent;
+    private void SetInteracting(bool status)
+    {
+        currentlyInteracting = status;
+    }
+
+    private void SetInDialog(bool status)
+    {
+        inDialog = status;
+        FreezeMovement(status);
+    }
     
-    // Update is called once per frame
+    #endregion
+    
+    #region UserInput
+    
+    private KeyCode interact = KeyCode.Space;
+    private KeyCode notebook = KeyCode.E;
+    private KeyCode pause = KeyCode.Escape;
+    //private KeyCode walkiTalki = KeyCode.T;
+    
+    #region Input Events
+    public static event Action InteractionPressedEvent;
+    public static event Action PausePressedEvent;
+    
+    #endregion
     void Update()
     {
         if (!inDialog)
         {
             if (Input.GetKeyDown(interact))
             {
-                //Broadcast that the interact Key was pressed
-                InteractionEvent?.Invoke();
+                InteractionPressedEvent?.Invoke();
             }
             
             if (!currentlyInteracting) //meaning no Canvases open
@@ -67,24 +97,30 @@ public class GameManager : MonoBehaviour
                     References.instance.notebookCanvas.Close();
                 }
             }
+
+            if (Input.GetKeyDown(pause))
+            {
+                PausePressedEvent?.Invoke();
+            }
         }
     }
     #endregion
 
     
-    public void MovementFrozen(bool status)
+    private void FreezeMovement(bool status)
     {
         References.instance.player.GetComponent<PlayerMovement>().enabled = !status;
     }
 
-    private void SetInteracting(bool status)
+    private void LoadMainMenu()
     {
-        currentlyInteracting = status;
+        Debug.Log("Loading Main Menu");
+        SceneManager.LoadScene("01_MainMenu");
     }
 
-    private void SetInDialog(bool status)
+    private void QuitGame()
     {
-        inDialog = status;
-        MovementFrozen(status);
+        Debug.Log("Quitting Game");
+        Application.Quit();
     }
 }

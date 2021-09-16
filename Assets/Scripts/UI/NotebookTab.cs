@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class Tab : MonoBehaviour, ISelectHandler
+public class NotebookTab : MonoBehaviour, ISelectHandler
 {
     public void OnSelect(BaseEventData eventData)
     {
