@@ -30,6 +30,7 @@ public class GameManager : MonoBehaviour
         InspectorCanvas.Interacting += FreezeMovement;
         InspectorCanvas.Interacting += SetInteracting;
         DialogManager.DialogStarted += SetInDialog;
+        MenuManager.GamePausedEvent += FreezeMovement;
         PopUpWindow.QuitGameEvent += QuitGame;
         PopUpWindow.LoadMainMenuEvent += LoadMainMenu;
     }
@@ -39,6 +40,7 @@ public class GameManager : MonoBehaviour
         InspectorCanvas.Interacting -= FreezeMovement;
         InspectorCanvas.Interacting -= SetInteracting;
         DialogManager.DialogStarted -= SetInDialog;
+        MenuManager.GamePausedEvent -= FreezeMovement;
         PopUpWindow.QuitGameEvent -= QuitGame;
         PopUpWindow.LoadMainMenuEvent -= LoadMainMenu;
     }

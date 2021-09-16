@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class ResolutionManager : MonoBehaviour
 {
-    public int width;
-    public int height;
+    private int width;
+    private int height;
 
     public void SetWidth(int newWidth)
     {

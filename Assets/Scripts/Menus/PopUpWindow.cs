@@ -1,9 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class PopUpWindow : MonoBehaviour
@@ -11,28 +9,60 @@ public class PopUpWindow : MonoBehaviour
     public List<Button> buttons = new List<Button>();
     public static event Action QuitGameEvent;
     public static event Action LoadMainMenuEvent;
+
+    public static event Action ClosePopUp;
+
+    private string calledBy;
     public bool IsActive
     {
         get { return gameObject.activeInHierarchy; }
     }
     
-    public void ShowWindow()
-    {
+    public void ShowWindow(string caller)
+    {   
         gameObject.SetActive(true);
+        if (gameObject.GetComponent<UITweener>() != null)
+        {
+            Debug.Log("Has Tweener Component");
+            gameObject.GetComponent<UITweener>().Show();
+        }
+        calledBy = caller;
         buttons[0].Select();
     }
 
     public void HideWindow()
     {
-        gameObject.SetActive(false);
+        if (gameObject.GetComponent<UITweener>() != null)
+        {
+            Debug.Log("Has Tweener Component");
+            gameObject.GetComponent<UITweener>().Disable();
+        }
+        else
+        {
+            gameObject.SetActive(false);
+        }
+        ClosePopUp?.Invoke();
     }
 
-    public void LoadMainMenu()
+    public void DoClosingAction()
+    {
+        switch (calledBy)
+        {
+            case "MainMenu":
+                LoadMainMenu();
+                break;
+            case "Quit":
+                QuitGame();
+                break;
+        }
+    }
+
+    private void LoadMainMenu()
     {
         LoadMainMenuEvent?.Invoke();
     }
 
-    public void QuitGame()
+    private void QuitGame()
     {
         QuitGameEvent?.Invoke();
     }

@@ -6,104 +6,87 @@ using UnityEngine.UI;
 
 public class PauseMenu : MonoBehaviour
 {
-    public GameObject pauseMenuUI;
-    public GameObject optionsMenuUI;
     public List<Button> buttons = new List<Button>();
+    public OptionsMenu optionsMenuUI;
     public PopUpWindow progressPopUp;
     public PopUpWindow controlsPopUp;
 
-    public static event Action<bool> GamePausedEvent;
+    public static event Action ResumeGameEvent;
 
     private void OnEnable()
     {
-        GameManager.PausePressedEvent += PauseInteraction;
+        PopUpWindow.ClosePopUp += PopUpWasClosed;
     }
 
     private void OnDisable()
     {
-        GameManager.PausePressedEvent -= PauseInteraction;
+        PopUpWindow.ClosePopUp -= PopUpWasClosed;
     }
 
-    public void PauseInteraction()
+    public void Activate()
     {
-        if (progressPopUp.IsActive)
-        {
-            HidePopUp(progressPopUp);
-        }
-        else if (controlsPopUp.IsActive)
-        {
-            HidePopUp(controlsPopUp);
-        }
-        else if (gameObject.activeInHierarchy)
-        {
-            ResumeGame();
-        }
-        else
-        {
-            PauseGame();
-        }
+        gameObject.SetActive(true);
+        buttons[0].Select();
+        
     }
 
+    public void Deactivate()
+    {
+        gameObject.SetActive(false);
+    }
     public void ContinueButton()
     {
-        ResumeGame();
+        ResumeGameEvent?.Invoke();
     }
 
     public void OptionsButton()
     {
-        pauseMenuUI.SetActive(false);
-        optionsMenuUI.SetActive(true);
+       Deactivate();
+       optionsMenuUI.Activate(this);
     }
 
     public void ControlsButton()
     {
-        ShowPopUp(controlsPopUp);
+        ShowPopUp(controlsPopUp, "Controls");
     }
 
     public void MainMenuButton()
     {
-        ShowPopUp(progressPopUp);
+        ShowPopUp(progressPopUp, "MainMenu");
     }
 
     public void QuitButton()
     {
-        ShowPopUp(progressPopUp);
+        ShowPopUp(progressPopUp, "Quit");
     }
 
-    private void ShowPopUp(PopUpWindow popUp)
+    private void ShowPopUp(PopUpWindow popUp, string caller)
     {
-        popUp.ShowWindow();
-        foreach (Button button in buttons)
-        {
-            button.interactable = false;
-        }
+        popUp.ShowWindow(caller);
+        EnableButtons(false);
     }
 
-    private void HidePopUp(PopUpWindow popUp)
+    public void HidePopUp(PopUpWindow popUp)
     {
         popUp.HideWindow();
-        foreach (Button button in buttons)
-        {
-            button.interactable = true;
-        }
-        buttons[0].Select();
+        PopUpWasClosed();
+    }
+
+    private void PopUpWasClosed()
+    {
+        EnableButtons(true);
     }
     
-    private void PauseGame()
+    private void EnableButtons(bool state)
     {
-        pauseMenuUI.SetActive(true);
-        buttons[0].Select();
-        GamePausedEvent?.Invoke(true);
-        
-        Debug.Log("Pause Game");
-    }
+        foreach (Button button in buttons)
+        {
+            button.interactable = state;
+        }
 
-    private void ResumeGame()
-    {
-        GamePausedEvent?.Invoke(false);
-        pauseMenuUI.SetActive(false);
-        
-        Debug.Log("Resume Game");
+        if (state)
+        {
+            buttons[0].Select();
+        }
     }
-
 }
