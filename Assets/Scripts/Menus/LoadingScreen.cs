@@ -8,7 +8,7 @@ public class LoadingScreen : MonoBehaviour
     public static LoadingScreen Instance;
 
     // Make sure the loading screen shows for at least 1 second:
-    private const float MIN_TIME_TO_SHOW = 1f;
+    private const float MIN_TIME_TO_SHOW = 3f;
 
     // The reference to the current loading operation running in the background:
     private AsyncOperation currentLoadingOperation;
@@ -32,7 +32,6 @@ public class LoadingScreen : MonoBehaviour
 
     private void Awake()
     {
-        // Singleton logic:
         if (Instance == null)
         {
             Instance = this;

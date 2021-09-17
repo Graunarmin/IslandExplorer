@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class MainMenu : MonoBehaviour
@@ -13,6 +14,18 @@ public class MainMenu : MonoBehaviour
     public float fadeInTime;
 
     public List<TextMeshProUGUI> texts = new List<TextMeshProUGUI>();
+
+    private void OnEnable()
+    {
+        MenuObject.PlayGame += PlayGame;
+        MenuObject.QuitGame += QuitGame;
+    }
+
+    private void OnDisable()
+    {
+        MenuObject.PlayGame -= PlayGame;
+        MenuObject.QuitGame -= QuitGame;
+    }
 
     private void Start()
     {
@@ -31,9 +44,6 @@ public class MainMenu : MonoBehaviour
         //first set alpha to zero
         textElement.color = new Color(textElement.color.r, textElement.color.g, textElement.color.b, 0);
 
-        //wait until video is loaded
-        //yield return new WaitForSecondsRealtime(2f);
-
         //the fade in text
         while (textElement.color.a < 1.0f)
         {
@@ -51,6 +61,42 @@ public class MainMenu : MonoBehaviour
 
         mainMenuUI.EnableButtons(true);
     }
+
+    private KeyCode escape = KeyCode.Escape;
+
+    void Update()
+    {
+        if (Input.GetKeyDown(escape))
+        {
+            EscapeInteraction();
+        }
+    }
+
+    public void EscapeInteraction()
+    {
+        if (mainMenuUI.controlsPopUp.IsActive)
+        {
+            mainMenuUI.HidePopUp(mainMenuUI.controlsPopUp);
+        }
+        else if (mainMenuUI.creditsPopUp.IsActive)
+        {
+            mainMenuUI.HidePopUp(mainMenuUI.creditsPopUp);
+        }
+        else if (mainMenuUI.optionsMenuUI.IsActive)
+        {
+            mainMenuUI.optionsMenuUI.Deactivate();
+        }
+    }
     
+    private void PlayGame()
+    {
+        LoadingScreen.Instance.Show(SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex + 1));
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
+    private void QuitGame()
+    {
+        Application.Quit();
+    }
     
 }

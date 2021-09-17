@@ -69,7 +69,6 @@ public class UITweener : MonoBehaviour, ISelectHandler, IDeselectHandler
 
     public void HandleTween()
     {
-        Debug.Log("Tweening");
         if (objectToAnimate == null)
         {
             objectToAnimate = gameObject;

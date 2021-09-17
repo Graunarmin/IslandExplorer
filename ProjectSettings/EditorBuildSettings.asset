@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/02_Tutorial.unity
     guid: 471aeb97a921241c595833db0bfe3406
+  - enabled: 1
+    path: Assets/Scenes/TopDownTest.unity
+    guid: 5a5390c81d3d24ea2ac3c91c25a3286c
   m_configObjects: {}

@@ -74,7 +74,8 @@ public class TutorialManager : MonoBehaviour
     IEnumerator LoadNextScene(float time)
     {
         yield return new WaitForSeconds(time);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        LoadingScreen.Instance.Show(SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex + 1));
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
     
     void AddSpeaker(CharacterAsset data)

@@ -15,11 +15,6 @@ public class OptionsMenu : MonoBehaviour
         get { return gameObject.activeInHierarchy; }
     }
 
-    private void Awake()
-    {
-        gameObject.SetActive(false);
-    }
-
     public void Activate(MenuObject menu)
     {
         gameObject.SetActive(true);

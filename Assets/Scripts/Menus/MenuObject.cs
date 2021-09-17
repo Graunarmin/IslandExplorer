@@ -14,12 +14,17 @@ public class MenuObject : MonoBehaviour
     public PopUpWindow controlsPopUp;
 
     public static event Action ResumeGameEvent;
+    public static event Action PlayGame;
+    public static event Action QuitGame;
+
+    private Button currentButton;
 
     private void OnEnable()
     {
         PopUpWindow.ClosePopUp += PopUpWasClosed;
         progressPopUp?.Deactivate();
         controlsPopUp?.Deactivate();
+        optionsMenuUI?.gameObject.SetActive(false);
     }
 
     private void OnDisable()
@@ -30,7 +35,8 @@ public class MenuObject : MonoBehaviour
     public void Activate()
     {
         gameObject.SetActive(true);
-        buttons[0].Select();
+        currentButton = buttons[0];
+        currentButton.Select();
     }
 
     public void Deactivate()
@@ -40,37 +46,47 @@ public class MenuObject : MonoBehaviour
 
     public void PlayButton()
     {
-        PlayGame();
+        PlayGame?.Invoke();
     }
     public void ContinueButton()
     {
         ResumeGameEvent?.Invoke();
     }
 
-    public void OptionsButton()
+    public void OptionsButton(Button button)
     {
        Deactivate();
        optionsMenuUI.Activate(this);
+       currentButton = button;
     }
 
-    public void ControlsButton()
+    public void ControlsButton(Button button)
     {
         ShowPopUp(controlsPopUp, "Controls");
+        currentButton = button;
     }
 
-    public void MainMenuButton()
+    public void MainMenuButton(Button button)
     {
         ShowPopUp(progressPopUp, "MainMenu");
+        currentButton = button;
     }
 
-    public void CreditsButton()
+    public void CreditsButton(Button button)
     {
         ShowPopUp(creditsPopUp, "Credits");
+        currentButton = button;
     }
 
-    public void QuitButton()
+    public void QuitButton(Button button)
     {
         ShowPopUp(progressPopUp, "Quit");
+        currentButton = button;
+    }
+
+    public void QuitFromMain()
+    {
+        QuitGame?.Invoke();
     }
 
     private void ShowPopUp(PopUpWindow popUp, string caller)
@@ -92,7 +108,6 @@ public class MenuObject : MonoBehaviour
     
     public void EnableButtons(bool state)
     {
-        Debug.Log("Enabeling Buttons: " + state);
         foreach (Button button in buttons)
         {
             button.interactable = state;
@@ -100,12 +115,7 @@ public class MenuObject : MonoBehaviour
 
         if (state)
         {
-            buttons[0].Select();
+            currentButton.Select();
         }
-    }
-
-    private void PlayGame()
-    {
-        LoadingScreen.Instance.Show(SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex + 1));
     }
 }
