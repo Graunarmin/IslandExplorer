@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Player_walk_up
+  m_Name: player_walk_up
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -21,17 +21,17 @@ AnimationClip:
   - curve:
     - time: 0
       value: {fileID: 21300000, guid: 7cf7a5ad1c465a64ca9abe3c7d65e19f, type: 3}
-    - time: 0.1
+    - time: 0.125
       value: {fileID: 21300000, guid: 4596b098a2a738d49b0f44405b1b78a4, type: 3}
-    - time: 0.2
+    - time: 0.25
       value: {fileID: 21300000, guid: f21e607716665ed479d6ca3ffad128ed, type: 3}
-    - time: 0.3
+    - time: 0.375
       value: {fileID: 21300000, guid: 9734a8999102ddd49bc4fb06d60f658d, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
     script: {fileID: 0}
-  m_SampleRate: 10
+  m_SampleRate: 8
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -55,7 +55,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.4
+    m_StopTime: 0.5
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
