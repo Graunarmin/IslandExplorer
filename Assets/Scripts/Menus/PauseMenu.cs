@@ -1,92 +1,73 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+using System;
 
 public class PauseMenu : MonoBehaviour
 {
-    public List<Button> buttons = new List<Button>();
-    public OptionsMenu optionsMenuUI;
-    public PopUpWindow progressPopUp;
-    public PopUpWindow controlsPopUp;
+    public GameObject menuCanvas;
+    public MenuObject pauseMenuUI;
 
-    public static event Action ResumeGameEvent;
-
+    public static event Action<bool> GamePausedEvent;
+    private void Awake()
+    {
+        menuCanvas.SetActive(false);
+    }
+    
     private void OnEnable()
     {
-        PopUpWindow.ClosePopUp += PopUpWasClosed;
+        GameManager.PausePressedEvent += PauseInteraction;
+        MenuObject.ResumeGameEvent += ResumeGame;
     }
 
     private void OnDisable()
     {
-        PopUpWindow.ClosePopUp -= PopUpWasClosed;
+        GameManager.PausePressedEvent -= PauseInteraction;
+        MenuObject.ResumeGameEvent -= ResumeGame;
     }
 
-    public void Activate()
+    void PauseInteraction()
     {
-        gameObject.SetActive(true);
-        buttons[0].Select();
-        
-    }
-
-    public void Deactivate()
-    {
-        gameObject.SetActive(false);
-    }
-    public void ContinueButton()
-    {
-        ResumeGameEvent?.Invoke();
-    }
-
-    public void OptionsButton()
-    {
-       Deactivate();
-       optionsMenuUI.Activate(this);
-    }
-
-    public void ControlsButton()
-    {
-        ShowPopUp(controlsPopUp, "Controls");
-    }
-
-    public void MainMenuButton()
-    {
-        ShowPopUp(progressPopUp, "MainMenu");
-    }
-
-    public void QuitButton()
-    {
-        ShowPopUp(progressPopUp, "Quit");
-    }
-
-    private void ShowPopUp(PopUpWindow popUp, string caller)
-    {
-        popUp.ShowWindow(caller);
-        EnableButtons(false);
-    }
-
-    public void HidePopUp(PopUpWindow popUp)
-    {
-        popUp.HideWindow();
-        PopUpWasClosed();
-    }
-
-    private void PopUpWasClosed()
-    {
-        EnableButtons(true);
+        if (menuCanvas.gameObject.activeInHierarchy)
+        {
+            if (pauseMenuUI.progressPopUp.IsActive)
+            {
+                pauseMenuUI.HidePopUp(pauseMenuUI.progressPopUp);
+            }
+            else if (pauseMenuUI.controlsPopUp.IsActive)
+            {
+                pauseMenuUI.HidePopUp(pauseMenuUI.controlsPopUp);
+            }
+            else if (pauseMenuUI.optionsMenuUI.IsActive)
+            {
+                pauseMenuUI.optionsMenuUI.Deactivate();
+            }
+            else
+            {
+                ResumeGame();
+            }
+        }
+        else
+        {
+            PauseGame();
+        }
     }
     
-    private void EnableButtons(bool state)
+    private void PauseGame()
     {
-        foreach (Button button in buttons)
-        {
-            button.interactable = state;
-        }
+        menuCanvas.SetActive(true);
+        pauseMenuUI.Activate();
+        GamePausedEvent?.Invoke(true);
+        
+        Debug.Log("Pause Game");
+    }
 
-        if (state)
-        {
-            buttons[0].Select();
-        }
+    private void ResumeGame()
+    {
+        pauseMenuUI.Deactivate();
+        menuCanvas.SetActive(false);
+        GamePausedEvent?.Invoke(false);
+        
+        Debug.Log("Resume Game");
     }
 }

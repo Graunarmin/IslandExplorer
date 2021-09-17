@@ -39,9 +39,14 @@ public class PopUpWindow : MonoBehaviour
         }
         else
         {
-            gameObject.SetActive(false);
+            Deactivate();
         }
         ClosePopUp?.Invoke();
+    }
+
+    public void Deactivate()
+    {
+        gameObject.SetActive(false);
     }
 
     public void DoClosingAction()
