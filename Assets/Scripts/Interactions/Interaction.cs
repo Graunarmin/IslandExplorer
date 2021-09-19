@@ -17,6 +17,10 @@ public class Interaction : MonoBehaviour
         GameManager.InteractionPressedEvent += TryInteracting;
         _subscribedToInteractEvent = true;
         prerequisites = gameObject.GetComponents<Prerequisite>();
+        if (gameObject.GetComponent<Item>() != null)
+        {
+            icon = gameObject.GetComponent<Item>().itemInfo.icon;
+        }
     }
 
     protected virtual void OnDisable()

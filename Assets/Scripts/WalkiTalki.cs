@@ -11,6 +11,11 @@ public class WalkiTalki : MonoBehaviour
         Quest.CompletedQuestEvent += Call;
     }
 
+    private void OnDisable()
+    {
+        Quest.CompletedQuestEvent -= Call;
+    }
+
     private void Call(Quest quest)
     {
         DialogManager.dialogManager.ActivateDialog(owner);

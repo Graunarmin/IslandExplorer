@@ -17,14 +17,14 @@ public class MainMenu : MonoBehaviour
 
     private void OnEnable()
     {
-        MenuObject.PlayGame += PlayGame;
-        MenuObject.QuitGame += QuitGame;
+        MenuObject.PlayGameEvent += PlayGame;
+        MenuObject.QuitGameEvent += QuitGame;
     }
 
     private void OnDisable()
     {
-        MenuObject.PlayGame -= PlayGame;
-        MenuObject.QuitGame -= QuitGame;
+        MenuObject.PlayGameEvent -= PlayGame;
+        MenuObject.QuitGameEvent -= QuitGame;
     }
 
     private void Start()

@@ -33,20 +33,20 @@ public class DialogManager : MonoBehaviour
     
     private Dictionary<string, CharacterAsset> speakerDatabase = new Dictionary<string, CharacterAsset>();
 
-    public static event Action<bool> DialogStarted;
+    public static event Action<bool> DialogStartedEvent;
 
     public void ActivateDialog(Character character)
     {
         dialogCanvas.Activate();
         inDialog = true;
-        DialogStarted?.Invoke(true);
+        DialogStartedEvent?.Invoke(true);
         dialogueRunner.StartDialogue(character.YarnStartNode);
     }
 
     public void DeactivateDialog()
     {
         inDialog = false;
-        DialogStarted?.Invoke(false);
+        DialogStartedEvent?.Invoke(false);
         dialogCanvas.Close();
     }
     

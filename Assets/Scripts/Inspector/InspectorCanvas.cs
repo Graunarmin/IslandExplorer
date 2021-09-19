@@ -6,7 +6,7 @@ public abstract class InspectorCanvas : MonoBehaviour
 {
     public static InspectorCanvas ActiveCanvas { get; private set; }
 
-    public static event Action<bool> Interacting;
+    public static event Action<bool> InteractingEvent;
 
     void SetActiveCanvas(bool set)
     {
@@ -36,7 +36,7 @@ public abstract class InspectorCanvas : MonoBehaviour
     
     public void CurrentlyInteracting(bool interacting)
     {
-        Interacting?.Invoke(interacting);
+        InteractingEvent?.Invoke(interacting);
     }
 }
     

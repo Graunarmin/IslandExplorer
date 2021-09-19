@@ -7,6 +7,8 @@ public class StickerManager : MonoBehaviour
 {
     public List<Sticker> stickers = new List<Sticker>();
     
+    public static event Action<StickerItem> AddedStickerToLexiconEvent;
+    
     private void OnEnable()
     {
         Interactable.InteractedEvent += AddSticker;
@@ -16,8 +18,6 @@ public class StickerManager : MonoBehaviour
     {
         Interactable.InteractedEvent -= AddSticker;
     }
-    
-       public static event Action<StickerItem> AddedStickerToLexiconEvent;
 
     private void AddSticker(Interactable item)
     {

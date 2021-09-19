@@ -27,9 +27,9 @@ public class GameManager : MonoBehaviour
     #region Event subscriptions
     private void OnEnable()
     {
-        InspectorCanvas.Interacting += FreezeMovement;
-        InspectorCanvas.Interacting += SetInteracting;
-        DialogManager.DialogStarted += SetInDialog;
+        InspectorCanvas.InteractingEvent += FreezeMovement;
+        InspectorCanvas.InteractingEvent += SetInteracting;
+        DialogManager.DialogStartedEvent += SetInDialog;
         PauseMenu.GamePausedEvent += FreezeMovement;
         PopUpWindow.QuitGameEvent += QuitGame;
         PopUpWindow.LoadMainMenuEvent += LoadMainMenu;
@@ -37,9 +37,9 @@ public class GameManager : MonoBehaviour
 
     private void OnDisable()
     {
-        InspectorCanvas.Interacting -= FreezeMovement;
-        InspectorCanvas.Interacting -= SetInteracting;
-        DialogManager.DialogStarted -= SetInDialog;
+        InspectorCanvas.InteractingEvent -= FreezeMovement;
+        InspectorCanvas.InteractingEvent -= SetInteracting;
+        DialogManager.DialogStartedEvent -= SetInDialog;
         PauseMenu.GamePausedEvent -= FreezeMovement;
         PopUpWindow.QuitGameEvent -= QuitGame;
         PopUpWindow.LoadMainMenuEvent -= LoadMainMenu;

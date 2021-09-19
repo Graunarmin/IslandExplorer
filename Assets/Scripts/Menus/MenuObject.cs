@@ -14,14 +14,14 @@ public class MenuObject : MonoBehaviour
     public PopUpWindow controlsPopUp;
 
     public static event Action ResumeGameEvent;
-    public static event Action PlayGame;
-    public static event Action QuitGame;
+    public static event Action PlayGameEvent;
+    public static event Action QuitGameEvent;
 
     private Button currentButton;
 
     private void OnEnable()
     {
-        PopUpWindow.ClosePopUp += PopUpWasClosed;
+        PopUpWindow.ClosePopUpEvent += PopUpWasClosed;
         progressPopUp?.Deactivate();
         controlsPopUp?.Deactivate();
         optionsMenuUI?.gameObject.SetActive(false);
@@ -29,7 +29,7 @@ public class MenuObject : MonoBehaviour
 
     private void OnDisable()
     {
-        PopUpWindow.ClosePopUp -= PopUpWasClosed;
+        PopUpWindow.ClosePopUpEvent -= PopUpWasClosed;
     }
 
     public void Activate()
@@ -46,7 +46,7 @@ public class MenuObject : MonoBehaviour
 
     public void PlayButton()
     {
-        PlayGame?.Invoke();
+        PlayGameEvent?.Invoke();
     }
     public void ContinueButton()
     {
@@ -86,7 +86,7 @@ public class MenuObject : MonoBehaviour
 
     public void QuitFromMain()
     {
-        QuitGame?.Invoke();
+        QuitGameEvent?.Invoke();
     }
 
     private void ShowPopUp(PopUpWindow popUp, string caller)

@@ -10,7 +10,7 @@ public class PopUpWindow : MonoBehaviour
     public static event Action QuitGameEvent;
     public static event Action LoadMainMenuEvent;
 
-    public static event Action ClosePopUp;
+    public static event Action ClosePopUpEvent;
 
     private string calledBy;
     public bool IsActive
@@ -41,7 +41,7 @@ public class PopUpWindow : MonoBehaviour
         {
             Deactivate();
         }
-        ClosePopUp?.Invoke();
+        ClosePopUpEvent?.Invoke();
     }
 
     public void Deactivate()
