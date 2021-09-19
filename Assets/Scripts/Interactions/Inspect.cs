@@ -3,8 +3,6 @@ using UnityEngine;
 public class Inspect : Interaction
 {
     protected Item item;
-    
-    public string displayText;
 
     void Start()
     {
@@ -30,7 +28,7 @@ public class Inspect : Interaction
     
     protected void ShowInfo()
     {
-        References.instance.infoBoxCanvas.Activate(icon, displayText);
+        References.instance.infoBoxCanvas.Activate(icon, item.itemInfo.infoText);
     }
 
     protected void HideInfo()

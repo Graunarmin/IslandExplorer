@@ -1,9 +1,11 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using Yarn.Unity;
 
 public class QuestGiver : MonoBehaviour
 {
+    public Quest startQuest;
     [SerializeField] private List<Quest> quests = new List<Quest>();
     private Dictionary<string, Quest> questsDict = new Dictionary<string, Quest>();
 
@@ -19,15 +21,10 @@ public class QuestGiver : MonoBehaviour
 
     private void OnEnable()
     {
-        DialogManager.GiveQuestEvent += SetQuest;
+        SetQuest(startQuest);
     }
 
-    private void OnDisable()
-    {
-        DialogManager.GiveQuestEvent -= SetQuest;
-    }
-
-    // Soll im Dialog per Command ausgelöst werden
+    [YarnCommand("GiveQuest")]
     public void SetQuest(string questTitle)
     {
         Quest activeQuest;
@@ -36,7 +33,13 @@ public class QuestGiver : MonoBehaviour
             Debug.Log("Quest " + questTitle + " is not in Catalogue!");
             return;
         }
-        activeQuest.SetActive(true);
-        QuestWasGivenEvent?.Invoke(activeQuest);
+        SetQuest(activeQuest);
+        
+    }
+    private void SetQuest(Quest quest)
+    {
+        Debug.Log("Give quest " + quest.quest.title );
+        quest.SetActive(true);
+        QuestWasGivenEvent?.Invoke(quest);
     }
 }

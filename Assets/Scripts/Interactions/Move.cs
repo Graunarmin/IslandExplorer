@@ -6,7 +6,6 @@ using UnityEngine.Tilemaps;
 
 public class Move : Interaction
 {
-    public Transform playerFeet;
     [SerializeField] private Tilemap groundTilemap;
     [SerializeField] private Tilemap collisionTilemap;
     [SerializeField] private Collider2D objectCollider;
@@ -29,7 +28,7 @@ public class Move : Interaction
     private Vector3 DetermineMoveDirection()
     {
         // https://forum.unity.com/threads/detection-if-player-left-or-right-of-enemy.515074/
-        Vector2 relativePoint = transform.InverseTransformPoint(playerFeet.position);
+        Vector2 relativePoint = transform.InverseTransformPoint(References.instance.playerFeet.position);
         if (relativePoint.x < 0f && Mathf.Abs(relativePoint.x) > Mathf.Abs(relativePoint.y))
         {
             return new Vector3(1f, 0f, 0f);

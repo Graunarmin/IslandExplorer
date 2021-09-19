@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,24 +7,19 @@ using UnityEngine.UI;
 
 public class StickerItem : Item
 {
-
-    public Image sticker;
-    public TextMeshProUGUI infoText;
-
     [SerializeField] bool isInLexicon;
-    
-    
-    public override void WasInteractedWith()
+
+    private void OnEnable()
     {
-        base.WasInteractedWith();
-        
-        //Maybe with event?
-        AddToLexicon();
+        StickerManager.AddedStickerToLexiconEvent += AddToLexicon;
     }
 
-    private void AddToLexicon()
+    private void AddToLexicon(StickerItem item)
     {
-        isInLexicon = true;
+        if (item == this)
+        {
+            isInLexicon = true;
+        }
     }
     
     private void RemoveFromLexicon()

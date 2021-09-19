@@ -5,27 +5,30 @@ position: 416,-168
 ---
 <<SetSpeaker Professor>>
 So, did you have a look at this interesting snail ... pig ... the creature, that greated us?
-<<SetSpeaker Player>>
 -> Scary
+    <<SetSpeaker Player>>
     Not yet, it's quite intimidating ...
     <<SetSpeaker Professor>>
     Ah, don't be scared!
     It seemed rather lovely to me.
-    <<SetSpeaker Player>>
     -> Ok
+        <<SetSpeaker Player>>
         Allright ...
     -> Hm
+        <<SetSpeaker Player>>
         If you say so ...
     <<GiveQuest Snail>>
 
 -> Not interested
+    <<SetSpeaker Player>>
     No, I don't really care ...
     <<SetSpeaker Professor>>
     That's too bad. But I would be really thankful if you could find something out about it.
-     <<SetSpeaker Player>>
     -> Ok
+        <<SetSpeaker Player>>
         Allright ...
     -> Hm
+    <<SetSpeaker Player>>
         If you say so ...
-    <<GiveQuest Snail>>
+<<GiveQuest QuestGiver Helmet>>
 ===

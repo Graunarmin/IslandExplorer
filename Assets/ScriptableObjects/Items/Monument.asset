@@ -12,5 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae367cea2fd774c89b2622ff30a5c67a, type: 3}
   m_Name: Monument
   m_EditorClassIdentifier: 
+  itemType: 3
   itemName: Monument
   icon: {fileID: 21300000, guid: 2eb82ac66de274383af71b2eb2c75da0, type: 3}
+  infoText: Wow, this is BIG
+  sticker: {fileID: 21300000, guid: 2eb82ac66de274383af71b2eb2c75da0, type: 3}
+  lexiconText: This Monument was considered a holy place in the old days. Creatures
+    came here to talk to the spirits.
+  questTitle: 

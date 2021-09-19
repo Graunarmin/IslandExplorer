@@ -14,3 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Cap
   icon: {fileID: 21300020, guid: b08e570699f1c8a4f9cc388204aef3bc, type: 3}
+  infoText: A beautiful green Cap
+  itemType: 5
+  sticker: {fileID: 21300020, guid: b08e570699f1c8a4f9cc388204aef3bc, type: 3}
+  lexiconText: This cap was used in the old days by hunters, who did not want to
+    be seen.
+  questTitle: Third Quest

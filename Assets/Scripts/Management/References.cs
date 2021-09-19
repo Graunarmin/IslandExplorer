@@ -26,7 +26,7 @@ public class References : MonoBehaviour
     public Camera mainCamera;
 
     public Transform player;
-
+    public Transform playerFeet;
     public InfoBoxCanvas infoBoxCanvas;
 
     public NotebookCanvas notebookCanvas;

@@ -12,5 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae367cea2fd774c89b2622ff30a5c67a, type: 3}
   m_Name: Gloves
   m_EditorClassIdentifier: 
+  itemType: 2
   itemName: Gloves
   icon: {fileID: 21300000, guid: 708c7c576ebe84b5e937bdd65c636b2b, type: 3}
+  infoText: I guess I could use these to protect my hands
+  sticker: {fileID: 0}
+  lexiconText: 
+  questTitle: 

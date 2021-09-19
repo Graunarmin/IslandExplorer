@@ -22,7 +22,6 @@ public class DialogManager : MonoBehaviour
         }
         
         dialogueRunner.AddCommandHandler("SetSpeaker", SetSpeakerInfo);
-        dialogueRunner.AddCommandHandler("GiveQuest", GiveQuest);
         dialogCanvas.gameObject.SetActive(false);
     }
 
@@ -35,7 +34,6 @@ public class DialogManager : MonoBehaviour
     private Dictionary<string, CharacterAsset> speakerDatabase = new Dictionary<string, CharacterAsset>();
 
     public static event Action<bool> DialogStarted;
-    public static event Action<string> GiveQuestEvent;
 
     public void ActivateDialog()
     {
@@ -66,9 +64,5 @@ public class DialogManager : MonoBehaviour
     {
         dialogCanvas.SetSpeakerInfo(info, speakerDatabase);
     }
-
-    void GiveQuest(string[] questTitle)
-    {
-        GiveQuestEvent?.Invoke(questTitle[0]);
-    }
+    
 }

@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae367cea2fd774c89b2622ff30a5c67a, type: 3}
   m_Name: Rock
   m_EditorClassIdentifier: 
+  itemType: 5
   itemName: Rock
   icon: {fileID: 21300000, guid: 37eaf6e537ca749adaaea0a3e900d411, type: 3}
-  location: {fileID: 0}
-  disappearsOnCollect: 1
-  isStackable: 1
+  infoText: A shiny Rock
+  sticker: {fileID: 21300000, guid: 37eaf6e537ca749adaaea0a3e900d411, type: 3}
+  lexiconText: 
+  questTitle: First Quest
