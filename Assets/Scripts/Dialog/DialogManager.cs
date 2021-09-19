@@ -35,12 +35,12 @@ public class DialogManager : MonoBehaviour
 
     public static event Action<bool> DialogStarted;
 
-    public void ActivateDialog()
+    public void ActivateDialog(Character character)
     {
         dialogCanvas.Activate();
         inDialog = true;
         DialogStarted?.Invoke(true);
-        dialogueRunner.StartDialogue(((Character)Character.ActiveInteractable).YarnStartNode);
+        dialogueRunner.StartDialogue(character.YarnStartNode);
     }
 
     public void DeactivateDialog()

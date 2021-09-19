@@ -12,7 +12,7 @@ public class Quest : MonoBehaviour
     [SerializeField] private QuestEntry questEntry;
 
     public static Quest ActiveQuest { get; private set; }
-    public static event Action<Quest> completedQuestEvent;
+    public static event Action<Quest> CompletedQuestEvent;
 
     private void Start()
     {
@@ -30,7 +30,7 @@ public class Quest : MonoBehaviour
                     Interactable.InteractedEvent -= CompleteQuest;
         
                     //Broadcast that this quest is completed
-                    completedQuestEvent?.Invoke(this);
+                    CompletedQuestEvent?.Invoke(this);
                     questEntry.CheckBox(this);
                 
                     SetCompleted(true);
