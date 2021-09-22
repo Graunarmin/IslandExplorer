@@ -11,13 +11,13 @@ public class Prerequisite : MonoBehaviour
     
     public void ShowRequirements(Sprite icon)
     {
-        if (!References.instance.infoBoxCanvas.gameObject.activeInHierarchy)
+        if (!References.Instance.infoBoxCanvas.gameObject.activeInHierarchy)
         {
-            References.instance.infoBoxCanvas.Activate(icon, requirements);
+            References.Instance.infoBoxCanvas.Activate(icon, requirements);
         }
         else
         {
-            References.instance.infoBoxCanvas.Close();
+            References.Instance.infoBoxCanvas.Close();
         }
     }
 }

@@ -27,20 +27,22 @@ public class GameManager : MonoBehaviour
     #region Event subscriptions
     private void OnEnable()
     {
-        InspectorCanvas.InteractingEvent += FreezeMovement;
         InspectorCanvas.InteractingEvent += SetInteracting;
         DialogManager.DialogStartedEvent += SetInDialog;
-        PauseMenu.GamePausedEvent += FreezeMovement;
+        PauseMenu.GamePausedEvent += SetGamePaused;
+        Notebook.ReadingNotebookEvent += SetReadingNotebook;
+        PuzzleArea.PuzzleEnteredEvent += SetInPuzzle;
         PopUpWindow.QuitGameEvent += QuitGame;
         PopUpWindow.LoadMainMenuEvent += LoadMainMenu;
     }
 
     private void OnDisable()
     {
-        InspectorCanvas.InteractingEvent -= FreezeMovement;
         InspectorCanvas.InteractingEvent -= SetInteracting;
         DialogManager.DialogStartedEvent -= SetInDialog;
-        PauseMenu.GamePausedEvent -= FreezeMovement;
+        PauseMenu.GamePausedEvent -= SetGamePaused;
+        Notebook.ReadingNotebookEvent -= SetReadingNotebook;
+        PuzzleArea.PuzzleEnteredEvent -= SetInPuzzle;
         PopUpWindow.QuitGameEvent -= QuitGame;
         PopUpWindow.LoadMainMenuEvent -= LoadMainMenu;
     }
@@ -50,16 +52,43 @@ public class GameManager : MonoBehaviour
     
     private bool currentlyInteracting;
     private bool inDialog;
+    private bool readingNotebook;
+    private bool gamePaused;
+    private bool inPuzzle;
     
     private void SetInteracting(bool status)
     {
         currentlyInteracting = status;
+        FreezeMovement(status);
     }
 
     private void SetInDialog(bool status)
     {
         inDialog = status;
         FreezeMovement(status);
+    }
+
+    private void SetReadingNotebook(bool status)
+    {
+        readingNotebook = status;
+        if (!currentlyInteracting)
+        {
+            FreezeMovement(status);
+        }
+    }
+
+    private void SetGamePaused(bool status)
+    {
+        gamePaused = status;
+        if (!currentlyInteracting && !readingNotebook)
+        {
+            FreezeMovement(status);
+        }
+    }
+
+    private void SetInPuzzle(bool status)
+    {
+        inPuzzle = status;
     }
     
     #endregion
@@ -69,40 +98,44 @@ public class GameManager : MonoBehaviour
     private KeyCode interact = KeyCode.Space;
     private KeyCode notebook = KeyCode.E;
     private KeyCode pause = KeyCode.Escape;
+    private KeyCode reset = KeyCode.R;
     //private KeyCode walkiTalki = KeyCode.T;
     
     #region Input Events
     public static event Action InteractionPressedEvent;
     public static event Action PausePressedEvent;
+    public static event Action NotebookPressedEvent;
+    public static event Action ResetEvent;
     
     #endregion
     void Update()
     {
         if (!inDialog)
         {
-            if (Input.GetKeyDown(interact))
-            {
-                InteractionPressedEvent?.Invoke();
-            }
-            
-            if (!currentlyInteracting) //meaning no Canvases open
-            {
-                if (Input.GetKeyDown(notebook))
-                {
-                    References.instance.notebookCanvas.Activate();
-                }
-            }
-            else
-            {
-                if(Input.GetKeyDown(notebook) && InspectorCanvas.ActiveCanvas is NotebookCanvas)
-                {
-                    References.instance.notebookCanvas.Close();
-                }
-            }
-
             if (Input.GetKeyDown(pause))
             {
                 PausePressedEvent?.Invoke();
+            }
+            if (!gamePaused)
+            {
+                if (Input.GetKeyDown(notebook))
+                {
+                    NotebookPressedEvent?.Invoke();
+                }
+                if (!readingNotebook)
+                {
+                    if (Input.GetKeyDown(interact))
+                    {
+                        InteractionPressedEvent?.Invoke();
+                    }
+                    if (inPuzzle)
+                    {
+                        if (Input.GetKeyDown(reset))
+                        {
+                            ResetEvent?.Invoke();
+                        }
+                    }
+                }
             }
         }
     }
@@ -111,13 +144,13 @@ public class GameManager : MonoBehaviour
     
     private void FreezeMovement(bool status)
     {
-        References.instance.player.GetComponent<PlayerMovement>().enabled = !status;
+        References.Instance.player.GetComponent<PlayerMovement>().enabled = !status;
     }
 
     private void LoadMainMenu()
     {
         Debug.Log("Loading Main Menu");
-        SceneManager.LoadScene("01_MainMenu");
+        LoadingScreen.Instance.Show(SceneManager.LoadSceneAsync("01_MainMenu"));
     }
 
     private void QuitGame()

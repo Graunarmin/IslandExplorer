@@ -4,7 +4,7 @@ public class Inspect : Interaction
 {
     protected Item item;
 
-    void Start()
+    protected override void Start()
     {
         item = Interactable.ActiveInteractable as Item;
         if (item != null)
@@ -14,7 +14,7 @@ public class Inspect : Interaction
     }
     public override void Interact()
     {
-        if (!References.instance.infoBoxCanvas.gameObject.activeInHierarchy)
+        if (!References.Instance.infoBoxCanvas.gameObject.activeInHierarchy)
         {
             ShowInfo();
         }
@@ -28,11 +28,11 @@ public class Inspect : Interaction
     
     protected void ShowInfo()
     {
-        References.instance.infoBoxCanvas.Activate(icon, item.itemInfo.infoText);
+        References.Instance.infoBoxCanvas.Activate(icon, item.itemInfo.infoText);
     }
 
     protected void HideInfo()
     {
-        References.instance.infoBoxCanvas.Close();
+        References.Instance.infoBoxCanvas.Close();
     }
 }

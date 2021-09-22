@@ -26,13 +26,12 @@ public class NotebookCanvas : InspectorCanvas
     
     public void OnEnable()
     {
-        Reset();
+        OnQuestButton();
         questButton.Select();
     }
 
     public void OnQuestButton()
     {
-        Reset();
         background.sprite = questBackground;
         questSection.SetActive(true);
         stickerSection.SetActive(false);
@@ -42,7 +41,7 @@ public class NotebookCanvas : InspectorCanvas
 
     public void OnStickerButton()
     {
-        Reset();
+        OnQuestButton();
         background.sprite = stickerBackground;
         questSection.SetActive(false);
         stickerSection.SetActive(true);
@@ -52,19 +51,11 @@ public class NotebookCanvas : InspectorCanvas
 
     public void OnMapButton()
     {
-        Reset();
+        OnQuestButton();
         background.sprite = mapBackground;
         questSection.SetActive(false);
         stickerSection.SetActive(false);
         mapSection.SetActive(true);
         mapButton.Select();
-    }
-    private void Reset()
-    {
-        background.sprite = questBackground;
-        questSection.SetActive(true);
-        stickerSection.SetActive(false);
-        mapSection.SetActive(false);
-        questButton.Select();
     }
 }

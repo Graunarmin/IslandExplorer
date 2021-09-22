@@ -2,21 +2,25 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Tilemaps;
 
 public class References : MonoBehaviour
 {
     #region Singleton
 
-    public static References instance;
+    private static References _instance;
+    public static References Instance
+    {
+        get { return _instance; }
+    }
     private void Awake()
     {
-        if (instance == null)
+        if (_instance == null)
         {
-            instance = this;
+            _instance = this;
         }
         
         infoBoxCanvas.gameObject.SetActive(false);
-        notebookCanvas.gameObject.SetActive(false);
     }
 
     #endregion
@@ -28,8 +32,8 @@ public class References : MonoBehaviour
     public Transform player;
     public Transform playerFeet;
     public InfoBoxCanvas infoBoxCanvas;
-
-    public NotebookCanvas notebookCanvas;
+    public Tilemap waterTilemap;
+    public Tilemap pathTilemap;
 
     #endregion
 

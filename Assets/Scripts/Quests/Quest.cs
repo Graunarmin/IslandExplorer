@@ -14,6 +14,12 @@ public class Quest : MonoBehaviour
     public static Quest ActiveQuest { get; private set; }
     public static event Action<Quest> CompletedQuestEvent;
 
+    private void Awake()
+    {
+        questEntry.gameObject.SetActive(false);
+        questEntry.textField.gameObject.SetActive(false);
+    }
+
     private void Start()
     {
         Interactable.InteractedEvent += CompleteQuest;

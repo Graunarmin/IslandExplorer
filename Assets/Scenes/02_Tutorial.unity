@@ -771,7 +771,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fc519b110e345efb2d4449cdb0c4749, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  displayText: I'm the best Rock in the World!
 --- !u!58 &382989794
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -882,8 +881,6 @@ MonoBehaviour:
   interaction: {fileID: 382989793}
   itemInfo: {fileID: 11400000, guid: 38bc86563b54747fc8ace9112be96f51, type: 2}
   location: {fileID: 0}
-  sticker: {fileID: 0}
-  infoText: {fileID: 0}
   isInLexicon: 0
 --- !u!1 &454973987
 GameObject:
@@ -28361,6 +28358,66 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 339946186547560518, guid: dae39941e8c094e5c9e1a4c4eea78c00,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 339946186547560518, guid: dae39941e8c094e5c9e1a4c4eea78c00,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 339946186547560518, guid: dae39941e8c094e5c9e1a4c4eea78c00,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 339946186547560518, guid: dae39941e8c094e5c9e1a4c4eea78c00,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8390133167546047495, guid: dae39941e8c094e5c9e1a4c4eea78c00,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8390133167546047495, guid: dae39941e8c094e5c9e1a4c4eea78c00,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8390133167546047495, guid: dae39941e8c094e5c9e1a4c4eea78c00,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8390133167546047495, guid: dae39941e8c094e5c9e1a4c4eea78c00,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8390133168201745776, guid: dae39941e8c094e5c9e1a4c4eea78c00,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8390133168201745776, guid: dae39941e8c094e5c9e1a4c4eea78c00,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8390133168201745776, guid: dae39941e8c094e5c9e1a4c4eea78c00,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8390133168201745776, guid: dae39941e8c094e5c9e1a4c4eea78c00,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8390133168472933008, guid: dae39941e8c094e5c9e1a4c4eea78c00,
         type: 3}
       propertyPath: m_Pivot.x
@@ -28470,6 +28527,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: LoadingScreen
+      objectReference: {fileID: 0}
+    - target: {fileID: 8390133168472933012, guid: dae39941e8c094e5c9e1a4c4eea78c00,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dae39941e8c094e5c9e1a4c4eea78c00, type: 3}

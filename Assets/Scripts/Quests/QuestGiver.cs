@@ -19,7 +19,7 @@ public class QuestGiver : MonoBehaviour
         }
     }
 
-    private void OnEnable()
+    private void Start()
     {
         SetQuest(startQuest);
     }

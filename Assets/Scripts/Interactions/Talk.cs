@@ -6,7 +6,7 @@ public class Talk : Interaction
 
     private Character character;
 
-    private void Start()
+    protected override void Start()
     {
         character = Interactable.ActiveInteractable as Character;
     }

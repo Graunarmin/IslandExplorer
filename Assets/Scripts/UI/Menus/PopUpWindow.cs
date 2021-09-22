@@ -23,7 +23,6 @@ public class PopUpWindow : MonoBehaviour
         gameObject.SetActive(true);
         if (gameObject.GetComponent<UITweener>() != null)
         {
-            Debug.Log("Has Tweener Component");
             gameObject.GetComponent<UITweener>().Show();
         }
         calledBy = caller;
@@ -34,7 +33,6 @@ public class PopUpWindow : MonoBehaviour
     {
         if (gameObject.GetComponent<UITweener>() != null)
         {
-            Debug.Log("Has Tweener Component");
             gameObject.GetComponent<UITweener>().Disable();
         }
         else

@@ -16,12 +16,12 @@ using UnityEngine;
     [SerializeField]
     private Vector2 topRight;
     
-    private void OnTriggerEnter2D(Collider2D other)
+    protected void OnTriggerEnter2D(Collider2D other)
     {
         EnterRegion(other);
     }
 
-    private void EnterRegion(Collider2D other)
+    protected virtual void EnterRegion(Collider2D other)
     {
 
         activeRegion = true;
@@ -31,7 +31,7 @@ using UnityEngine;
         //Camera Follow
         CameraController cam = Camera.main.gameObject.GetComponent<CameraController>();
             
-        if (other.CompareTag(References.instance.player.tag))
+        if (other.CompareTag(References.Instance.player.tag))
         {
             cam.minPos = bottomLeft;
             cam.maxPos = topRight;
@@ -45,7 +45,7 @@ using UnityEngine;
     }
     
     //Set colliders of all contained items
-    private void ExitRegion(Collider2D other)
+    protected virtual void ExitRegion(Collider2D other)
     { 
         activeRegion = false;
         SetContainedItems(false);

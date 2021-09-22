@@ -10,20 +10,20 @@ public class QuestEntry : MonoBehaviour
     [SerializeField] private Sprite box;
     [SerializeField] private Sprite checkMark;
     [SerializeField] private Image checkBox;
-    [SerializeField] private TextMeshProUGUI textField;
+    public TextMeshProUGUI textField;
     private Quest attachedQuest;
 
     private void Awake()
     {
         checkBox.sprite = box;
-        gameObject.SetActive(false);
-        textField.gameObject.SetActive(false);
     }
 
     public void SetQuest(Quest quest)
     {
+        Debug.Log("Adding Quest to Notebook");
         attachedQuest = quest;
         gameObject.SetActive(true);
+        Debug.Log("Name: " + gameObject.name);
         textField.gameObject.SetActive(true);
         textField.text = quest.quest.questText;
     }

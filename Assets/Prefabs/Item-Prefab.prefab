@@ -111,7 +111,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   col: {fileID: 0}
-  interactable: {fileID: 0}
+  interaction: {fileID: 0}
   itemInfo: {fileID: 0}
   location: {fileID: 0}
 --- !u!1 &1717945591062586013

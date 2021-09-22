@@ -12,6 +12,11 @@ public class Interaction : MonoBehaviour
         this.enabled = false;
     }
 
+    protected virtual void Start()
+    {
+        
+    }
+
     protected virtual void OnEnable()
     {
         GameManager.InteractionPressedEvent += TryInteracting;
