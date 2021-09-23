@@ -14,6 +14,8 @@ public class Move : Interaction
     [SerializeField] private TileBase bridgeTile;
     [SerializeField] private Collider2D objectCollider;
 
+    public static event Action<bool> MovedStoneEvent;
+    public static event Action<bool> MovedStoneToWaterEvent;
     protected override void Start()
     {
         base.Start();
@@ -33,6 +35,7 @@ public class Move : Interaction
         if (CanMove(moveDirection))
         {
             transform.position += moveDirection;
+            MovedStoneEvent?.Invoke(true);
         }
         else
         {
@@ -40,6 +43,7 @@ public class Move : Interaction
             {
                 MoveIntoWater(moveDirection);
                 transform.position += moveDirection;
+                MovedStoneToWaterEvent?.Invoke(true);
             }
         }
     }

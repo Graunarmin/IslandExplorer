@@ -23,6 +23,8 @@ public class NotebookCanvas : InspectorCanvas
     [SerializeField] private Button mapButton;
     [SerializeField] private GameObject mapSection;
     [SerializeField] private Sprite mapBackground;
+
+    public static event Action<bool> PageTurnedEvent;
     
     public void OnEnable()
     {
@@ -32,6 +34,7 @@ public class NotebookCanvas : InspectorCanvas
 
     public void OnQuestButton()
     {
+        PageTurnedEvent?.Invoke(true);
         background.sprite = questBackground;
         questSection.SetActive(true);
         stickerSection.SetActive(false);
@@ -41,7 +44,8 @@ public class NotebookCanvas : InspectorCanvas
 
     public void OnStickerButton()
     {
-        OnQuestButton();
+        //OnQuestButton();
+        PageTurnedEvent?.Invoke(true);
         background.sprite = stickerBackground;
         questSection.SetActive(false);
         stickerSection.SetActive(true);
@@ -51,7 +55,8 @@ public class NotebookCanvas : InspectorCanvas
 
     public void OnMapButton()
     {
-        OnQuestButton();
+        //OnQuestButton();
+        PageTurnedEvent?.Invoke(true);
         background.sprite = mapBackground;
         questSection.SetActive(false);
         stickerSection.SetActive(false);
