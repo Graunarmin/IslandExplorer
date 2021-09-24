@@ -18,6 +18,7 @@ public class MenuObject : MonoBehaviour
     public static event Action QuitGameEvent;
 
     private Button currentButton;
+    private bool optionsActive = false;
 
     private void OnEnable()
     {
@@ -35,7 +36,11 @@ public class MenuObject : MonoBehaviour
     public void Activate()
     {
         gameObject.SetActive(true);
-        currentButton = buttons[0];
+        if (!optionsActive)
+        {
+            currentButton = buttons[0];
+        }
+        optionsActive = false;
         currentButton.Select();
     }
 
@@ -58,6 +63,7 @@ public class MenuObject : MonoBehaviour
        Deactivate();
        optionsMenuUI.Activate(this);
        currentButton = button;
+       optionsActive = true;
     }
 
     public void ControlsButton(Button button)

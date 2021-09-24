@@ -17,5 +17,6 @@ public class Talk : Interaction
         {
             DialogManager.dialogManager.ActivateDialog(character);
         }
+        OnInteract();
     }
 }

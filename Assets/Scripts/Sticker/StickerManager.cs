@@ -19,7 +19,7 @@ public class StickerManager : MonoBehaviour
         Interactable.InteractedEvent -= AddSticker;
     }
 
-    private void AddSticker(Interactable item)
+    private void AddSticker(Interactable item, Interaction interaction)
     {
         if (item is StickerItem)
         {

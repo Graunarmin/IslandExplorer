@@ -25,7 +25,7 @@ public class Quest : MonoBehaviour
         Interactable.InteractedEvent += CompleteQuest;
     }
 
-    private void CompleteQuest(Interactable item)
+    private void CompleteQuest(Interactable item, Interaction interaction)
     {
         if (isActive)
         {

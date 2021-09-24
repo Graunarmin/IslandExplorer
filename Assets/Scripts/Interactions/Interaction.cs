@@ -57,7 +57,8 @@ public class Interaction : MonoBehaviour
 
     protected void OnInteract()
     {
-        Interactable.ActiveInteractable.WasInteractedWith();
+        Interactable.ActiveInteractable.WasInteractedWith(this);
+        ReactToInteraction();
     }
     
     protected virtual void ReactToInteraction()

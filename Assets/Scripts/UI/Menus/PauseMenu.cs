@@ -58,8 +58,6 @@ public class PauseMenu : MonoBehaviour
         menuCanvas.SetActive(true);
         pauseMenuUI.Activate();
         GamePausedEvent?.Invoke(true);
-        
-        Debug.Log("Pause Game");
     }
 
     private void ResumeGame()
@@ -67,7 +65,5 @@ public class PauseMenu : MonoBehaviour
         pauseMenuUI.Deactivate();
         menuCanvas.SetActive(false);
         GamePausedEvent?.Invoke(false);
-        
-        Debug.Log("Resume Game");
     }
 }

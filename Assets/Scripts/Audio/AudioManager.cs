@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.Audio;
 using UnityEngine;
@@ -10,7 +11,6 @@ public class AudioManager : MonoBehaviour
     public RandomSound moveBoulders;
     public RandomSound pickAxe;
     public RandomSound pickUp;
-    public RandomSound addSticker;
     public RandomSound turnPage;
     public Sound walkiTalki;
     public Sound stoneBridge;
@@ -24,19 +24,55 @@ public class AudioManager : MonoBehaviour
     public Sound forestTheme;
     public Sound desertTheme;
 
-    private bool walking;
-
+    private bool _playLoop;
+    
     private void OnEnable()
     {
-        Notebook.ReadingNotebookEvent += _ => Play(openNotebook);
-        NotebookCanvas.PageTurnedEvent += _ => Play(turnPage);
+        PlayerMovement.IsWalkingEvent += play => RepeatPlaying(play, footsteps);
         Move.MovedStoneEvent += _ => Play(moveBoulders);
+        Interactable.InteractedEvent += ChooseInteraction;
+        NotebookCanvas.PageTurnedEvent += _ => Play(turnPage);
+        WalkiTalki.WalkiTalkiCallEvent += _ => Play(walkiTalki);
         Move.MovedStoneToWaterEvent += _ => Play(stoneBridge);
+        Notebook.ReadingNotebookEvent += _ => Play(openNotebook);
+        MenuButton.ButtonClickedEvent += _ => Play(buttonClick);
+        MenuButton.ButtonSelectedEvent += _ => Play(buttonHover);
+    }
+    
+    private void ChooseInteraction(Interactable item, Interaction interaction)
+    {
+        if (interaction is Destroy)
+        {
+            Play(pickAxe);
+        }
+
+        if (interaction is Collect)
+        {
+            Play(pickUp);
+        }
     }
 
-    private void SetWalking(bool status)
+    private void RepeatPlaying(bool play, RandomSound sound)
     {
-        walking = status;
+        if (play)
+        {
+            _playLoop = true;
+            StartCoroutine(LoopPlayer(sound));
+        }
+        else
+        {
+            _playLoop = false;
+            StopCoroutine(LoopPlayer(sound));
+        }
+    }
+
+    IEnumerator LoopPlayer(RandomSound sound)
+    {
+        while (_playLoop)
+        {
+            Play(sound);
+            yield return new WaitForSeconds(.5f);
+        }
     }
 
     public void Play(Sound sound)
@@ -51,13 +87,4 @@ public class AudioManager : MonoBehaviour
     {
         sound.Play();
     }
-
-    public void KeepPlaying(RandomSound sound, bool prerequisite)
-    {
-        while (prerequisite)
-        {
-            sound.Play();
-        }
-    }
-
 }

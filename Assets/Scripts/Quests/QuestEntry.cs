@@ -23,7 +23,6 @@ public class QuestEntry : MonoBehaviour
         Debug.Log("Adding Quest to Notebook");
         attachedQuest = quest;
         gameObject.SetActive(true);
-        Debug.Log("Name: " + gameObject.name);
         textField.gameObject.SetActive(true);
         textField.text = quest.quest.questText;
     }

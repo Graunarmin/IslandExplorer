@@ -40,7 +40,7 @@ public class Inventory : MonoBehaviour, IItemContainer
         Interactable.InteractedEvent -= AddItem;
     }
 
-    public void AddItem(Interactable item)
+    public void AddItem(Interactable item, Interaction interaction)
     {
         if (item is Tool && !IsFull())
         {

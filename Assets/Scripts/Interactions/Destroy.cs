@@ -7,6 +7,7 @@ public class Destroy : Interaction
 
     public override void Interact()
     {
+        OnInteract();
         DestroyObstacle();
     }
 

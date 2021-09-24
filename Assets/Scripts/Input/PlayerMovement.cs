@@ -14,6 +14,16 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 movement;
 
     public Animator animator;
+    
+    public static bool IsWalking { get; private set; }
+
+    public static Action<bool> IsWalkingEvent;
+
+    private void SetIsWalking(bool status)
+    {
+        IsWalking = status;
+        IsWalkingEvent?.Invoke(status);
+    }
 
     // Update is called once per frame (Handle Input Here)
     void Update()
@@ -26,6 +36,15 @@ public class PlayerMovement : MonoBehaviour
         // right = 1, left = -1, not pressed = 0
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
+
+        if (movement.x == 0 && movement.y == 0 && IsWalking)
+        {
+            SetIsWalking(false);
+        }
+        else if((movement.x != 0 || movement.y != 0) && !IsWalking)
+        {
+            SetIsWalking(true);
+        }
         
         animator.SetFloat("Horizontal", movement.x);
         animator.SetFloat("Vertical", movement.y);

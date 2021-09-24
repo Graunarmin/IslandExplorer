@@ -21,7 +21,7 @@ public class Inspect : Interaction
         else
         {
             HideInfo();
-            ReactToInteraction();
+            //ReactToInteraction();
             OnInteract();
         }
     }

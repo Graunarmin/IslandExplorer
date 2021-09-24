@@ -10,7 +10,7 @@ public abstract class Interactable : MonoBehaviour
     [HideInInspector] public Collider col;
     public Interaction interaction;
 
-    public static event Action<Interactable> InteractedEvent;
+    public static event Action<Interactable, Interaction> InteractedEvent;
     public bool HasBeenVisited { get; private set; }
 
     void Awake()
@@ -32,10 +32,12 @@ public abstract class Interactable : MonoBehaviour
         if (set)
         {
             ActiveInteractable = this;
+            Debug.Log("Active Interactable: " + this.name);
         }
         else
         {
             ActiveInteractable = null;
+            Debug.Log("Active Interactable: null");
         }
     }
 
@@ -57,11 +59,11 @@ public abstract class Interactable : MonoBehaviour
         }
     }
     
-    public virtual void WasInteractedWith()
+    public virtual void WasInteractedWith(Interaction interaction)
     {
         // Broadcast that the Interaction on this Event is Complete so 
         // others (e.g. Quests) can respond accordingly
-        InteractedEvent?.Invoke(this);
+        InteractedEvent?.Invoke(this, interaction);
     }
 
     public virtual void WasVisited()
