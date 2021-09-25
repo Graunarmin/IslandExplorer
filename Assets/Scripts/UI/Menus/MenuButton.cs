@@ -46,6 +46,10 @@ public class MenuButton : MonoBehaviour, ISelectHandler, IDeselectHandler
 
     public void OnClick()
     {
+        if (changeColor)
+        {
+            text.color = originColor;
+        }
         ButtonClickedEvent?.Invoke(true);
     }
 }

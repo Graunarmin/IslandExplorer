@@ -80,6 +80,7 @@ public class GameManager : MonoBehaviour
     private void SetGamePaused(bool status)
     {
         gamePaused = status;
+        Debug.Log("Game Paused: " + status);
         if (!currentlyInteracting && !readingNotebook)
         {
             FreezeMovement(status);
@@ -95,8 +96,8 @@ public class GameManager : MonoBehaviour
     
     #region UserInput
     
-    private KeyCode interact = KeyCode.Space;
-    private KeyCode notebook = KeyCode.E;
+    private KeyCode interact = KeyCode.E;
+    private KeyCode notebook = KeyCode.Tab;
     private KeyCode pause = KeyCode.Escape;
     private KeyCode reset = KeyCode.R;
     //private KeyCode walkiTalki = KeyCode.T;
@@ -115,24 +116,28 @@ public class GameManager : MonoBehaviour
             if (Input.GetKeyDown(pause))
             {
                 PausePressedEvent?.Invoke();
+                return;
             }
             if (!gamePaused)
             {
                 if (Input.GetKeyDown(notebook))
                 {
                     NotebookPressedEvent?.Invoke();
+                    return;
                 }
                 if (!readingNotebook)
                 {
                     if (Input.GetKeyDown(interact))
                     {
                         InteractionPressedEvent?.Invoke();
+                        return;
                     }
                     if (inPuzzle)
                     {
                         if (Input.GetKeyDown(reset))
                         {
                             ResetEvent?.Invoke();
+                            return;
                         }
                     }
                 }

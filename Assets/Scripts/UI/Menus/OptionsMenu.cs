@@ -25,7 +25,8 @@ public class OptionsMenu : MonoBehaviour
 
     public void Deactivate()
     {
-        gameObject.SetActive(false);
         originMenu.Activate();
+        gameObject.SetActive(false);
+        
     }
 }

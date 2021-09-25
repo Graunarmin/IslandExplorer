@@ -8,6 +8,8 @@ public class PauseMenu : MonoBehaviour
     public GameObject menuCanvas;
     public MenuObject pauseMenuUI;
 
+    private Interactable currentInteractable;
+
     public static event Action<bool> GamePausedEvent;
     private void Awake()
     {

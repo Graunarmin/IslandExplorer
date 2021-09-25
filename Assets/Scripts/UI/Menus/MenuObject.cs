@@ -56,6 +56,10 @@ public class MenuObject : MonoBehaviour
     public void ContinueButton()
     {
         ResumeGameEvent?.Invoke();
+        if (gameObject.GetComponent<UITweener>() != null)
+        {
+            gameObject.GetComponent<UITweener>().Disable();
+        }
     }
 
     public void OptionsButton(Button button)
