@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae367cea2fd774c89b2622ff30a5c67a, type: 3}
-  m_Name: Rock
+  m_Name: SleepingTree
   m_EditorClassIdentifier: 
-  itemType: 4
-  itemName: Rock
-  icon: {fileID: 21300000, guid: 37eaf6e537ca749adaaea0a3e900d411, type: 3}
-  infoText: A shiny Rock
-  sticker: {fileID: 21300000, guid: 37eaf6e537ca749adaaea0a3e900d411, type: 3}
+  itemType: 5
+  itemName: SleepingTree
+  icon: {fileID: 4885973027901026179, guid: f733efc9633db498baa6b5b52e3abbc4, type: 3}
+  infoText: He sure is snoring ... I hope he has beatiful dreams.
+  sticker: {fileID: 0}
   lexiconText: 
   questTitle: 

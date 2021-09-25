@@ -32,7 +32,7 @@ public class References : MonoBehaviour
     public Transform player;
     public Transform playerFeet;
     public InfoBoxCanvas infoBoxCanvas;
-    public Tilemap waterTilemap;
+    public Tilemap obstacleTilemap;
     public Tilemap pathTilemap;
 
     #endregion

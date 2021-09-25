@@ -32,11 +32,12 @@ public class AudioManager : MonoBehaviour
         Move.MovedStoneEvent += _ => Play(moveBoulders);
         Interactable.InteractedEvent += ChooseInteraction;
         NotebookCanvas.PageTurnedEvent += _ => Play(turnPage);
-        WalkiTalki.WalkiTalkiCallEvent += _ => Play(walkiTalki);
-        Move.MovedStoneToWaterEvent += _ => Play(stoneBridge);
-        Notebook.ReadingNotebookEvent += _ => Play(openNotebook);
-        MenuButton.ButtonClickedEvent += _ => Play(buttonClick);
-        MenuButton.ButtonSelectedEvent += _ => Play(buttonHover);
+        WalkiTalki.WalkiTalkiCallEvent += _ => Play(walkiTalki, true);
+        Move.MovedStoneToWaterEvent += _ => Play(stoneBridge, true);
+        Notebook.ReadingNotebookEvent += _ => Play(openNotebook, true);
+        MenuButton.ButtonClickedEvent += _ => Play(buttonClick, true);
+        MenuButton.ButtonSelectedEvent += _ => Play(buttonHover, true);
+        Area.EnteredAreaEvent += Play;
     }
     
     private void ChooseInteraction(Interactable item, Interaction interaction)
@@ -75,11 +76,14 @@ public class AudioManager : MonoBehaviour
         }
     }
 
-    public void Play(Sound sound)
+    public void Play(Sound sound, bool play)
     {
-        if (sound != null)
+        if (sound != null && play)
         {
             sound.Play();
+        }else if (!play)
+        {
+            sound.Stop();
         }
     }
 

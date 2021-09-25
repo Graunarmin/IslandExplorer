@@ -8,6 +8,12 @@ public class PuzzleArea : Area
 
     [SerializeField] private StonePuzzle stonePuzzle;
     public static event Action<bool> PuzzleEnteredEvent;
+
+    protected void Awake()
+    {
+        stonePuzzle.enabled = false;
+    }
+
     protected override void EnterRegion(Collider2D other)
     {
         base.EnterRegion(other);
@@ -15,6 +21,7 @@ public class PuzzleArea : Area
         {
             PuzzleEnteredEvent?.Invoke(true);
             StonePuzzle.ActiveStonePuzzle = stonePuzzle;
+            stonePuzzle.enabled = true;
         }
     }
 
@@ -25,6 +32,7 @@ public class PuzzleArea : Area
         {
             PuzzleEnteredEvent?.Invoke(false);
             StonePuzzle.ActiveStonePuzzle = null;
+            stonePuzzle.enabled = false;
         }
     }
 }

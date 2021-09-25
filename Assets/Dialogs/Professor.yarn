@@ -30,5 +30,5 @@ So, did you have a look at this interesting snail ... pig ... the creature, that
     -> Hm
     <<SetSpeaker Player>>
         If you say so ...
-<<GiveQuest QuestGiver Helmet>>
+<<GiveQuest QuestGiver Tree>>
 ===

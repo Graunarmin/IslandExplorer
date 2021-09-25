@@ -12,6 +12,9 @@ public class StonePuzzle : MonoBehaviour
 
     private Dictionary<Tilemap, Dictionary<Vector3Int, TileBase>> movedTiles =
         new Dictionary<Tilemap, Dictionary<Vector3Int, TileBase>>();
+    
+    private Dictionary<Tilemap, Dictionary<Vector3Int, Matrix4x4>> tileMatrices =
+        new Dictionary<Tilemap, Dictionary<Vector3Int, Matrix4x4>>();
 
     private void OnEnable()
     {
@@ -46,22 +49,31 @@ public class StonePuzzle : MonoBehaviour
             foreach (KeyValuePair<Vector3Int, TileBase> tile in info.Value)
             {
                 tilemap.SetTile(tile.Key, tile.Value);
+                tilemap.SetTransformMatrix(tile.Key, tileMatrices[tilemap][tile.Key]);
             }
         }
         movedTiles.Clear();
+        tileMatrices.Clear();
     }
 
-    public void AddMovedTile(Tilemap tilemap, TileBase tile, Vector3Int position)
+    public void AddMovedTile(Tilemap tilemap, TileBase tile, Vector3Int position, Matrix4x4 rotation)
     {
         if (!movedTiles.ContainsKey(tilemap))
         {
+            // save the moved tile under it's position
             Dictionary<Vector3Int, TileBase> tilePositions = new Dictionary<Vector3Int, TileBase>();
             tilePositions.Add(position, tile);
             movedTiles.Add(tilemap, tilePositions);
+            
+            // save the matrix of the moved tile under it's position (to get the rotation of the tile)
+            Dictionary<Vector3Int, Matrix4x4> tileRotations = new Dictionary<Vector3Int, Matrix4x4>();
+            tileRotations.Add(position, rotation);
+            tileMatrices.Add(tilemap, tileRotations);
         }
         else
         {
             movedTiles[tilemap].Add(position, tile);
+            tileMatrices[tilemap].Add(position, rotation);
         }
     }
 }

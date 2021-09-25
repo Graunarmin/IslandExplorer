@@ -15,7 +15,9 @@ MonoBehaviour:
   itemType: 1
   itemName: Sign
   icon: {fileID: 21300000, guid: b52a57bea9b6a47e096e15fd1bbe2fb0, type: 3}
-  infoText: 'Left: Forest'
+  infoText: 'Up: Forest
+
+    Right: Ocean'
   sticker: {fileID: 0}
   lexiconText: 
   questTitle: 

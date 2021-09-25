@@ -32,12 +32,10 @@ public abstract class Interactable : MonoBehaviour
         if (set)
         {
             ActiveInteractable = this;
-            Debug.Log("Active Interactable: " + this.name);
         }
         else
         {
             ActiveInteractable = null;
-            Debug.Log("Active Interactable: null");
         }
     }
 

@@ -10,8 +10,9 @@ using Vector3 = UnityEngine.Vector3;
 public class Move : Interaction
 {
     private Tilemap pathTilemap;
-    private Tilemap waterTilemap;
+    private Tilemap obstacleTilemap;
     [SerializeField] private TileBase bridgeTile;
+    [SerializeField] private TileBase bridgeTile2;
     [SerializeField] private Collider2D objectCollider;
 
     public static event Action<bool> MovedStoneEvent;
@@ -20,7 +21,7 @@ public class Move : Interaction
     {
         base.Start();
         pathTilemap = References.Instance.pathTilemap;
-        waterTilemap = References.Instance.waterTilemap;
+        obstacleTilemap = References.Instance.obstacleTilemap;
     }
 
     public override void Interact()
@@ -93,7 +94,7 @@ public class Move : Interaction
     private bool CanMoveIntoWater(Vector2 direction)
     {
         Vector3Int gridPosition = pathTilemap.WorldToCell(transform.position + (Vector3)direction);
-        if (waterTilemap.HasTile(gridPosition))
+        if (obstacleTilemap.HasTile(gridPosition))
         {
             return true;
         }
@@ -111,12 +112,12 @@ public class Move : Interaction
         SaveMovedTiles(gridPosition, gridPositionNext);
         
         //remove the water tile (has collider)
-        waterTilemap.SetTile(gridPosition, null);
-        waterTilemap.SetTile(gridPositionNext, null);
+        obstacleTilemap.SetTile(gridPosition, null);
+        obstacleTilemap.SetTile(gridPositionNext, null);
         
         //and set the bridge tile
         pathTilemap.SetTile(gridPosition, bridgeTile);
-        pathTilemap.SetTile(gridPositionNext, bridgeTile);
+        pathTilemap.SetTile(gridPositionNext, bridgeTile2);
         
         //deactivate stone
         transform.gameObject.SetActive(false);
@@ -126,11 +127,15 @@ public class Move : Interaction
     {
         StonePuzzle activePuzzle = StonePuzzle.ActiveStonePuzzle;
         
-        //Save Tiles so they can be reset later
-        activePuzzle.AddMovedTile(waterTilemap, waterTilemap.GetTile(gridPosition), gridPosition);
-        activePuzzle.AddMovedTile(waterTilemap, waterTilemap.GetTile(gridPositionNext), gridPositionNext);
+        //Save Tiles, their position and rotation so they can be reset later
+        activePuzzle.AddMovedTile(obstacleTilemap, obstacleTilemap.GetTile(gridPosition), 
+            gridPosition, obstacleTilemap.GetTransformMatrix(gridPosition));
+        activePuzzle.AddMovedTile(obstacleTilemap, obstacleTilemap.GetTile(gridPositionNext), 
+            gridPositionNext, obstacleTilemap.GetTransformMatrix(gridPositionNext));
         
-        activePuzzle.AddMovedTile(pathTilemap, pathTilemap.GetTile(gridPosition), gridPosition);
-        activePuzzle.AddMovedTile(pathTilemap, pathTilemap.GetTile(gridPositionNext), gridPositionNext);
+        activePuzzle.AddMovedTile(pathTilemap, pathTilemap.GetTile(gridPosition), 
+            gridPosition, pathTilemap.GetTransformMatrix(gridPosition));
+        activePuzzle.AddMovedTile(pathTilemap, pathTilemap.GetTile(gridPositionNext), 
+            gridPositionNext, pathTilemap.GetTransformMatrix(gridPositionNext));
     }
 }

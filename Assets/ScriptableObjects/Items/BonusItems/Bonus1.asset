@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae367cea2fd774c89b2622ff30a5c67a, type: 3}
-  m_Name: Rock
+  m_Name: Bonus1
   m_EditorClassIdentifier: 
   itemType: 4
-  itemName: Rock
-  icon: {fileID: 21300000, guid: 37eaf6e537ca749adaaea0a3e900d411, type: 3}
-  infoText: A shiny Rock
-  sticker: {fileID: 21300000, guid: 37eaf6e537ca749adaaea0a3e900d411, type: 3}
+  itemName: PinkFlower
+  icon: {fileID: -478131022570429534, guid: 67445276130844f2c9fe0a6e5c735de2, type: 3}
+  infoText: What a beautiful Flower!
+  sticker: {fileID: -478131022570429534, guid: 67445276130844f2c9fe0a6e5c735de2, type: 3}
   lexiconText: 
   questTitle: 

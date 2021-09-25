@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 64ed26d96b8ef4b32bd5a7eb101e1484, type: 3}
-  m_Name: Cap
+  m_Name: Tree
   m_EditorClassIdentifier: 
-  title: Cap
-  icon: {fileID: 21300020, guid: b08e570699f1c8a4f9cc388204aef3bc, type: 3}
-  questText: Find me a green Cap
+  title: Tree
+  icon: {fileID: 4885973027901026179, guid: f733efc9633db498baa6b5b52e3abbc4, type: 3}
+  questText: Legend has it there is a sleeping tree in these woods ...

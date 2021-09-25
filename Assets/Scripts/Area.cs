@@ -10,6 +10,10 @@ using UnityEngine;
 
     public List<Item> containedItems = new List<Item>();
 
+    public Sound areaSound;
+
+    public static event Action<Sound, bool> EnteredAreaEvent;
+
     [SerializeField]
     private Vector2 bottomLeft;
     
@@ -35,6 +39,7 @@ using UnityEngine;
         {
             cam.minPos = bottomLeft;
             cam.maxPos = topRight;
+            EnteredAreaEvent?.Invoke(areaSound, true);
         }
     }
 
@@ -49,6 +54,7 @@ using UnityEngine;
     { 
         activeRegion = false;
         SetContainedItems(false);
+        EnteredAreaEvent?.Invoke(areaSound, false);
         
     }
     
