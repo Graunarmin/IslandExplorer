@@ -20,7 +20,15 @@ public class WalkiTalki : MonoBehaviour
 
     private void Call(Quest quest)
     {
+        StartCoroutine(ShowDialog(1.5f));
+    }
+
+    IEnumerator ShowDialog(float waitTime)
+    {
+        yield return new WaitForSeconds(waitTime / 2f);
         WalkiTalkiCallEvent?.Invoke(true);
+        yield return new WaitForSeconds(waitTime);
         DialogManager.dialogManager.ActivateDialog(owner);
+        
     }
 }

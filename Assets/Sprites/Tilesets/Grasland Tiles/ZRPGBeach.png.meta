@@ -1,0 +1,3576 @@
+fileFormatVersion: 2
+guid: a86baccbb4ccb4cd9ba64011a2683120
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1526312913022545013
+    second: ZRPGBeach_0
+  - first:
+      213: 4254370694266372453
+    second: ZRPGBeach_1
+  - first:
+      213: 3412352780926261032
+    second: ZRPGBeach_2
+  - first:
+      213: 1758584995180632582
+    second: ZRPGBeach_3
+  - first:
+      213: -3442767121046437647
+    second: ZRPGBeach_4
+  - first:
+      213: 5916450432416937741
+    second: ZRPGBeach_5
+  - first:
+      213: 6646074306167019740
+    second: ZRPGBeach_6
+  - first:
+      213: 2602453035037441185
+    second: ZRPGBeach_7
+  - first:
+      213: -7714772355709565382
+    second: ZRPGBeach_8
+  - first:
+      213: 4626505014765933423
+    second: ZRPGBeach_9
+  - first:
+      213: -4488602106378776038
+    second: ZRPGBeach_10
+  - first:
+      213: 6734645126353274468
+    second: ZRPGBeach_11
+  - first:
+      213: 7367526026568664333
+    second: ZRPGBeach_12
+  - first:
+      213: 6317806468023311951
+    second: ZRPGBeach_13
+  - first:
+      213: 8340414285192700458
+    second: ZRPGBeach_14
+  - first:
+      213: 6051901244101373537
+    second: ZRPGBeach_15
+  - first:
+      213: -3797051012741583604
+    second: ZRPGBeach_16
+  - first:
+      213: 1217271677233656031
+    second: ZRPGBeach_17
+  - first:
+      213: -2092719326299064381
+    second: ZRPGBeach_18
+  - first:
+      213: 2642204665577679918
+    second: ZRPGBeach_19
+  - first:
+      213: 6301200636144880654
+    second: ZRPGBeach_20
+  - first:
+      213: -3404647305686081250
+    second: ZRPGBeach_21
+  - first:
+      213: -256060039167397085
+    second: ZRPGBeach_22
+  - first:
+      213: -7788055629889842403
+    second: ZRPGBeach_23
+  - first:
+      213: 4039316537724105716
+    second: ZRPGBeach_24
+  - first:
+      213: 1800796747176485279
+    second: ZRPGBeach_25
+  - first:
+      213: 6618010670206870472
+    second: ZRPGBeach_26
+  - first:
+      213: 6376614389987456569
+    second: ZRPGBeach_27
+  - first:
+      213: 4921389202462033247
+    second: ZRPGBeach_28
+  - first:
+      213: 4955449856182345220
+    second: ZRPGBeach_29
+  - first:
+      213: -605456559067454176
+    second: ZRPGBeach_30
+  - first:
+      213: 1027665770821687240
+    second: ZRPGBeach_31
+  - first:
+      213: -7555856114234267411
+    second: ZRPGBeach_32
+  - first:
+      213: -1281791054175339845
+    second: ZRPGBeach_33
+  - first:
+      213: 8064590047250642477
+    second: ZRPGBeach_34
+  - first:
+      213: -1265121069979502813
+    second: ZRPGBeach_35
+  - first:
+      213: -2642159707077896152
+    second: ZRPGBeach_36
+  - first:
+      213: 4567305018110021963
+    second: ZRPGBeach_37
+  - first:
+      213: -914886704768096195
+    second: ZRPGBeach_38
+  - first:
+      213: 2702499839650258034
+    second: ZRPGBeach_39
+  - first:
+      213: -6697409586693794356
+    second: ZRPGBeach_40
+  - first:
+      213: -4333056986352714276
+    second: ZRPGBeach_41
+  - first:
+      213: 6733424978412671570
+    second: ZRPGBeach_42
+  - first:
+      213: -4936413707381887330
+    second: ZRPGBeach_43
+  - first:
+      213: 9026110762331344650
+    second: ZRPGBeach_44
+  - first:
+      213: 1216051745212606554
+    second: ZRPGBeach_45
+  - first:
+      213: -3017835053471773580
+    second: ZRPGBeach_46
+  - first:
+      213: -5152994881200362159
+    second: ZRPGBeach_47
+  - first:
+      213: -4760514646877658325
+    second: ZRPGBeach_48
+  - first:
+      213: -3331626533989168797
+    second: ZRPGBeach_49
+  - first:
+      213: 5320038941697646812
+    second: ZRPGBeach_50
+  - first:
+      213: 5893848429800136680
+    second: ZRPGBeach_51
+  - first:
+      213: -7059468158322536737
+    second: ZRPGBeach_52
+  - first:
+      213: 2425534178250626181
+    second: ZRPGBeach_53
+  - first:
+      213: -4700339566897942536
+    second: ZRPGBeach_54
+  - first:
+      213: -7075054232087300538
+    second: ZRPGBeach_55
+  - first:
+      213: -609592616482629085
+    second: ZRPGBeach_56
+  - first:
+      213: 3972026754322401261
+    second: ZRPGBeach_57
+  - first:
+      213: -4810155599942052273
+    second: ZRPGBeach_58
+  - first:
+      213: -5515096407570473416
+    second: ZRPGBeach_59
+  - first:
+      213: 7464461064390518689
+    second: ZRPGBeach_60
+  - first:
+      213: 4213123479215546039
+    second: ZRPGBeach_61
+  - first:
+      213: 8101941541460887710
+    second: ZRPGBeach_62
+  - first:
+      213: -2422874190203168599
+    second: ZRPGBeach_63
+  - first:
+      213: 6920427718130224835
+    second: ZRPGBeach_64
+  - first:
+      213: 955687289746173592
+    second: ZRPGBeach_65
+  - first:
+      213: -5182410991993608323
+    second: ZRPGBeach_66
+  - first:
+      213: -6097249726739651050
+    second: ZRPGBeach_67
+  - first:
+      213: -172985388036850343
+    second: ZRPGBeach_68
+  - first:
+      213: 5169330611208857230
+    second: ZRPGBeach_69
+  - first:
+      213: 3554017534029947426
+    second: ZRPGBeach_70
+  - first:
+      213: 8983782809039850633
+    second: ZRPGBeach_71
+  - first:
+      213: 1670874505326055019
+    second: ZRPGBeach_72
+  - first:
+      213: -1377468665187774169
+    second: ZRPGBeach_73
+  - first:
+      213: -225596221071290912
+    second: ZRPGBeach_74
+  - first:
+      213: 2749272820796636879
+    second: ZRPGBeach_75
+  - first:
+      213: 4535191392767911301
+    second: ZRPGBeach_76
+  - first:
+      213: -2490257415444294707
+    second: ZRPGBeach_77
+  - first:
+      213: -8085529700233351669
+    second: ZRPGBeach_78
+  - first:
+      213: 2906156085359593226
+    second: ZRPGBeach_79
+  - first:
+      213: -4220474723212376665
+    second: ZRPGBeach_80
+  - first:
+      213: -6855357385074795518
+    second: ZRPGBeach_81
+  - first:
+      213: 6922147070986474470
+    second: ZRPGBeach_82
+  - first:
+      213: -1204808007408539072
+    second: ZRPGBeach_83
+  - first:
+      213: -8673641465351745188
+    second: ZRPGBeach_84
+  - first:
+      213: 6541440836441382340
+    second: ZRPGBeach_85
+  - first:
+      213: -3929561475429407599
+    second: ZRPGBeach_86
+  - first:
+      213: -5268904440252583398
+    second: ZRPGBeach_87
+  - first:
+      213: -2827166077241874608
+    second: ZRPGBeach_88
+  - first:
+      213: -7866412783556931606
+    second: ZRPGBeach_89
+  - first:
+      213: -7954027381825134617
+    second: ZRPGBeach_90
+  - first:
+      213: -5098141039573173241
+    second: ZRPGBeach_91
+  - first:
+      213: 4463665839761740912
+    second: ZRPGBeach_92
+  - first:
+      213: -8374211116399714373
+    second: ZRPGBeach_93
+  - first:
+      213: -8285617089255293819
+    second: ZRPGBeach_94
+  - first:
+      213: 6299719437378830684
+    second: ZRPGBeach_95
+  - first:
+      213: 8598659204726039021
+    second: ZRPGBeach_96
+  - first:
+      213: -1955477771820089646
+    second: ZRPGBeach_97
+  - first:
+      213: 7840931664599717272
+    second: ZRPGBeach_98
+  - first:
+      213: -3188572066339660066
+    second: ZRPGBeach_99
+  - first:
+      213: 7423970851615341881
+    second: ZRPGBeach_100
+  - first:
+      213: -3409338825617292030
+    second: ZRPGBeach_101
+  - first:
+      213: 5387258231717315900
+    second: ZRPGBeach_102
+  - first:
+      213: -3426665774239930655
+    second: ZRPGBeach_103
+  - first:
+      213: 6707150450009919389
+    second: ZRPGBeach_104
+  - first:
+      213: 2061685776299193590
+    second: ZRPGBeach_105
+  - first:
+      213: -6187349846919557851
+    second: ZRPGBeach_106
+  - first:
+      213: -8334187137195236137
+    second: ZRPGBeach_107
+  - first:
+      213: -692937825125400346
+    second: ZRPGBeach_108
+  - first:
+      213: 486608928264403884
+    second: ZRPGBeach_109
+  - first:
+      213: 6640212711927452091
+    second: ZRPGBeach_110
+  - first:
+      213: -1416761284166964877
+    second: ZRPGBeach_111
+  - first:
+      213: -8653589578398290212
+    second: ZRPGBeach_112
+  - first:
+      213: 2653168731006487212
+    second: ZRPGBeach_113
+  - first:
+      213: 6585600931797968113
+    second: ZRPGBeach_114
+  - first:
+      213: 3613437766660280452
+    second: ZRPGBeach_115
+  - first:
+      213: 5793612898848231805
+    second: ZRPGBeach_116
+  - first:
+      213: -3415845648450538890
+    second: ZRPGBeach_117
+  - first:
+      213: 5311346433470199032
+    second: ZRPGBeach_118
+  - first:
+      213: 6561572566899921472
+    second: ZRPGBeach_119
+  - first:
+      213: 6903306147607900837
+    second: ZRPGBeach_120
+  - first:
+      213: 5768321098287183295
+    second: ZRPGBeach_121
+  - first:
+      213: 6967106333049718085
+    second: ZRPGBeach_122
+  - first:
+      213: 7609493649920795555
+    second: ZRPGBeach_123
+  - first:
+      213: -5511930265697262884
+    second: ZRPGBeach_124
+  - first:
+      213: -27054636754808099
+    second: ZRPGBeach_125
+  - first:
+      213: 5651405261025214457
+    second: ZRPGBeach_126
+  - first:
+      213: 4974648693412272174
+    second: ZRPGBeach_127
+  - first:
+      213: -1559557986670111117
+    second: ZRPGBeach_128
+  - first:
+      213: -6655010702477199568
+    second: ZRPGBeach_129
+  - first:
+      213: 9169742348027160441
+    second: ZRPGBeach_130
+  - first:
+      213: -3613412205991874634
+    second: ZRPGBeach_131
+  - first:
+      213: -5943055878232587121
+    second: ZRPGBeach_132
+  - first:
+      213: 1030225324203433795
+    second: ZRPGBeach_133
+  - first:
+      213: -7410778790519737979
+    second: ZRPGBeach_134
+  - first:
+      213: 5973683621641466270
+    second: ZRPGBeach_135
+  - first:
+      213: 2086895060087524438
+    second: ZRPGBeach_136
+  - first:
+      213: 7993519405501746742
+    second: ZRPGBeach_137
+  - first:
+      213: 4189286713914736630
+    second: ZRPGBeach_138
+  - first:
+      213: 4214730700633871523
+    second: ZRPGBeach_139
+  - first:
+      213: 800533577127326654
+    second: ZRPGBeach_140
+  - first:
+      213: 4405213979560958408
+    second: ZRPGBeach_141
+  - first:
+      213: -6290529209510874386
+    second: ZRPGBeach_142
+  - first:
+      213: 3755288091788849956
+    second: ZRPGBeach_143
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ZRPGBeach_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1001
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57cecc4f18d8e2510800000000000000
+      internalID: 1526312913022545013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 993
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56144961b9f8a0b30800000000000000
+      internalID: 4254370694266372453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_2
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 996
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8271d6b56cc1b5f20800000000000000
+      internalID: 3412352780926261032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_3
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 1008
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ad2195cbfb76810800000000000000
+      internalID: 1758584995180632582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_4
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1000
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f002a14b85d830d0800000000000000
+      internalID: -3442767121046437647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 992
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d07fa6352547b1250800000000000000
+      internalID: 5916450432416937741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_6
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 992
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd89fe97e599b3c50800000000000000
+      internalID: 6646074306167019740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_7
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 992
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ac3b0a3f35cd1420800000000000000
+      internalID: 2602453035037441185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_8
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 928
+        width: 31
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a368de6ca6f9fe490800000000000000
+      internalID: -7714772355709565382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_9
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 897
+        width: 104
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f63dfa47cc5a43040800000000000000
+      internalID: 4626505014765933423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_10
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 897
+        width: 104
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1219377a2845b1c0800000000000000
+      internalID: -4488602106378776038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_11
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 897
+        width: 104
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4664a9c8f04467d50800000000000000
+      internalID: 6734645126353274468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_12
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 867
+        width: 143
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d050217e2e5be3660800000000000000
+      internalID: 7367526026568664333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_13
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 867
+        width: 138
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4ed13e628b5da750800000000000000
+      internalID: 6317806468023311951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_14
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 992
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a22218c5a9a1fb370800000000000000
+      internalID: 8340414285192700458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_15
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 968
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16e286efd1cacf350800000000000000
+      internalID: 6051901244101373537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_16
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 968
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0d2087b83a2e4bc0800000000000000
+      internalID: -3797051012741583604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_17
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 971
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd0f7ac142e94e010800000000000000
+      internalID: 1217271677233656031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_18
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 977
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c779554cda25f2e0800000000000000
+      internalID: -2092719326299064381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_19
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 965
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2c23a3f42ffaa420800000000000000
+      internalID: 2642204665577679918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_20
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 960
+        width: 62
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0c81e7e79c527750800000000000000
+      internalID: 6301200636144880654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_21
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 960
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e112717605340c0d0800000000000000
+      internalID: -3404647305686081250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_22
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 962
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 323314440ca427cf0800000000000000
+      internalID: -256060039167397085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_23
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 933
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d135f61eaa44be390800000000000000
+      internalID: -7788055629889842403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_24
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 934
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f3f7666df88e0830800000000000000
+      internalID: 4039316537724105716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_25
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 934
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f91222cb917bdf810800000000000000
+      internalID: 1800796747176485279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_26
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 944
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c3ec6d04a5e7db50800000000000000
+      internalID: 6618010670206870472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_27
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 932
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 936b8d0c0094e7850800000000000000
+      internalID: 6376614389987456569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_28
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 937
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f55413ea7694c4440800000000000000
+      internalID: 4921389202462033247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_29
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 900
+        width: 22
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40e520c936b45c440800000000000000
+      internalID: 4955449856182345220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_30
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 928
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 025aad5a77cf897f0800000000000000
+      internalID: -605456559067454176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_31
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 928
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c797a1e290034e00800000000000000
+      internalID: 1027665770821687240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_32
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 930
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de86a1195e4342790800000000000000
+      internalID: -7555856114234267411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_33
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 900
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbafa93d3d9263ee0800000000000000
+      internalID: -1281791054175339845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_34
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 902
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2676818bed2bef60800000000000000
+      internalID: 8064590047250642477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_35
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 899
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 327720af613617ee0800000000000000
+      internalID: -1265121069979502813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_36
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 898
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82895c3ceb9255bd0800000000000000
+      internalID: -2642159707077896152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_37
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 900
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b419e4127b3526f30800000000000000
+      internalID: 4567305018110021963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_38
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 896
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d38e198a36bad43f0800000000000000
+      internalID: -914886704768096195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_39
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27c57e32945318520800000000000000
+      internalID: 2702499839650258034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_40
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 836
+        width: 22
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc512dd17750e03a0800000000000000
+      internalID: -6697409586693794356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_41
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 836
+        width: 22
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cddfbe0e0a3edd3c0800000000000000
+      internalID: -4333056986352714276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_42
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 768
+        width: 30
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2529708b75ee17d50800000000000000
+      internalID: 6733424978412671570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_43
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 768
+        width: 30
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9e222b23e55e7bb0800000000000000
+      internalID: -4936413707381887330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_44
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 833
+        width: 48
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0f071c7aef234d70800000000000000
+      internalID: 9026110762331344650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_45
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 845
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5824ed8e9840e010800000000000000
+      internalID: 1216051745212606554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_46
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 834
+        width: 66
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47cc71f020f7e16d0800000000000000
+      internalID: -3017835053471773580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_47
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 707
+        width: 143
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15d65a01572ec78b0800000000000000
+      internalID: -5152994881200362159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_48
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 707
+        width: 138
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2320d4a6214fedb0800000000000000
+      internalID: -4760514646877658325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_49
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 801
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3694f4da15fa3c1d0800000000000000
+      internalID: -3331626533989168797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_50
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 768
+        width: 31
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd0222f0b3394d940800000000000000
+      internalID: 5320038941697646812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_51
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 769
+        width: 53
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef1b328be72bc150800000000000000
+      internalID: 5893848429800136680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_52
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 709
+        width: 134
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde0108dc1bb70e90800000000000000
+      internalID: -7059468158322536737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_53
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 768
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 584923deb7a39a120800000000000000
+      internalID: 2425534178250626181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_54
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 651
+        width: 101
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ffa55f311a05ceb0800000000000000
+      internalID: -4700339566897942536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_55
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 96
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 646ffc149ab50dd90800000000000000
+      internalID: -7075054232087300538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_56
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 618
+        width: 94
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32a1adcbeba4a87f0800000000000000
+      internalID: -609592616482629085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_57
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 672
+        width: 128
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de70cb1d9497f1730800000000000000
+      internalID: 3972026754322401261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_58
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 581
+        width: 134
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f46191797f4ee3db0800000000000000
+      internalID: -4810155599942052273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_59
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 581
+        width: 119
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e9abc99017673b0800000000000000
+      internalID: -5515096407570473416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_60
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 581
+        width: 119
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a72bb62ac7179760800000000000000
+      internalID: 7464461064390518689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_61
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 536
+        width: 89
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7be10857b75087a30800000000000000
+      internalID: 4213123479215546039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_62
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 640
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e98c1c1f7e0ef6070800000000000000
+      internalID: 8101941541460887710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_63
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 535
+        width: 60
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a85a7dc2c8306ed0800000000000000
+      internalID: -2422874190203168599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_64
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 584
+        width: 80
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce4be8f75c4a0060800000000000000
+      internalID: 6920427718130224835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_65
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 608
+        width: 47
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89e2dadc688434d00800000000000000
+      internalID: 955687289746173592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_66
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 581
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d77242e09a06418b0800000000000000
+      internalID: -5182410991993608323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_67
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 580
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 616e5da9da7326ba0800000000000000
+      internalID: -6097249726739651050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_68
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 581
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95dfab2c4be699df0800000000000000
+      internalID: -172985388036850343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_69
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 576
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8628a77dc62db740800000000000000
+      internalID: 5169330611208857230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_70
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 576
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2226d510e18625130800000000000000
+      internalID: 3554017534029947426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_71
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 384
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98cc410eddeccac70800000000000000
+      internalID: 8983782809039850633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_72
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 531
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e473a8283203710800000000000000
+      internalID: 1670874505326055019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_73
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 532
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72150421c8f32ece0800000000000000
+      internalID: -1377468665187774169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_74
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 528
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ed0064ae658edcf0800000000000000
+      internalID: -225596221071290912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_75
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 514
+        width: 60
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fce38327011672620800000000000000
+      internalID: 2749272820796636879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_76
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 63
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58527521b8c30fe30800000000000000
+      internalID: 4535191392767911301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_77
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 512
+        width: 28
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc319291314d07dd0800000000000000
+      internalID: -2490257415444294707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_78
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 512
+        width: 27
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0e68bc939d6acf80800000000000000
+      internalID: -8085529700233351669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_79
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 355
+        width: 164
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a07c2b9ef8db45820800000000000000
+      internalID: 2906156085359593226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_80
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 448
+        width: 83
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a5496ba99cdd65c0800000000000000
+      internalID: -4220474723212376665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_81
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 355
+        width: 160
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20c144e87c0ecd0a0800000000000000
+      internalID: -6855357385074795518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_82
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 480
+        width: 83
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e3d8210618601060800000000000000
+      internalID: 6922147070986474470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_83
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 516
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a2ed72089a74fe0800000000000000
+      internalID: -1204808007408539072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_84
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 522
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c515c9cca0901a780800000000000000
+      internalID: -8673641465351745188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_85
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 506
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cd925f58cdd7ca50800000000000000
+      internalID: 6541440836441382340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_86
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 499
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19468f568a46779c0800000000000000
+      internalID: -3929561475429407599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_87
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 495
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a123443d35711e6b0800000000000000
+      internalID: -5268904440252583398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_88
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 492
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 057a6f48e63e3c8d0800000000000000
+      internalID: -2827166077241874608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_89
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 493
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef4f7b5043e4d290800000000000000
+      internalID: -7866412783556931606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 483
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ef159c0d3e9d9190800000000000000
+      internalID: -7954027381825134617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_91
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 487
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70c76615cb3cf39b0800000000000000
+      internalID: -5098141039573173241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_92
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 416
+        width: 128
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0745b078e6022fd30800000000000000
+      internalID: 4463665839761740912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_93
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 421
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbf1edcab53d8cb80800000000000000
+      internalID: -8374211116399714373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_94
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 416
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58c380a0823930d80800000000000000
+      internalID: -8285617089255293819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_95
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 256
+        width: 94
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c51c69173791d6750800000000000000
+      internalID: 6299719437378830684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_96
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 329
+        width: 77
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de1a6523df2945770800000000000000
+      internalID: 8598659204726039021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_97
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 329
+        width: 78
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2debd7cb35fbcd4e0800000000000000
+      internalID: -1955477771820089646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_98
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 227
+        width: 116
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89514905ec590dc60800000000000000
+      internalID: 7840931664599717272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_99
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 227
+        width: 143
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede5715799aefb3d0800000000000000
+      internalID: -3188572066339660066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_100
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 299
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93df269d72e370760800000000000000
+      internalID: 7423970851615341881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_101
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 205422cc6689fa0d0800000000000000
+      internalID: -3409338825617292030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_102
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 300
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c354fce91d263ca40800000000000000
+      internalID: 5387258231717315900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_103
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e6a07232a90270d0800000000000000
+      internalID: -3426665774239930655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_104
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 200
+        width: 108
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f41fb5cc5941d50800000000000000
+      internalID: 6707150450009919389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_105
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 260
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f4f9ce4a449c9c10800000000000000
+      internalID: 2061685776299193590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_106
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 261
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52dca41a81e122aa0800000000000000
+      internalID: -6187349846919557851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_107
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 199
+        width: 58
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d429d384f4075c80800000000000000
+      internalID: -8334187137195236137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_108
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 163
+        width: 93
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e008f928b03266f0800000000000000
+      internalID: -692937825125400346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_109
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 171
+        width: 68
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cabbbb9fd38c0c600800000000000000
+      internalID: 486608928264403884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_110
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 163
+        width: 93
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb11877b746c62c50800000000000000
+      internalID: 6640212711927452091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_111
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 171
+        width: 68
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 379a3bd4e17a65ce0800000000000000
+      internalID: -1416761284166964877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_112
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 197
+        width: 25
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cde2c8b802648e780800000000000000
+      internalID: -8653589578398290212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_113
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 231
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caac0dc57e2f1d420800000000000000
+      internalID: 2653168731006487212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_114
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 196
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f4ac4cc721c46b50800000000000000
+      internalID: 6585600931797968113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_115
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 64
+        width: 156
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48054c30182852230800000000000000
+      internalID: 3613437766660280452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_116
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 64
+        width: 127
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7158f15c3c076050800000000000000
+      internalID: 5793612898848231805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_117
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 100
+        width: 96
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 672ba8c0b7a7890d0800000000000000
+      internalID: -3415845648450538890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_118
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 175
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f47706c071b5b940800000000000000
+      internalID: 5311346433470199032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_119
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 175
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04294022c736f0b50800000000000000
+      internalID: 6561572566899921472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_120
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 73
+        width: 137
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a270ffad587dcf50800000000000000
+      internalID: 6903306147607900837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_121
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 163
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb57ccd1a713d0050800000000000000
+      internalID: 5768321098287183295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_122
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 163
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5458dcdeb4220b060800000000000000
+      internalID: 6967106333049718085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_123
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 114
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a3ae14682a5a9960800000000000000
+      internalID: 7609493649920795555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_124
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 141
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd2e36670a0b183b0800000000000000
+      internalID: -5511930265697262884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_125
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 136
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd2d3b283f1ef9ff0800000000000000
+      internalID: -27054636754808099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_126
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 96
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff7e297423dd6e40800000000000000
+      internalID: 5651405261025214457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_127
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 142
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e28133d31a0890540800000000000000
+      internalID: 4974648693412272174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_128
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 142
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37697e526465b5ae0800000000000000
+      internalID: -1559557986670111117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_129
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 130
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0377c6e9607a4a3a0800000000000000
+      internalID: -6655010702477199568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_130
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 128
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 977e3080518714f70800000000000000
+      internalID: 9169742348027160441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_131
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 131
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf2bca4eb49addc0800000000000000
+      internalID: -3613412205991874634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_132
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 480
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8446a99a26068da0800000000000000
+      internalID: -5943055878232587121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_133
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 0
+        width: 63
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34fd1c759781c4e00800000000000000
+      internalID: 1030225324203433795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_134
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 0
+        width: 63
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 581721a34ff972990800000000000000
+      internalID: -7410778790519737979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_135
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 0
+        width: 63
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e91328c9a99c6e250800000000000000
+      internalID: 5973683621641466270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_136
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 47
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65cc804100426fc10800000000000000
+      internalID: 2086895060087524438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_137
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 47
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63e8f1e3c8faeee60800000000000000
+      internalID: 7993519405501746742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_138
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 35
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ffb62d0216532a30800000000000000
+      internalID: 4189286713914736630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_139
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 35
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a4173bdd3bbd7a30800000000000000
+      internalID: 4214730700633871523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_140
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 14
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb372770c011c1b00800000000000000
+      internalID: 800533577127326654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_141
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 14
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c9d05b46c6722d30800000000000000
+      internalID: 4405213979560958408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_142
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 3
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee2b2e9330d83b8a0800000000000000
+      internalID: -6290529209510874386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZRPGBeach_143
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 2
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42334548f967d1430800000000000000
+      internalID: 3755288091788849956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

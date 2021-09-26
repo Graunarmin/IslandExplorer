@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: SnailPig
   m_EditorClassIdentifier: 
   characterName: SnailPig
-  characterPortrait: {fileID: 21300000, guid: ac6390674b74d2f4b9f33786ad97f6fc, type: 3}
+  characterPortrait: {fileID: 21300000, guid: b0168f4a260b5494da6e81936ed7923e, type: 3}

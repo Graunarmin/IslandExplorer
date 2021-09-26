@@ -14,8 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemType: 2
   itemName: Boots
-  icon: {fileID: 21300052, guid: f5f1c19ce87450f4b97f8b363746558d, type: 3}
-  infoText: These Boots look water proof
-  sticker: {fileID: 21300052, guid: f5f1c19ce87450f4b97f8b363746558d, type: 3}
+  icon: {fileID: 21300000, guid: 5c0ebe9a8ad124f16a3141543db19c15, type: 3}
+  infoText: Huh, I guess someone got pretty hot out here ... I better take them,
+    maybe they will be useful.
+  sticker: {fileID: 21300000, guid: 5c0ebe9a8ad124f16a3141543db19c15, type: 3}
   lexiconText: 
   questTitle: 

@@ -14,8 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemType: 2
   itemName: Pickaxe
-  icon: {fileID: 21300176, guid: e48ddf4fb7304ce4ab48711eb6617a57, type: 3}
-  infoText: I wonder if this is strong enough for stone
-  sticker: {fileID: 0}
+  icon: {fileID: 21300000, guid: 2dde1a66883964a71b7b75b47920d3ff, type: 3}
+  infoText: I wonder if this is strong enough for stone .. Better take it with me,
+    just in case.
+  sticker: {fileID: 21300000, guid: 2dde1a66883964a71b7b75b47920d3ff, type: 3}
   lexiconText: 
   questTitle: 

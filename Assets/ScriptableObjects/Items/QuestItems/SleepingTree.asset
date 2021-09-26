@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: SleepingTree
   m_EditorClassIdentifier: 
   itemType: 5
-  itemName: SleepingTree
-  icon: {fileID: 4885973027901026179, guid: f733efc9633db498baa6b5b52e3abbc4, type: 3}
+  itemName: Sleeping Tree
+  icon: {fileID: 3478689620382258814, guid: 26e83b18be1a54073ac4f6d3c9ca62fa, type: 3}
   infoText: He sure is snoring ... I hope he has beatiful dreams.
-  sticker: {fileID: 0}
+  sticker: {fileID: 3478689620382258814, guid: 26e83b18be1a54073ac4f6d3c9ca62fa, type: 3}
   lexiconText: 
   questTitle: 

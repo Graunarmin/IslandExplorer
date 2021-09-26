@@ -15,7 +15,8 @@ MonoBehaviour:
   itemType: 1
   itemName: Monument
   icon: {fileID: 21300000, guid: 2eb82ac66de274383af71b2eb2c75da0, type: 3}
-  infoText: Wow, this is BIG
+  infoText: This is amazing! The shape looks man-made but it must be centuries old
+    ...
   sticker: {fileID: 21300000, guid: 2eb82ac66de274383af71b2eb2c75da0, type: 3}
   lexiconText: This Monument was considered a holy place in the old days. Creatures
     came here to talk to the spirits.

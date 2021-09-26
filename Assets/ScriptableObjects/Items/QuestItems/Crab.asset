@@ -13,9 +13,10 @@ MonoBehaviour:
   m_Name: Crab
   m_EditorClassIdentifier: 
   itemType: 5
-  itemName: StoneCrab
-  icon: {fileID: 21300054, guid: f5f1c19ce87450f4b97f8b363746558d, type: 3}
-  infoText: What a fascinating creature
-  sticker: {fileID: 21300054, guid: f5f1c19ce87450f4b97f8b363746558d, type: 3}
+  itemName: Stone Crab
+  icon: {fileID: -650991429826206404, guid: e47c1ca5ca643407b8a84f8582ac2202, type: 3}
+  infoText: Legends about a moving stone, huh? Well, you certainly know how to disgise
+    yourself little crab.
+  sticker: {fileID: -650991429826206404, guid: e47c1ca5ca643407b8a84f8582ac2202, type: 3}
   lexiconText: 
   questTitle: StoneCrab

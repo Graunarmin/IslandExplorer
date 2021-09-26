@@ -13,9 +13,10 @@ MonoBehaviour:
   m_Name: SnailPig
   m_EditorClassIdentifier: 
   itemType: 5
-  itemName: SnailPig
-  icon: {fileID: 21300000, guid: ac6390674b74d2f4b9f33786ad97f6fc, type: 3}
+  itemName: Snail Pig
+  icon: {fileID: -2593955898132138495, guid: b0168f4a260b5494da6e81936ed7923e, type: 3}
   infoText: You are pretty curious, huh?
-  sticker: {fileID: 21300000, guid: ac6390674b74d2f4b9f33786ad97f6fc, type: 3}
+  sticker: {fileID: -2593955898132138495, guid: b0168f4a260b5494da6e81936ed7923e,
+    type: 3}
   lexiconText: The Snail Pig is a very rare species only found in very secluded places
   questTitle: SnailPig

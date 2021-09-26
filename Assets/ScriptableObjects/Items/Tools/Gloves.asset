@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemType: 2
   itemName: Gloves
-  icon: {fileID: 21300000, guid: 708c7c576ebe84b5e937bdd65c636b2b, type: 3}
+  icon: {fileID: 21300000, guid: 92f52d0217f8d499bb08a1f846e0c04f, type: 3}
   infoText: I guess I could use these to protect my hands
-  sticker: {fileID: 0}
+  sticker: {fileID: 21300000, guid: 92f52d0217f8d499bb08a1f846e0c04f, type: 3}
   lexiconText: 
   questTitle: 
