@@ -51,11 +51,14 @@ using UnityEngine;
     
     //Set colliders of all contained items
     protected virtual void ExitRegion(Collider2D other)
-    { 
-        activeRegion = false;
-        SetContainedItems(false);
-        EnteredAreaEvent?.Invoke(areaSound, false);
-        
+    {
+        if (other.CompareTag(References.Instance.player.tag))
+        {
+            activeRegion = false;
+            SetContainedItems(false);
+            EnteredAreaEvent?.Invoke(areaSound, false);
+        }
+
     }
     
     private void SetContainedItems(bool itemStatus)

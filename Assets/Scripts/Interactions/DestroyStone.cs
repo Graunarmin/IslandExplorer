@@ -1,10 +1,10 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Destroy : Interaction
+public class DestroyStone : Interaction
 {
-
     public override void Interact()
     {
         OnInteract();

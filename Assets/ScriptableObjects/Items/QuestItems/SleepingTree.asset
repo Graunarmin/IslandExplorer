@@ -15,7 +15,7 @@ MonoBehaviour:
   itemType: 5
   itemName: Sleeping Tree
   icon: {fileID: 3478689620382258814, guid: 26e83b18be1a54073ac4f6d3c9ca62fa, type: 3}
-  infoText: He sure is snoring ... I hope he has beatiful dreams.
+  infoText: He sure is snoring ... I hope he has beautiful dreams.
   sticker: {fileID: 3478689620382258814, guid: 26e83b18be1a54073ac4f6d3c9ca62fa, type: 3}
   lexiconText: 
   questTitle: 

@@ -13,16 +13,12 @@ public class QuestEntry : MonoBehaviour
     public TextMeshProUGUI textField;
     private Quest attachedQuest;
 
-    private void Awake()
-    {
-        checkBox.sprite = box;
-    }
-
     public void SetQuest(Quest quest)
     {
         Debug.Log("Adding Quest to Notebook");
         attachedQuest = quest;
         gameObject.SetActive(true);
+        checkBox.sprite = box;
         textField.gameObject.SetActive(true);
         textField.text = quest.quest.questText;
     }

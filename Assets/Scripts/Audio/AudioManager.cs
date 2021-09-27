@@ -42,7 +42,7 @@ public class AudioManager : MonoBehaviour
     
     private void ChooseInteraction(Interactable item, Interaction interaction)
     {
-        if (interaction is Destroy)
+        if (interaction is DestroyStone)
         {
             Play(pickAxe);
         }
@@ -80,9 +80,11 @@ public class AudioManager : MonoBehaviour
     {
         if (sound != null && play)
         {
+            Debug.Log("Play " + sound.name);
             sound.Play();
         }else if (!play)
         {
+            Debug.Log("Stop " + sound.name);
             sound.Stop();
         }
     }
