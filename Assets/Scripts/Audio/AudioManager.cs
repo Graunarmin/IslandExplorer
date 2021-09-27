@@ -32,11 +32,11 @@ public class AudioManager : MonoBehaviour
         Move.MovedStoneEvent += _ => Play(moveBoulders);
         Interactable.InteractedEvent += ChooseInteraction;
         NotebookCanvas.PageTurnedEvent += _ => Play(turnPage);
-        WalkiTalki.WalkiTalkiCallEvent += _ => Play(walkiTalki, true);
-        Move.MovedStoneToWaterEvent += _ => Play(stoneBridge, true);
-        Notebook.ReadingNotebookEvent += _ => Play(openNotebook, true);
-        MenuButton.ButtonClickedEvent += _ => Play(buttonClick, true);
-        MenuButton.ButtonSelectedEvent += _ => Play(buttonHover, true);
+        WalkiTalki.WalkiTalkiCallEvent += _ => Play(walkiTalki, true, 0.5f);
+        Move.MovedStoneToWaterEvent += _ => Play(stoneBridge, true, 0f);
+        Notebook.ReadingNotebookEvent += _ => Play(openNotebook, true, 0f);
+        MenuButton.ButtonClickedEvent += _ => Play(buttonClick, true, 0f);
+        MenuButton.ButtonSelectedEvent += _ => Play(buttonHover, true, 0f);
         Area.EnteredAreaEvent += Play;
     }
     
@@ -76,21 +76,27 @@ public class AudioManager : MonoBehaviour
         }
     }
 
-    public void Play(Sound sound, bool play)
+    public void Play(Sound sound, bool play, float delayTime)
     {
+        StartCoroutine(PlayDelayed(sound, play, delayTime));
+    }
+
+    IEnumerator PlayDelayed(Sound sound, bool play, float delayTime)
+    {
+        yield return new WaitForSeconds(delayTime);
         if (sound != null && play)
         {
-            Debug.Log("Play " + sound.name);
             sound.Play();
         }else if (!play)
         {
-            Debug.Log("Stop " + sound.name);
             sound.Stop();
         }
+        
     }
 
     public void Play(RandomSound sound)
     {
         sound.Play();
     }
+    
 }

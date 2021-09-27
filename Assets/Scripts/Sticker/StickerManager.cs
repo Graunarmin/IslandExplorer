@@ -24,13 +24,16 @@ public class StickerManager : MonoBehaviour
         if (item is StickerItem)
         {
             StickerItem stickerItem = item as StickerItem;
-            foreach (Sticker sticker in stickers)
+            if (!stickerItem.IsInLexicon())
             {
-                if (!sticker.WasCollected)
+                foreach (Sticker sticker in stickers)
                 {
-                    sticker.AddSticker(stickerItem); 
-                    AddedStickerToLexiconEvent?.Invoke(stickerItem);
-                    return;
+                    if (!sticker.WasCollected)
+                    {
+                        sticker.AddSticker(stickerItem); 
+                        AddedStickerToLexiconEvent?.Invoke(stickerItem);
+                        return;
+                    }
                 }
             }
         }

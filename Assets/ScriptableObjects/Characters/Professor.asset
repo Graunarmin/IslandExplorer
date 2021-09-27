@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: Professor
   m_EditorClassIdentifier: 
   characterName: Professor
-  characterPortrait: {fileID: 21300106, guid: b08e570699f1c8a4f9cc388204aef3bc, type: 3}
+  characterPortrait: {fileID: 4810700613756243617, guid: 1420268ef010e4430be71cfb85316601,
+    type: 3}

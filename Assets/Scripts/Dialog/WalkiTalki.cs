@@ -25,7 +25,6 @@ public class WalkiTalki : MonoBehaviour
 
     IEnumerator ShowDialog(float waitTime)
     {
-        yield return new WaitForSeconds(waitTime / 2f);
         WalkiTalkiCallEvent?.Invoke(true);
         yield return new WaitForSeconds(waitTime);
         DialogManager.dialogManager.ActivateDialog(owner);

@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 9234420320e26420782ba623b17e5299
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: en-US
+  stringIDs:
+  - Professor-Professor.Start-0
+  - Professor-Professor.Start-1
+  - Professor-Professor.Start-2
+  - Professor-Professor.Start-3
+  - Professor-Professor.Start-4
+  - Professor-Professor.Start-5
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: 6103d8464cd9c4e64b945b0a8fcc0617,
+    type: 3}
+  localizations: []

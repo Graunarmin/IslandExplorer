@@ -13,11 +13,20 @@ public class PlayerMovement : MonoBehaviour
 
     private Vector2 movement;
 
+    public AnimationManager animationManager;
     public Animator animator;
+    private string currentAnimationState;
     
+
     public static bool IsWalking { get; private set; }
 
-    public static Action<bool> IsWalkingEvent;
+    public static event Action<bool> IsWalkingEvent;
+
+    private void OnDisable()
+    {
+        animationManager.ChangeAnimationState("player_idle", movement, animator);
+        IsWalkingEvent?.Invoke(false);
+    }
 
     private void SetIsWalking(bool status)
     {
@@ -45,10 +54,11 @@ public class PlayerMovement : MonoBehaviour
         {
             SetIsWalking(true);
         }
+        animationManager.AnimateMovement(movement, animator);
         
-        animator.SetFloat("Horizontal", movement.x);
+        /*animator.SetFloat("Horizontal", movement.x);
         animator.SetFloat("Vertical", movement.y);
-        animator.SetFloat("Speed", movement.sqrMagnitude);
+        animator.SetFloat("Speed", movement.sqrMagnitude);*/
     }
     
     // Handle Movement

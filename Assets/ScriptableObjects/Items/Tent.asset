@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemType: 1
   itemName: Tent
-  icon: {fileID: 21300000, guid: 009b8a59b2236884d82df9d77fcc8313, type: 3}
+  icon: {fileID: -2467746365387351126, guid: b3277c64da3014ad8a7b27fc71c5bdba, type: 3}
   infoText: This is were I live now ... I hope the patch is sewed on firmly.
   sticker: {fileID: 0}
   lexiconText: 

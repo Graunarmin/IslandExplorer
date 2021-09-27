@@ -31,4 +31,5 @@ public class StickerItem : Item
     {
         return isInLexicon;
     }
+    
 }

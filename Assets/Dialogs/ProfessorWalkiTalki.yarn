@@ -1,14 +1,14 @@
-title: Professor.Start
+title: ProfessorWalkiTalki.Start
 tags: 
 colorID: 0
 position: 416,-168
 ---
-<<SetSpeaker Professor>>
+<<SetSpeaker WalkiTalkiProf>>
 So, did you have a look at this interesting snail ... pig ... the creature, that greated us?
 -> Scary
     <<SetSpeaker Player>>
     Not yet, it's quite intimidating ...
-    <<SetSpeaker Professor>>
+    <<SetSpeaker WalkiTalkiProf>>
     Ah, don't be scared!
     It seemed rather lovely to me.
     -> Ok
@@ -21,7 +21,7 @@ So, did you have a look at this interesting snail ... pig ... the creature, that
 -> Not interested
     <<SetSpeaker Player>>
     No, I don't really care ...
-    <<SetSpeaker Professor>>
+    <<SetSpeaker WalkiTalkiProf>>
     That's too bad. But I would be really thankful if you could find something out about it.
     -> Ok
         <<SetSpeaker Player>>

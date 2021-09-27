@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e60c3f67aef42ed8b35c2fc8f2737ba, type: 3}
-  m_Name: Player
+  m_Name: WalkiTallkiProf
   m_EditorClassIdentifier: 
-  characterName: Player
-  characterPortrait: {fileID: -510483275329659665, guid: 96f5503f584b842f8aade111685867e8,
+  characterName: WalkiTalkiProf
+  characterPortrait: {fileID: -7982714679457043920, guid: 017385053d395411d9eb60d11377e0ff,
     type: 3}

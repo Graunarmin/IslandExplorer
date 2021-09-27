@@ -34,6 +34,7 @@ public class GameManager : MonoBehaviour
         PuzzleArea.PuzzleEnteredEvent += SetInPuzzle;
         PopUpWindow.QuitGameEvent += QuitGame;
         PopUpWindow.LoadMainMenuEvent += LoadMainMenu;
+        WalkiTalki.WalkiTalkiCallEvent += SetWalkieTalkie;
     }
 
     private void OnDisable()
@@ -45,6 +46,7 @@ public class GameManager : MonoBehaviour
         PuzzleArea.PuzzleEnteredEvent -= SetInPuzzle;
         PopUpWindow.QuitGameEvent -= QuitGame;
         PopUpWindow.LoadMainMenuEvent -= LoadMainMenu;
+        WalkiTalki.WalkiTalkiCallEvent -= SetWalkieTalkie;
     }
     #endregion
     
@@ -55,6 +57,7 @@ public class GameManager : MonoBehaviour
     private bool readingNotebook;
     private bool gamePaused;
     private bool inPuzzle;
+    private bool walkietalkie;
     
     private void SetInteracting(bool status)
     {
@@ -65,6 +68,10 @@ public class GameManager : MonoBehaviour
     private void SetInDialog(bool status)
     {
         inDialog = status;
+        if (!status)
+        {
+            walkietalkie = status;
+        }
         FreezeMovement(status);
     }
 
@@ -91,6 +98,11 @@ public class GameManager : MonoBehaviour
     {
         inPuzzle = status;
     }
+
+    private void SetWalkieTalkie(bool status)
+    {
+        walkietalkie = status;
+    }
     
     #endregion
     
@@ -111,7 +123,7 @@ public class GameManager : MonoBehaviour
     #endregion
     void Update()
     {
-        if (!inDialog)
+        if (!inDialog && !walkietalkie)
         {
             if (Input.GetKeyDown(pause))
             {

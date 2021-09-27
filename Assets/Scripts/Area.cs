@@ -12,7 +12,7 @@ using UnityEngine;
 
     public Sound areaSound;
 
-    public static event Action<Sound, bool> EnteredAreaEvent;
+    public static event Action<Sound, bool, float> EnteredAreaEvent;
 
     [SerializeField]
     private Vector2 bottomLeft;
@@ -39,7 +39,7 @@ using UnityEngine;
         {
             cam.minPos = bottomLeft;
             cam.maxPos = topRight;
-            EnteredAreaEvent?.Invoke(areaSound, true);
+            EnteredAreaEvent?.Invoke(areaSound, true, 0f);
         }
     }
 
@@ -56,7 +56,7 @@ using UnityEngine;
         {
             activeRegion = false;
             SetContainedItems(false);
-            EnteredAreaEvent?.Invoke(areaSound, false);
+            EnteredAreaEvent?.Invoke(areaSound, false, 0.2f);
         }
 
     }
