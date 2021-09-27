@@ -19,8 +19,11 @@ public class References : MonoBehaviour
         {
             _instance = this;
         }
-        
-        infoBoxCanvas.gameObject.SetActive(false);
+
+        if (infoBoxCanvas != null)
+        {
+            infoBoxCanvas.gameObject.SetActive(false);
+        }
     }
 
     #endregion

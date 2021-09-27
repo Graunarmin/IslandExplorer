@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.Audio;
 using UnityEngine;
+using UnityEngine.Playables;
 
 public class AudioManager : MonoBehaviour
 {
@@ -25,19 +26,60 @@ public class AudioManager : MonoBehaviour
     public Sound desertTheme;
 
     private bool _playLoop;
-    
+
+    private Action<bool> walking;
+    private Action<bool> movedStone;
+    private Action<bool> pageTurned;
+    private Action<bool> walkiTalkiCall;
+    private Action<bool> movedStoneToWater;
+    private Action<bool> openedNotebook;
+    private Action<bool> buttonClicked;
+    private Action<bool> buttonHovered;
+
     private void OnEnable()
     {
-        PlayerMovement.IsWalkingEvent += play => RepeatPlaying(play, footsteps);
-        Move.MovedStoneEvent += _ => Play(moveBoulders);
+        walking = (play) => RepeatPlaying(play, footsteps);
+        PlayerMovement.IsWalkingEvent += walking;
+        
+        movedStone = move => Play(moveBoulders);
+        Move.MovedStoneEvent += movedStone;
+        
         Interactable.InteractedEvent += ChooseInteraction;
-        NotebookCanvas.PageTurnedEvent += _ => Play(turnPage);
-        WalkiTalki.WalkiTalkiCallEvent += _ => Play(walkiTalki, true, 0.5f);
-        Move.MovedStoneToWaterEvent += _ => Play(stoneBridge, true, 0f);
-        Notebook.ReadingNotebookEvent += _ => Play(openNotebook, true, 0f);
-        MenuButton.ButtonClickedEvent += _ => Play(buttonClick, true, 0f);
-        MenuButton.ButtonSelectedEvent += _ => Play(buttonHover, true, 0f);
+        
+        pageTurned = b => Play(turnPage);
+        NotebookCanvas.PageTurnedEvent += pageTurned;
+        
+        walkiTalkiCall = b => Play(walkiTalki, true, 0.5f);
+        WalkiTalki.WalkiTalkiCallEvent += walkiTalkiCall;
+        
+        movedStoneToWater = b => Play(stoneBridge, true, 0f);
+        Move.MovedStoneToWaterEvent += movedStoneToWater;
+        
+        openedNotebook = b => Play(openNotebook, true, 0f);
+        Notebook.ReadingNotebookEvent += openedNotebook;
+        
+        buttonClicked = b => Play(buttonClick, true, 0f);
+        MenuButton.ButtonClickedEvent += buttonClicked;
+        
+        buttonHovered = b => Play(buttonHover, true, 0f);
+        MenuButton.ButtonSelectedEvent += buttonHovered;
+        
         Area.EnteredAreaEvent += Play;
+ 
+    }
+    
+    private void OnDisable()
+    {
+        PlayerMovement.IsWalkingEvent -= walking;
+        Move.MovedStoneEvent -= movedStone;
+        Interactable.InteractedEvent -= ChooseInteraction;
+        NotebookCanvas.PageTurnedEvent -= pageTurned;
+        WalkiTalki.WalkiTalkiCallEvent -= walkiTalkiCall;
+        Move.MovedStoneToWaterEvent -= movedStoneToWater;
+        Notebook.ReadingNotebookEvent -= openedNotebook;
+        MenuButton.ButtonClickedEvent -= buttonClicked;
+        MenuButton.ButtonSelectedEvent -= buttonHovered;
+        Area.EnteredAreaEvent -= Play;
     }
     
     private void ChooseInteraction(Interactable item, Interaction interaction)

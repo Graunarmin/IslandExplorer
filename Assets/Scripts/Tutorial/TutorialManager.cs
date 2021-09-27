@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -19,7 +20,9 @@ public class TutorialManager : MonoBehaviour
     [Header("Player")] 
     public Transform player;
 
-    public Transform playerTarget;
+    public TimelineController timelineController;
+
+    //public Transform playerTarget;
     
     private Dictionary<string, CharacterAsset> speakerDatabase = new Dictionary<string, CharacterAsset>();
     
@@ -35,7 +38,15 @@ public class TutorialManager : MonoBehaviour
             AddSpeaker(data);
         }
     }
-    
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            StartCoroutine(LoadNextScene(0.5f));
+        }
+    }
+
     private void Start()
     {
         StartCoroutine(StartDialog(3f));
@@ -95,7 +106,8 @@ public class TutorialManager : MonoBehaviour
 
     void StartAnimation(string[] info)
     {
-        Debug.Log("Create Walking Animation");
-        player.position = playerTarget.position;
+        Debug.Log("Walking Animation");
+        timelineController.Play();
+        
     }
 }

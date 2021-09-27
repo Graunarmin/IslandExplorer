@@ -167,7 +167,7 @@ public class GameManager : MonoBehaviour
     private void LoadMainMenu()
     {
         Debug.Log("Loading Main Menu");
-        LoadingScreen.Instance.Show(SceneManager.LoadSceneAsync("01_MainMenu"));
+        LoadingScreen.Instance.Show(SceneManager.LoadSceneAsync("00_MainMenu"));
     }
 
     private void QuitGame()
