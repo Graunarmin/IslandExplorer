@@ -3,31 +3,174 @@ tags:
 colorID: 0
 position: 416,-168
 ---
-<<SetSpeaker WalkiTalkiProf>>
-So, did you have a look at this interesting snail ... pig ... the creature, that greated us?
--> Scary
-    <<SetSpeaker Player>>
-    Not yet, it's quite intimidating ...
-    <<SetSpeaker WalkiTalkiProf>>
-    Ah, don't be scared!
-    It seemed rather lovely to me.
-    -> Ok
-        <<SetSpeaker Player>>
-        Allright ...
-    -> Hm
-        <<SetSpeaker Player>>
-        If you say so ...
 
--> Not interested
-    <<SetSpeaker Player>>
-    No, I don't really care ...
+<<if $questprogress is 3>>
     <<SetSpeaker WalkiTalkiProf>>
-    That's too bad. But I would be really thankful if you could find something out about it.
-    -> Ok
+    How is the stone hunt going?
+    -> All done.
+        I found a hermit crab, that's using a big rock as a house.
+    -> Pretty rocky.
         <<SetSpeaker Player>>
-        Allright ...
-    -> Hm
+        It was off to a rocky start, but I left no stone unturned and...
+        <<SetSpeaker WalkiTalkiProf>>
+        Alright, I'll stop you here.
+        <<SetSpeaker Player>>
+        Yeah I found it. It was a hermit crab who's living... I guess in the rock.
+    <<SetSpeaker WalkiTalkiProf>>
+    Must be pretty strong then. Interesting.
+    Anyways, it's getting late and you've done a lot today.
+    How about returning to the tent, I think there should be another cave with a shortcut to the east.
+    -> Incoming.
+        <<SetSpeaker Player>>
+        Okay, I'll head back.
+    -> Later.
+        <<SetSpeaker Player>>
+        I'll have another look around, then I'll return.
+    <<SetSpeaker WalkiTalkiProf>>
+    Alright, see you then!
+    <<GiveQuest QuestGiver Return>>
+    <<stop>>
+<<endif>>
+
+<<if $questprogress is 2>>
+    <<SetSpeaker WalkiTalkiProf>>
+    Did you find the sleepy ghost?
+    -> Yeah.
+        <<SetSpeaker Player>>
+        It was actually a tree and it looks really happy.
+        <<SetSpeaker WalkiTalkiProf>>
+        I hope you didn't wake it.
+        <<SetSpeaker Player>>
+        Of course I didn't.
+        Even though I'd like to know what it's dreaming about.
+        <<SetSpeaker WalkiTalkiProf>>
+        Probably a nice refreshing rainfall.
+        <<SetSpeaker Player>>
+        I hope he'll get one soon, but hopefully not while I'm still around.
+        <<SetSpeaker WalkiTalkiProf>>
+        Well, if you'd like to avoid rain, I got just the place for you!
+    -> Not so mysterious...
+        <<SetSpeaker Player>>
+        No traveller could find the source of the snoring? For real?
+        There's a big sleeping tree in the middle of the glade...
+        Cleary in view...
+        <<SetSpeaker WalkiTalkiProf>>
+        Haha, okay, maybe a few travellers found it too...
+        I just wanted to make it a bit more interesting.
+        -> Forgive.
+            <<SetSpeaker Player>>
+            I guess it was more interesting.
+            Any more mysterious tales in store?
+            <<SetSpeaker WalkiTalkiProf>>
+            Oh, I'm glad you asked.
+        -> Denounce.
+            <<SetSpeaker Player>>
+            That was stupid.
+            What's next?
+            <<SetSpeaker WalkiTalkiProf>>
+    To the south is a cave that'll lead you to a desert.
+    A friend of mine, a geologist, was recently studying rock formations in that area.
+    But his research was cut short by an approaching sand storm.
+    Before he departed, he noticed something remarkable.
+    A big and heavy stone shifting and even moving around, seemingly on its own.
+    He didn't have the time to take a closer look, so he asked me to try to find it.
+    -> Now I have to do it?
+        <<SetSpeaker Player>>
+        So he asked you and now you're asking me?
+        <<SetSpeaker WalkiTalkiProf>>
+        I'm in the middle of cataloging the coastal plant life here, so...
+        I thought, maybe you'd like to help out.
+        -> Why not!
+            <<SetSpeaker Player>>
+            Sure, I can take a look around.
+        -> I guess.
+            <<SetSpeaker Player>>
+            I hope it's not too big of a detour.
+    -> Alright!
+        <<SetSpeaker Player>>
+        Alright, gotta find a rock, got it.
+        <<SetSpeaker WalkiTalkiProf>>
+        A moving rock!
+        <<SetSpeaker Player>>
+        Sure, whatever.
+    <<SetSpeaker WalkiTalkiProf>>
+    Great, thank you for the help!
+    It means a lot.
+    <<GiveQuest QuestGiver StoneCrab>>
+    <<stop>>
+<<endif>>
+
+<<if $questprogress is 1>>
+    <<SetSpeaker WalkiTalkiProf>>
+    So, how did it go with the Snailpig?
+    -> Great.
+        <<SetSpeaker Player>>
+        It went well. It's really lovely.
+        <<SetSpeaker WalkiTalkiProf>>
+        Good to hear.
+        I'll take a look at your notes later.
+    -> Real name?
+        <<SetSpeaker Player>>
+        Is that really how it's called?
+        <<SetSpeaker WalkiTalkiProf>>
+        It seems fitting, doesn't it?
+        -> I guess.
+            <<SetSpeaker Player>>
+            I guess.
+            It's quite odd, but really lovely.
+            <<SetSpeaker WalkiTalkiProf>>
+            Good to hear.
+            I'll take a look at your notes later.
+        -> What's next?
+            <<SetSpeaker Player>>
+            All done, made my notes, what's next?
+            <<SetSpeaker WalkiTalkiProf>>
+            Haha, I see you're eager to explore.
+            Well then I might have something for you...
+    -> What's next?
+        <<SetSpeaker Player>>
+        All done, made my notes, what's next?
+        <<SetSpeaker WalkiTalkiProf>>
+        Haha, I see you're eager to explore.
+        Well then I might have something for you...
+    There is small forest beyond the cave to the west.
+    Travellers who passed through there always told stories about hearing a creature snoring.
+    They said it must have been a large animal, judging by the noise.
+    But nobody ever found out the source of the snoring.
+    Why don't you go over there and find out who's the hidden sleeper?
+    -> Sure.
+        <<SetSpeaker Player>>
+        Sure, why not.
+        Time to solve a mystery!
+        <<SetSpeaker WalkiTalkiProf>>
+        That's the spirit.
+    -> Mysterious...
+        <<SetSpeaker Player>>
+        That sounds really mysterious.
+        <<SetSpeaker WalkiTalkiProf>>
+        It does, doesn't it?
+    -> Scary.
+        <<SetSpeaker Player>>
+        Sounds like a creepy forest haunted by a sleepy ghost.
+        <<SetSpeaker WalkiTalkiProf>>
+        Haha, no worries!
+        If you go there, you'll find a pretty sunlit grove instead of the creepy forest.
+    So you'll check it out?
+    -> Yes!
+        <<SetSpeaker Player>>
+        I'm on it!
+    -> Eventually.
+        <<SetSpeaker Player>>
+        Maybe later, I'll have a look around here first.
+    <<SetSpeaker WalkiTalkiProf>>
+    Alright then, talk to you later.
+    ...
+    Oh one last thing...
     <<SetSpeaker Player>>
-        If you say so ...
-<<GiveQuest QuestGiver Tree>>
+    What is it?
+    <<SetSpeaker WalkiTalkiProf>>
+    Whatever you find, try not to wake it up, okay?
+    <<GiveQuest QuestGiver Tree>>
+    <<stop>>
+<<endif>>
 ===

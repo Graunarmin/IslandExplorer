@@ -6,10 +6,10 @@ position: 460,-38
 <<SetSpeaker Professor>>
 Professor: Hey over here!
 <<SetSpeaker Player>>
-??
-<<trigger_pause 3>>
-<<trigger_animation WalkToProf>>
-<<wait 3>>
+Huh?
+<<trigger_pause 4>>
+<<trigger_animation TimelineController WalkToProf>>
+<<wait 4>>
 <<SetSpeaker Professor>>
 Look who came to greet us.
 <<SetSpeaker SnailPig>>
@@ -30,18 +30,18 @@ Speaking of which, did you finish moving your things into the tent?
 -> Not yet.
     Eh, I'll finish it later.
 <<SetSpeaker Professor>>
-Anyways, if you want you can already start exploring.
+Alright, if you want you can already start exploring.
 You could take a look around, maybe we attracted more curious creatures.
-Move around with WASD and interact by pressing SPACE.
+Move around with WASD and interact by pressing E.
 Don't forget to take notes of all the interesting things you come across!
-You can access your notebook by pressing E.
+You can access your notebook by pressing TAB.
 <<SetSpeaker Player>>
 -> Where to start?
     There's so much to do... Where should I start?
 -> Repeat the instruction?
     Can you repeat the controls?
     <<SetSpeaker Professor>>
-    You can move with WASD, interact with SPACE and access your notebook with E.
+    You can move with WASD, interact with E and access your notebook with TAB.
     <<SetSpeaker Player>>
     -> Where to start?
         There's so much to do... Where should I start?
@@ -51,7 +51,7 @@ You can access your notebook by pressing E.
     I'm excited to get going!
 <<SetSpeaker Professor>>
 Why don't you take a closer look at this pig... I mean snail... for me.
-Then I can start unpacking the crates by the tent.
+Then I can start unpacking the remaining crates by the tent.
 You can always come and find me there.
 <<SetSpeaker Player>>
 -> Alright.

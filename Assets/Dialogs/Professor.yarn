@@ -3,31 +3,145 @@ tags:
 colorID: 0
 position: 416,-168
 ---
-<<SetSpeaker Professor>>
-So, did you have a look at this interesting snail ... pig ... the creature, that greated us?
--> Scary
-    <<SetSpeaker Player>>
-    Not yet, it's quite intimidating ...
-    <<SetSpeaker Professor>>
-    Ah, don't be scared!
-    It seemed rather lovely to me.
-    -> Ok
-        <<SetSpeaker Player>>
-        Allright ...
-    -> Hm
-        <<SetSpeaker Player>>
-        If you say so ...
 
--> Not interested
-    <<SetSpeaker Player>>
-    No, I don't really care ...
+<<if $questprogress gte 3>>
+    <<set $questprogress to 4>>
     <<SetSpeaker Professor>>
-    That's too bad. But I would be really thankful if you could find something out about it.
-    -> Ok
+    Hey, thanks for all your help!
+    Glad you came along.
+    -> Me too.
         <<SetSpeaker Player>>
-        Allright ...
-    -> Hm
-    <<SetSpeaker Player>>
-        If you say so ...
+        I'm also glad, it was fun.
+    -> No problem.
+        <<SetSpeaker Player>>
+        No problem!
+    -> Reward?
+        <<SetSpeaker Player>>
+        Is this a paid or an unpaid internship?
+        <<SetSpeaker Professor>>
+        Haha, no worries.
+        Good assistants are hard to find, so I wouldn't dare to cross one.
+        After all there's always another expedition on the horizon.
+    <<SetSpeaker Professor>>
+    Do you want end the game or do you want to take another look around?
+    -> End the game.
+        <<SetSpeaker Player>>
+        I guess I'm done for today.
+        <<SetSpeaker Professor>>
+        Alright, see you later!
+    -> One last look.
+        <<SetSpeaker Player>>
+        I wanna stay for a bit longer.
+        <<SetSpeaker Professor>>
+        Return to me, when you're done!
+    <<stop>>
+<<endif>>
+
+<<if $questprogress is 2>>
+    <<SetSpeaker Professor>>
+    I thought you were heading to the desert?
+    -> I am.
+        <<SetSpeaker Player>>
+        I'm on my way.
+        <<SetSpeaker Professor>>
+        Alright, have fun!
+    -> Where?
+        <<SetSpeaker Player>>
+        Where is it again?
+        <<SetSpeaker Professor>>
+        When you arrive at the grove, just continue south through the next cave.
+    -> Cave is hard.
+        <<SetSpeaker Player>>
+        It's hard getting through the cave.
+        <<SetSpeaker Professor>>
+        Yeah, I figured it might be tricky.
+        Just try a few different approaches.
+        Don't forget you can fast reset by pressing R.
+    <<stop>>
+<<endif>>
+
+<<if $questprogress is 1>>
+    <<if $notebooknotes_preview is 0>>
+        <<SetSpeaker Professor>>
+        I see you made a note of the Snailpig in your book.
+        Good job!
+        I'll need more time, but in the future I could add a few lines for each species in your notebook.
+        Once I studied it for a bit.
+        -> Sounds great.
+            <<SetSpeaker Player>>
+            Sure, sounds good!
+        -> Hands off my notebook!
+            <<SetSpeaker Player>>
+            Only I am allowed to write into my notebook, so hands off!
+            <<SetSpeaker Professor>>
+            Oha, alright then.
+            But I could share my notes with you if you want.
+            Then you could decide yourself what you want to add.
+            -> Sounds great.
+                <<SetSpeaker Player>>
+                Sounds good, thanks!
+            -> We'll see.
+                <<SetSpeaker Player>>
+                I'll think about it.
+        <<set $notebooknotes_preview to 1>>
+    <<endif>>
+    <<SetSpeaker Professor>>
+    Have you reached the forest yet?
+    -> Yeah.
+        <<SetSpeaker Player>>
+        Yeah it's nice.
+        <<SetSpeaker Professor>>
+        Take a look around, maybe you'll find something of interest.
+    -> Not yet.
+        <<SetSpeaker Player>>
+        Not yet, I'll check it out soon.
+        <<SetSpeaker Professor>>
+        Alright, have fun!
+    -> Cave is blocked.
+        <<SetSpeaker Player>>
+        There are boulders blocking the cave.
+        <<SetSpeaker Professor>>
+        I just unpacked a pair of work gloves, they should make it easy.
+        They're probably around here somewhere.
+    <<stop>>
+<<endif>>
+
+<<if $questprogress is 0>>
+    <<SetSpeaker Professor>>
+    So, did you have a closer look at this interesting snail... pig...
+    I mean the creature, that greeted us?
+    -> Right away.
+        <<SetSpeaker Player>>
+        I'm on it, Prof!
+        <<SetSpeaker Professor>>
+        I like your enthusiasm.
+    -> Reserved.
+        <<SetSpeaker Player>>
+        I don't want to be a bother.
+        <<SetSpeaker Professor>>
+        Ah, I don't think it would mind.
+        Besides it would probably like to have a closer look at you as well.
+        Seemed to be a rather curious fellow.
+        -> Agree.
+            <<SetSpeaker Player>>
+            You're right, it seems really interested in us.
+        -> I guess.
+            <<SetSpeaker Player>>
+            If you say so...
+    -> Not interested.
+        <<SetSpeaker Player>>
+        Is this really necessary?
+        <<SetSpeaker Professor>>
+        I would be really thankful if you could find out more about it.
+        After all, we came here to study new species.
+        -> Agree.
+            <<SetSpeaker Player>>
+            Ok, I'll check it out.
+        -> Ok then.
+            <<SetSpeaker Player>>
+            If you say so...
+    <<stop>>
+<<endif>>
+
 <<GiveQuest QuestGiver Tree>>
 ===
