@@ -21,6 +21,11 @@ public class StonePuzzle : MonoBehaviour
         GameManager.ResetEvent += ResetPuzzle;
     }
 
+    private void OnDisable()
+    {
+        GameManager.ResetEvent -= ResetPuzzle;
+    }
+
     private void ResetPuzzle()
     {
         ResetStones();
