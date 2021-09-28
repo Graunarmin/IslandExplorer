@@ -13,6 +13,7 @@ public class Character : Interactable
 
     private void Start()
     {
+        Debug.Log("Adding Speaker & Dialog: " + character.characterName);
         DialogManager.dialogManager.dialogueRunner.Add(yarnDialog);
         DialogManager.dialogManager.AddSpeaker(character);
     }

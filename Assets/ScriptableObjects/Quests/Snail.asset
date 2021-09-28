@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: Snail
   m_EditorClassIdentifier: 
   title: Snail
-  icon: {fileID: 21300000, guid: ac6390674b74d2f4b9f33786ad97f6fc, type: 3}
-  questText: Find out more about the curious creature
+  icon: {fileID: -2593955898132138495, guid: b0168f4a260b5494da6e81936ed7923e, type: 3}
+  questText: Take a closer look at the snailpig
+  triggersCall: 1

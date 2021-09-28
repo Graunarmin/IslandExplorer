@@ -20,7 +20,11 @@ public class WalkiTalki : MonoBehaviour
 
     private void Call(Quest quest)
     {
-        StartCoroutine(ShowDialog(1.5f));
+        if (quest.quest.triggersCall)
+        {
+            Debug.Log("Triggers Call");
+            StartCoroutine(ShowDialog(1.5f));
+        }
     }
 
     IEnumerator ShowDialog(float waitTime)

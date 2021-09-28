@@ -10,13 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae367cea2fd774c89b2622ff30a5c67a, type: 3}
-  m_Name: Crab
+  m_Name: Rock
   m_EditorClassIdentifier: 
-  itemType: 5
-  itemName: Stone Crab
-  icon: {fileID: -650991429826206404, guid: e47c1ca5ca643407b8a84f8582ac2202, type: 3}
-  infoText: Legends about a moving stone, huh? Well, you certainly know how to disguise
-    yourself, little crab.
-  sticker: {fileID: -650991429826206404, guid: e47c1ca5ca643407b8a84f8582ac2202, type: 3}
+  itemType: 4
+  itemName: Rock
+  icon: {fileID: 21300000, guid: 37eaf6e537ca749adaaea0a3e900d411, type: 3}
+  infoText: Another one of those shiny purple Rocks ...
+  sticker: {fileID: 21300000, guid: 37eaf6e537ca749adaaea0a3e900d411, type: 3}
   lexiconText: 
-  questTitle: StoneCrab
+  questTitle: 

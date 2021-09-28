@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Yarn.Unity;
 
 public class GameManager : MonoBehaviour
 {
@@ -106,13 +107,10 @@ public class GameManager : MonoBehaviour
     
     #endregion
     
-    #region UserInput
-    
-    private KeyCode interact = KeyCode.E;
-    private KeyCode notebook = KeyCode.Tab;
-    private KeyCode pause = KeyCode.Escape;
-    private KeyCode reset = KeyCode.R;
-    //private KeyCode walkiTalki = KeyCode.T;
+    private void FreezeMovement(bool status)
+    {
+        References.Instance.player.GetComponent<PlayerMovement>().enabled = !status;
+    }
     
     #region Input Events
     public static event Action InteractionPressedEvent;
@@ -121,6 +119,17 @@ public class GameManager : MonoBehaviour
     public static event Action ResetEvent;
     
     #endregion
+    
+    
+    #region UserInput
+    
+    private KeyCode interact = KeyCode.E;
+    private KeyCode notebook = KeyCode.Tab;
+    private KeyCode pause = KeyCode.Escape;
+    private KeyCode reset = KeyCode.R;
+    //private KeyCode walkiTalki = KeyCode.T;
+    
+
     void Update()
     {
         if (!inDialog && !walkietalkie)
@@ -158,21 +167,30 @@ public class GameManager : MonoBehaviour
     }
     #endregion
 
+    #region Scene Management
     
-    private void FreezeMovement(bool status)
-    {
-        References.Instance.player.GetComponent<PlayerMovement>().enabled = !status;
-    }
+    private const string MAIN_MENU = "00_MainMenu";
+    private const string CREDITS = "04_EndCredits";
 
     private void LoadMainMenu()
     {
         Debug.Log("Loading Main Menu");
-        LoadingScreen.Instance.Show(SceneManager.LoadSceneAsync("00_MainMenu"));
+        LoadingScreen.Instance.Show(SceneManager.LoadSceneAsync(MAIN_MENU));
     }
-
+    
     private void QuitGame()
     {
         Debug.Log("Quitting Game");
         Application.Quit();
     }
+    
+    [YarnCommand("EndGame")]
+    public void LoadCredits(string info)
+    {
+        Debug.Log("Loading Credits");
+        LoadingScreen.Instance.Show(SceneManager.LoadSceneAsync(CREDITS));
+    }
+    
+    #endregion
+
 }

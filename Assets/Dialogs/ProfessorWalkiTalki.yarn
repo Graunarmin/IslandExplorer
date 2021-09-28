@@ -8,7 +8,7 @@ position: 416,-168
     <<SetSpeaker WalkiTalkiProf>>
     How is the stone hunt going?
     -> All done.
-        I found a hermit crab, that's using a big rock as a house.
+        I found a hermit crab that's using a big hollow rock as a house.
     -> Pretty rocky.
         <<SetSpeaker Player>>
         It was off to a rocky start, but I left no stone unturned and...
@@ -70,13 +70,13 @@ position: 416,-168
             <<SetSpeaker WalkiTalkiProf>>
     To the south is a cave that'll lead you to a desert.
     A friend of mine, a geologist, was recently studying rock formations in that area.
-    But his research was cut short by an approaching sand storm.
-    Before he departed, he noticed something remarkable.
+    But their research was cut short by an approaching sand storm.
+    Before they departed, they noticed something remarkable.
     A big and heavy stone shifting and even moving around, seemingly on its own.
-    He didn't have the time to take a closer look, so he asked me to try to find it.
-    -> Now I have to do it?
+    They didn't have the time to take a closer look, so they asked me to try and find it.
+    -> And now I have to do it?
         <<SetSpeaker Player>>
-        So he asked you and now you're asking me?
+        So they asked you and now you're asking me?
         <<SetSpeaker WalkiTalkiProf>>
         I'm in the middle of cataloging the coastal plant life here, so...
         I thought, maybe you'd like to help out.
@@ -96,7 +96,7 @@ position: 416,-168
     <<SetSpeaker WalkiTalkiProf>>
     Great, thank you for the help!
     It means a lot.
-    <<GiveQuest QuestGiver StoneCrab>>
+    <<GiveQuest QuestGiver Crab>>
     <<stop>>
 <<endif>>
 
@@ -133,11 +133,11 @@ position: 416,-168
         <<SetSpeaker WalkiTalkiProf>>
         Haha, I see you're eager to explore.
         Well then I might have something for you...
-    There is small forest beyond the cave to the west.
+    There is a forest beyond the cave to the northwest.
     Travellers who passed through there always told stories about hearing a creature snoring.
     They said it must have been a large animal, judging by the noise.
-    But nobody ever found out the source of the snoring.
-    Why don't you go over there and find out who's the hidden sleeper?
+    But nobody ever found the source of the snoring.
+    Why don't you go over there and see if you can find the hidden sleeper?
     -> Sure.
         <<SetSpeaker Player>>
         Sure, why not.
@@ -154,7 +154,7 @@ position: 416,-168
         Sounds like a creepy forest haunted by a sleepy ghost.
         <<SetSpeaker WalkiTalkiProf>>
         Haha, no worries!
-        If you go there, you'll find a pretty sunlit grove instead of the creepy forest.
+        If you go there, you'll find a pretty, sunlit grove instead of the creepy forest.
     So you'll check it out?
     -> Yes!
         <<SetSpeaker Player>>
@@ -173,4 +173,5 @@ position: 416,-168
     <<GiveQuest QuestGiver Tree>>
     <<stop>>
 <<endif>>
+
 ===

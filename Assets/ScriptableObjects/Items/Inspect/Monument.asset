@@ -10,12 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae367cea2fd774c89b2622ff30a5c67a, type: 3}
-  m_Name: Tent
+  m_Name: Monument
   m_EditorClassIdentifier: 
   itemType: 1
-  itemName: Tent
-  icon: {fileID: -2467746365387351126, guid: b3277c64da3014ad8a7b27fc71c5bdba, type: 3}
-  infoText: This is were I live now ... I hope the patch is sewed on firmly.
-  sticker: {fileID: 0}
-  lexiconText: 
+  itemName: Monument
+  icon: {fileID: 21300000, guid: 2eb82ac66de274383af71b2eb2c75da0, type: 3}
+  infoText: This is amazing! The shape looks man-made but it must be ancient ...
+  sticker: {fileID: 21300000, guid: 2eb82ac66de274383af71b2eb2c75da0, type: 3}
+  lexiconText: This Monument was considered a holy place in the old days. Creatures
+    came here to talk to the spirits.
   questTitle: 

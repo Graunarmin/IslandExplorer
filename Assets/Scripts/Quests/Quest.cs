@@ -8,7 +8,7 @@ public class Quest : MonoBehaviour
     private bool isActive;
     private bool isComplete;
     public QuestAsset quest;
-    public QuestItem goalItem;
+    public Interactable goalItem;
     [SerializeField] private QuestEntry questEntry;
 
     public static Quest ActiveQuest { get; private set; }
@@ -29,22 +29,31 @@ public class Quest : MonoBehaviour
     {
         if (isActive)
         {
-            if (item is QuestItem)
-            {
+            /*if (item is QuestItem)
+            {*/
                 if (item == goalItem)
                 {
                     Interactable.InteractedEvent -= CompleteQuest;
         
                     //Broadcast that this quest is completed
                     CompletedQuestEvent?.Invoke(this);
+                    SetQuestVariable();
                     questEntry.CheckBox(this);
                 
                     SetCompleted(true);
                     SetActive(false);
                     Debug.Log("You completed the quest " + quest.title);
                 }
-            }
+            //}
         }
+    }
+
+    public void SetQuestVariable()
+    {
+        //Debug.Log("QuestProgress: " + DialogManager.dialogVariables.GetValue("$questprogress"));
+        DialogManager.dialogVariables.SetValue("$questprogress",
+            DialogManager.dialogVariables.GetValue("$questprogress").AsNumber + 1);
+        //Debug.Log("QuestProgress: " + DialogManager.dialogVariables.GetValue("$questprogress"));
     }
     
     public void SetActive(bool status)

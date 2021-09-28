@@ -10,13 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae367cea2fd774c89b2622ff30a5c67a, type: 3}
-  m_Name: Crab
+  m_Name: Tent
   m_EditorClassIdentifier: 
-  itemType: 5
-  itemName: Stone Crab
-  icon: {fileID: -650991429826206404, guid: e47c1ca5ca643407b8a84f8582ac2202, type: 3}
-  infoText: Legends about a moving stone, huh? Well, you certainly know how to disguise
-    yourself, little crab.
-  sticker: {fileID: -650991429826206404, guid: e47c1ca5ca643407b8a84f8582ac2202, type: 3}
+  itemType: 1
+  itemName: Tent
+  icon: {fileID: -2467746365387351126, guid: b3277c64da3014ad8a7b27fc71c5bdba, type: 3}
+  infoText: This is were I live now ... I hope the patch is sewed on tightly.
+  sticker: {fileID: 0}
   lexiconText: 
-  questTitle: StoneCrab
+  questTitle: 

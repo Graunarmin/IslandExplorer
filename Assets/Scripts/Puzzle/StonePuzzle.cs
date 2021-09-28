@@ -30,9 +30,12 @@ public class StonePuzzle : MonoBehaviour
 
     private void ResetStones()
     {
-        foreach (PuzzleStone stone in stones)
+        if (ActiveStonePuzzle == this)
         {
-            stone.Reset();
+            foreach (PuzzleStone stone in stones)
+            {
+                stone.Reset();
+            }
         }
     }
 

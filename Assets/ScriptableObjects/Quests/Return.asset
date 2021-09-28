@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 64ed26d96b8ef4b32bd5a7eb101e1484, type: 3}
-  m_Name: Tree
+  m_Name: Return
   m_EditorClassIdentifier: 
-  title: Tree
-  icon: {fileID: 3478689620382258814, guid: 26e83b18be1a54073ac4f6d3c9ca62fa, type: 3}
-  questText: Find the source of the weird snoring-noise in the forest
-  triggersCall: 1
+  title: Return
+  icon: {fileID: 4810700613756243617, guid: 1420268ef010e4430be71cfb85316601, type: 3}
+  questText: Return to the tent and talk to the professor
+  triggersCall: 0

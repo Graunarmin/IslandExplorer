@@ -8,4 +8,5 @@ public class QuestAsset : ScriptableObject
     public string title;
     public Sprite icon;
     public string questText;
+    public bool triggersCall;
 }

@@ -4,31 +4,48 @@ colorID: 0
 position: 416,-168
 ---
 
-<<if $questprogress gte 3>>
-    <<set $questprogress to 4>>
+<<if $questprogress is 4>>
+    <<SetSpeaker Professor>>
+    Do you want to call it a day for now or rather take another look around?
+    -> End the game.
+        <<SetSpeaker Player>>
+        I think I'm done for today.
+        <<SetSpeaker Professor>>
+        Alright, see you later!
+        <<EndGame GameManager quit>>
+    -> One last look.
+        <<SetSpeaker Player>>
+        I wanna stay for a bit longer.
+        <<SetSpeaker Professor>>
+        Return to me, when you're done!
+    <<stop>>
+<<endif>>
+
+<<if $questprogress is 3>>
     <<SetSpeaker Professor>>
     Hey, thanks for all your help!
     Glad you came along.
     -> Me too.
         <<SetSpeaker Player>>
-        I'm also glad, it was fun.
+        It was fun!
     -> No problem.
         <<SetSpeaker Player>>
         No problem!
     -> Reward?
         <<SetSpeaker Player>>
-        Is this a paid or an unpaid internship?
+        Remind me again ... Did I earn any money with this?
         <<SetSpeaker Professor>>
         Haha, no worries.
-        Good assistants are hard to find, so I wouldn't dare to cross one.
-        After all there's always another expedition on the horizon.
+        Good assistants are hard to find, so I wouldn't dare crossing one.
+        After all, there's always another expedition on the horizon.
     <<SetSpeaker Professor>>
-    Do you want end the game or do you want to take another look around?
+    Do you want to call it a day for now or rather take another look around?
     -> End the game.
         <<SetSpeaker Player>>
-        I guess I'm done for today.
+        I think I'm done for today.
         <<SetSpeaker Professor>>
         Alright, see you later!
+        <<EndGame GameManager quit>>
     -> One last look.
         <<SetSpeaker Player>>
         I wanna stay for a bit longer.
@@ -39,7 +56,7 @@ position: 416,-168
 
 <<if $questprogress is 2>>
     <<SetSpeaker Professor>>
-    I thought you were heading to the desert?
+    I thought you were heading to the desert to find out more about that moving rock?
     -> I am.
         <<SetSpeaker Player>>
         I'm on my way.
@@ -56,7 +73,7 @@ position: 416,-168
         <<SetSpeaker Professor>>
         Yeah, I figured it might be tricky.
         Just try a few different approaches.
-        Don't forget you can fast reset by pressing R.
+        Don't forget you can always reset a cave by pressing R.
     <<stop>>
 <<endif>>
 
@@ -89,7 +106,7 @@ position: 416,-168
     Have you reached the forest yet?
     -> Yeah.
         <<SetSpeaker Player>>
-        Yeah it's nice.
+        Yeah, it's really nice.
         <<SetSpeaker Professor>>
         Take a look around, maybe you'll find something of interest.
     -> Not yet.
@@ -101,15 +118,15 @@ position: 416,-168
         <<SetSpeaker Player>>
         There are boulders blocking the cave.
         <<SetSpeaker Professor>>
-        I just unpacked a pair of work gloves, they should make it easy.
+        I just unpacked a pair of gloves, they should make it easier.
         They're probably around here somewhere.
     <<stop>>
 <<endif>>
 
 <<if $questprogress is 0>>
     <<SetSpeaker Professor>>
-    So, did you have a closer look at this interesting snail... pig...
-    I mean the creature, that greeted us?
+    So, did you have a closer look at that interesting snail... pig...
+    I mean the creature that greeted us?
     -> Right away.
         <<SetSpeaker Player>>
         I'm on it, Prof!
@@ -120,7 +137,7 @@ position: 416,-168
         I don't want to be a bother.
         <<SetSpeaker Professor>>
         Ah, I don't think it would mind.
-        Besides it would probably like to have a closer look at you as well.
+        Besides, it would probably like to have a closer look at you as well.
         Seemed to be a rather curious fellow.
         -> Agree.
             <<SetSpeaker Player>>
@@ -142,6 +159,4 @@ position: 416,-168
             If you say so...
     <<stop>>
 <<endif>>
-
-<<GiveQuest QuestGiver Tree>>
 ===

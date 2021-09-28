@@ -4,7 +4,7 @@ colorID: 0
 position: 460,-38
 ---
 <<SetSpeaker Professor>>
-Professor: Hey over here!
+Hey over here!
 <<SetSpeaker Player>>
 Huh?
 <<trigger_pause 4>>
@@ -14,46 +14,51 @@ Huh?
 Look who came to greet us.
 <<SetSpeaker SnailPig>>
 Oink oink.
-<<SetSpeaker Player>>
 -> Cute!
+    <<SetSpeaker Player>>
     How cute you are. 
 -> Oink!
+    <<SetSpeaker Player>>
     Oink oink!
 -> Wow!
+    <<SetSpeaker Player>>
     Wow, what a pretty color.
 <<SetSpeaker Professor>>
 It must have noticed us unpacking our equipment.
 Speaking of which, did you finish moving your things into the tent?
-<<SetSpeaker Player>>
 -> Sure.
+    <<SetSpeaker Player>>
     Yeah, I'm already done!
 -> Not yet.
+    <<SetSpeaker Player>>
     Eh, I'll finish it later.
 <<SetSpeaker Professor>>
-Alright, if you want you can already start exploring.
+Alright then! If you want you can already start exploring.
 You could take a look around, maybe we attracted more curious creatures.
 Move around with WASD and interact by pressing E.
 Don't forget to take notes of all the interesting things you come across!
 You can access your notebook by pressing TAB.
-<<SetSpeaker Player>>
 -> Where to start?
+    <<SetSpeaker Player>>
     There's so much to do... Where should I start?
 -> Repeat the instruction?
+    <<SetSpeaker Player>>
     Can you repeat the controls?
     <<SetSpeaker Professor>>
     You can move with WASD, interact with E and access your notebook with TAB.
-    <<SetSpeaker Player>>
     -> Where to start?
+        <<SetSpeaker Player>>
         There's so much to do... Where should I start?
     -> Ready to explore!
+        <<SetSpeaker Player>>
         I'm excited to get going!
 -> Ready to explore!
+    <<SetSpeaker Player>>
     I'm excited to get going!
 <<SetSpeaker Professor>>
 Why don't you take a closer look at this pig... I mean snail... for me.
 Then I can start unpacking the remaining crates by the tent.
 You can always come and find me there.
-<<SetSpeaker Player>>
 -> Alright.
 -> Thanks!
 -> See ya!
