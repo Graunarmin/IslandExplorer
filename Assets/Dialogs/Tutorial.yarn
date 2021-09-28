@@ -41,7 +41,7 @@ You can access your notebook by pressing TAB.
 -> Where to start?
     <<SetSpeaker Player>>
     There's so much to do... Where should I start?
--> Repeat the instruction?
+-> Repeat instructions?
     <<SetSpeaker Player>>
     Can you repeat the controls?
     <<SetSpeaker Professor>>
